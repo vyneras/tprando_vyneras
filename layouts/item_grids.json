@@ -11,15 +11,15 @@
           [
             "sword",
             "shield",
-            "lantern",
-            "fishing_rod",
+            "wolf",
             "slingshot",
             "boomerang",
-            "bow"
+            "bow",
+            "hawkeye"
           ],
           [
-            "boots",
-            "wolf",
+            "lantern",
+            "fishing_rod",
             "bombs",
             "clawshot",
             "spinner",
@@ -29,18 +29,20 @@
           [
             "zora",
             "magic",
-            "bottle",
-            "wallet",
+            "boots",
             "memo",
             "sketch",
-            "letter"
+            "letter",
+            "pumpkin"
           ],
           [
+            "wallet",
+            "bottle",
             "skybook",
             "skills",
             "bugs",
             "poe_souls",
-            "pumpkin_and_cheese"
+            "cheese"
           ]
         ]
       }
@@ -58,15 +60,15 @@
           [
             "sword",
             "shield",
-            "lantern",
-            "fishing_rod",
+            "wolf",
             "slingshot",
             "boomerang",
-            "bow"
+            "bow",
+            "hawkeye"
           ],
           [
-            "boots",
-            "wolf",
+            "lantern",
+            "fishing_rod",
             "bombs",
             "clawshot",
             "spinner",
@@ -76,13 +78,14 @@
           [
             "zora",
             "magic",
-            "bottle",
-            "wallet",
+            "boots",
             "memo",
             "sketch",
             "letter"
           ],
           [
+            "wallet",
+            "bottle",
             "skybook",
             "skills",
             "bugs",

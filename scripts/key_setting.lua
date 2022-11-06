@@ -1,6 +1,6 @@
-Setting = CustomItem:extend()
+KeySetting = CustomItem:extend()
 
-function Setting:init(name, code, image_path)
+function KeySetting:init(name, code, image_path)
   self:createItem(name)
   self.code = code
   self.imageBase = ImageReference:FromPackRelativePath(image_path)
@@ -8,15 +8,15 @@ function Setting:init(name, code, image_path)
   self:setState(false)
 end
 
-function Setting:setState(state)
+function KeySetting:setState(state)
     self:setProperty("state", state)
 end
 
-function Setting:getState()
+function KeySetting:getState()
     return self:getProperty("state")
 end
 
-function Setting:updateIcon()
+function KeySetting:updateIcon()
   if self:getState() then
     self.ItemInstance.Icon = ImageReference:FromImageReference(self.imageBase, "overlay|images/removed_label.png")
   else
@@ -24,19 +24,19 @@ function Setting:updateIcon()
   end
 end
 
-function Setting:onLeftClick()
+function KeySetting:onLeftClick()
   self:setState(not self:getState())
 end
 
-function Setting:onRightClick()
+function KeySetting:onRightClick()
   self:setState(not self:getState())
 end
 
-function Setting:canProvideCode(code)
+function KeySetting:canProvideCode(code)
   return code == self.code
 end
 
-function Setting:propertyChanged(key, value)
+function KeySetting:propertyChanged(key, value)
   if key == "state" then
       self:updateIcon()
       if TRACKER_READY then

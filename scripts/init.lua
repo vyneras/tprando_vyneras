@@ -10,11 +10,11 @@ Tracker:AddItems("items/settings.json")
 ScriptHost:LoadScript("scripts/global.lua")
 ScriptHost:LoadScript("scripts/class.lua")
 ScriptHost:LoadScript("scripts/custom_item.lua")
-ScriptHost:LoadScript("scripts/setting.lua")
+ScriptHost:LoadScript("scripts/key_setting.lua")
 ScriptHost:LoadScript("scripts/logic.lua")
 
-Setting("Small Keys Shuffle", "small_keys_setting", "images/small_key_model.png")
-Setting("Big Keys Shuffle", "big_keys_setting", "images/big_key_model.png")
+KeySetting("Small Keys Shuffle", "small_keys_setting", "images/small_key_model.png")
+KeySetting("Big Keys Shuffle", "big_keys_setting", "images/big_key_model.png")
 
 if has_map then
   Tracker:AddMaps("maps/maps.json")

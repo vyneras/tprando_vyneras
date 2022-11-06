@@ -411,7 +411,7 @@ function complete_intro()
 end
 
 function forest_open()
-   return has("forest") or has("faron_open")
+   return complete_intro() and (has("forest") or has("faron_open"))
 end
 
 function midna_desperate_hour()

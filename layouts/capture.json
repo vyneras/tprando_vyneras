@@ -10,34 +10,41 @@
           "wooden_sword",
           "ordon_shield_capture",
           "hylian_shield_capture",
-          "lantern",
-          "fishing_rod",
+          "wolf",
           "slingshot",
           "boomerang",
           "bow",
+          "hawkeye"
         ],
         [
-          "boots",
-          "crystal",
-          "bombs",
+          "lantern",
+          "bomb_bag_capture",
           "clawshot",
           "spinner",
           "dominion_rod",
           "ball_and_chain",
+          "pumpkin",
+          "cheese"
         ],
         [
-          "zora_armor",
-          "magic_armor",
-          "bottle",
-          "wallet",
+          "fishing_rod",
+          "zora",
+          "magic",
+          "boots",
           "memo",
-          "sketch"
+          "sketch",
+          "small_key",
+          "big_key"
         ],
         [
+          "wallet",
+          "bottle",
           "skybook",
-          "hidden_skills",
+          "skills",
           "bugs",
           "poe_souls",
+          "mines_big_key",
+          "ruins_big_key"
         ]
       ]
     }

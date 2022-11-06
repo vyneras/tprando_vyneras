@@ -595,5 +595,17 @@
     "type": "toggle",
     "img": "images/small_key.png",
     "codes": "gate_keys"
+  },
+  {
+    "name": "Generic Small Key",
+    "type": "toggle",
+    "img": "images/small_key.png",
+    "codes": "small_key"
+  },
+  {
+    "name": "Generic Big Key",
+    "type": "toggle",
+    "img": "images/big_key.png",
+    "codes": "big_key"
   }
 ]

@@ -426,7 +426,7 @@ function arbiters_grounds()
 end
 
 function arbiters_grounds_boss_room()
-  local poe_gate, accessibility
+  local poe_gate, accessibility = arbiters_grounds_poe_gate()
 
   return poe_gate and has("spinner") and grounds_big_key(), accessibility
 end
@@ -1093,7 +1093,7 @@ function sky_big_key()
   return BIG_KEYS_REMOVED or has("sky_big_key")
 end
 
-function time_small_keys()
+function sky_small_key()
   return SMALL_KEYS_REMOVED or has("sky_small_key")
 end
 

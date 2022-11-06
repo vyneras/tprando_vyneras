@@ -135,14 +135,14 @@
         "name": "Chest Before Darknut",
         "item_count": 1,
         "access_rules": [
-          "$$temple_of_time_scales_of_time,$armos,$baby_gohma,$young_gohma"
+          "$temple_of_time_scales_of_time,$armos,$baby_gohma,$young_gohma"
         ]
       },
       {
         "name": "Darknut Chest",
         "item_count": 1,
         "access_rules": [
-          "$function temple_of_time_darknut_arena,$darknut"
+          "$temple_of_time_darknut_arena,$darknut"
         ]
       },
       {

@@ -1,0 +1,8 @@
+﻿[
+  {
+    "name": "overworld",
+    "location_size": 25,
+    "location_border_thickness": 5,
+    "img": "images/overworld.png"
+  }
+]

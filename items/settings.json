@@ -1,0 +1,439 @@
+[
+  {
+    "name": "Prologue Skip",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/goat.png",
+        "img_mods": "overlay|images/skipped_label.png",
+        "codes": "prologue_skipped"
+      },
+      {
+        "img": "images/goat.png",
+        "codes": "prologue_not_skipped",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Faron Twilight Skip",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/faron_vessel_of_light_model.png",
+        "img_mods": "overlay|images/skipped_label.png",
+        "codes": "faron_skipped"
+      },
+      {
+        "img": "images/faron_vessel_of_light_model.png",
+        "codes": "faron_not_skipped",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Eldin Twilight Skip",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/eldin_vessel_of_light_model.png",
+        "img_mods": "overlay|images/skipped_label.png",
+        "codes": "eldin_skipped"
+      },
+      {
+        "img": "images/eldin_vessel_of_light_model.png",
+        "codes": "eldin_not_skipped",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Lanayru Twilight Skip",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/lanayru_vessel_of_light_model.png",
+        "img_mods": "overlay|images/skipped_label.png",
+        "codes": "lanayru_skipped"
+      },
+      {
+        "img": "images/lanayru_vessel_of_light_model.png",
+        "codes": "lanayru_not_skipped",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Midna's Desperate Hour Skip",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/midna_model.png",
+        "img_mods": "overlay|images/skipped_label.png",
+        "codes": "midna_skipped"
+      },
+      {
+        "img": "images/midna_model.png",
+        "codes": "midna_not_skipped",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Transform Anywhere",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/shadow_crystal_red.png",
+        "img_mods": "overlay|images/on_label.png",
+        "codes": "transform_anywhere_on"
+      },
+      {
+        "img": "images/shadow_crystal_red.png",
+        "img_mods": "overlay|images/off_label.png",
+        "codes": "transform_anywhere_off",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Bug Shuffle",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/bug_model.png",
+        "img_mods": "overlay|images/off_label.png",
+        "codes": "bugs_off"
+      },
+      {
+        "img": "images/bug_model.png",
+        "img_mods": "overlay|images/on_label.png",
+        "codes": "bugs_on",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Sky Character Shuffle",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/skybook_model.png",
+        "img_mods": "overlay|images/off_label.png",
+        "codes": "skys_off"
+      },
+      {
+        "img": "images/skybook_model.png",
+        "img_mods": "overlay|images/on_label.png",
+        "codes": "skys_on",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "NPC Gift Shuffle",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/charlo.png",
+        "img_mods": "overlay|images/off_label.png",
+        "codes": "npcs_off"
+      },
+      {
+        "img": "images/charlo.png",
+        "img_mods": "overlay|images/on_label.png",
+        "codes": "npcs_on",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Poe Shuffle",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/big_poe.png",
+        "img_mods": "overlay|images/off_label.png",
+        "codes": "poes_off"
+      },
+      {
+        "img": "images/big_poe.png",
+        "img_mods": "overlay|images/on_label.png",
+        "codes": "poes_on",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Shop Shuffle",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/rupee.png",
+        "img_mods": "overlay|images/off_label.png",
+        "codes": "shops_off"
+      },
+      {
+        "img": "images/rupee.png",
+        "img_mods": "overlay|images/on_label.png",
+        "codes": "shops_on",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Skill Shuffle",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/hero_shade.png",
+        "img_mods": "overlay|images/off_label.png",
+        "codes": "skills_off"
+      },
+      {
+        "img": "images/hero_shade.png",
+        "img_mods": "overlay|images/on_label.png",
+        "codes": "skills_on",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Goron Mines Wrestling Skip",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/coron.png",
+        "codes": "wrestling_not_skipped"
+      },
+      {
+        "img": "images/coron.png",
+        "img_mods": "overlay|images/skipped_label.png",
+        "codes": "wrestling_skipped",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Lakebed Waterbomb Rock Skip",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/water_bomb.png",
+        "codes": "lakebed_not_skipped"
+      },
+      {
+        "img": "images/water_bomb.png",
+        "img_mods": "overlay|images/skipped_label.png",
+        "codes": "lakebed_skipped",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Bulblin Camp Skip",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/king_bulblin.png",
+        "codes": "grounds_not_skipped"
+      },
+      {
+        "img": "images/king_bulblin.png",
+        "img_mods": "overlay|images/skipped_label.png",
+        "codes": "grounds_skipped",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Reekfish Scent Skip",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/coral_earring.png",
+        "codes": "ruins_not_skipped"
+      },
+      {
+        "img": "images/coral_earring.png",
+        "img_mods": "overlay|images/skipped_label.png",
+        "codes": "ruins_skipped",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Sacred Grove Skip",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/guardian.png",
+        "codes": "grove_not_skipped"
+      },
+      {
+        "img": "images/guardian.png",
+        "img_mods": "overlay|images/skipped_label.png",
+        "codes": "grove_skipped",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Sky Cannon Skip",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/sky_cannon.png",
+        "codes": "cannon_not_skipped"
+      },
+      {
+        "img": "images/sky_cannon.png",
+        "img_mods": "overlay|images/skipped_label.png",
+        "codes": "cannon_skipped",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Wallet Capacity Increase",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/wallet_increase.png",
+        "img_mods": "overlay|images/on_label.png",
+        "codes": "wallet_on"
+      },
+      {
+        "img": "images/wallet_increase.png",
+        "img_mods": "overlay|images/off_label.png",
+        "codes": "wallet_off",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Faron Woods",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/coro.png",
+        "img_mods": "overlay|images/open_label.png",
+        "codes": "faron_open"
+      },
+      {
+        "img": "images/coro.png",
+        "img_mods": "overlay|images/closed_label.png",
+        "codes": "faron_closed",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Palace of Twilight Requirement",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/zant.png",
+        "img_mods": "overlay|images/open_label.png",
+        "codes": "palace_open"
+      },
+      {
+        "img": "images/zant.png",
+        "img_mods": "overlay|images/shadow_label.png",
+        "codes": "palace_shadow",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/zant.png",
+        "img_mods": "overlay|images/mirror_label.png",
+        "codes": "palace_mirror",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/zant.png",
+        "img_mods": "overlay|images/vanilla_label.png",
+        "codes": "palace_vanilla",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Hyrule Castle Requirement",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/beast_ganon.png",
+        "img_mods": "overlay|images/open_label.png",
+        "codes": "hc_open"
+      },
+      {
+        "img": "images/beast_ganon.png",
+        "img_mods": "overlay|images/shadow_label.png",
+        "codes": "hc_shadow",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/beast_ganon.png",
+        "img_mods": "overlay|images/mirror_label.png",
+        "codes": "hc_mirror",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/beast_ganon.png",
+        "img_mods": "overlay|images/ad_label.png",
+        "codes": "hc_ad",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/beast_ganon.png",
+        "img_mods": "overlay|images/vanilla_label.png",
+        "codes": "hc_vanilla",
+        "inherit_codes": false
+      }
+    ]
+  }
+]

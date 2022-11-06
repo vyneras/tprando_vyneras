@@ -1,0 +1,78 @@
+[
+  {
+    "name": "Sword",
+    "type": "progressive",
+    "stages": [
+      {
+        "img": "images/wooden_sword.png",
+        "codes": "wooden_sword,sword"
+      },
+      {
+        "img": "images/ordon_sword.png",
+        "codes": "ordon_sword"
+      },
+      {
+        "img": "images/master_sword.png",
+        "codes": "master_sword"
+      },
+      {
+        "img": "images/light_sword.png",
+        "codes": "light_sword"
+      }
+    ]
+  },
+  {
+    "name": "Shadow Crystal",
+    "type": "toggle",
+    "img": "images/shadow_crystal_orange.png",
+    "codes": "wolf"
+  },
+  {
+    "name": "Shield",
+    "type": "progressive",
+    "stages": [
+      {
+        "img": "images/wooden_shield.png",
+        "codes": "wooden_shield,shield"
+      },
+      {
+        "img": "images/ordon_shield.png",
+        "codes": "ordon_shield"
+      },
+      {
+        "img": "images/hylian_shield.png",
+        "codes": "hylian_shield"
+      }
+    ]
+  },
+  {
+    "name": "Ordon Shield",
+    "type": "toggle",
+    "img": "images/ordon_shield.png",
+    "codes": "ordon_shield_capture"
+  },
+  {
+    "name": "Hylian Shield",
+    "type": "toggle",
+    "img": "images/hylian_shield.png",
+    "codes": "hylian_shield_capture"
+  },
+  {
+    "name": "Hero's Clothes",
+    "type": "static",
+    "img": "images/hero_clothes.png",
+    "codes": "clothes"
+  },
+  {
+    "name": "Zora Armor",
+    "type": "toggle",
+    "img": "images/zora_armor.png",
+    "codes": "zora"
+  },
+  {
+    "name": "Magic Armor",
+    "type": "toggle",
+    "img": "images/magic_armor.png",
+    "codes": "magic"
+  }
+]

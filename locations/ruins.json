@@ -1,0 +1,205 @@
+[
+  {
+    "name": "Snowpeak Mansion",
+    "color": "#DBFDFF",
+    "always_allow_chest_manipulation": true,
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_gray.png",
+    "access_rules": [
+      "$snowpeak_ruins"
+    ],
+    "sections": [
+      {
+        "name": "Lobby Armor Chests",
+        "item_count": 2,
+        "access_rules": [
+          "ball_and_chain"
+        ]
+      },
+      {
+        "name": "Lobby Armor Poe",
+        "item_count": 1,
+        "chest_unopened_img": "images/poe_soul_model.png",
+        "chest_opened_img": "images/poe_soul_model_gray.png",
+        "access_rules": [
+          "wolf,ball_and_chain"
+        ],
+        "visibility_rules": [
+          "poes_on"
+        ]
+      },
+      {
+        "name": "Lobby Poe",
+        "item_count": 1,
+        "chest_unopened_img": "images/poe_soul_model.png",
+        "chest_opened_img": "images/poe_soul_model_gray.png",
+        "access_rules": [
+          "wolf"
+        ],
+        "visibility_rules": [
+          "poes_on"
+        ]
+      },
+      {
+        "name": "Lobby Chandelier Chest",
+        "item_count": 1,
+        "access_rules": [
+          "$ruins_small_keys:1,[$ruins_small_keys:3],$ruins_cheese,ball_and_chain"
+        ]
+      },
+      {
+        "name": "Yeta Map",
+        "item_count": 1,
+        "chest_unopened_img": "images/map.png",
+        "chest_opened_img": "images/map_gray.png"
+      },
+      {
+        "name": "East Courtyard Chest",
+        "item_count": 1,
+        "access_rules": [
+          "$snowpeak_ruins_east_courtyard"
+        ]
+      },
+      {
+        "name": "East Courtyard Buried Chest",
+        "item_count": 1,
+        "access_rules": [
+          "$snowpeak_ruins_east_courtyard,wolf"
+        ]
+      },
+      {
+        "name": "Pumpkin Chest",
+        "item_count": 1,
+        "access_rules": [
+          "$snowpeak_ruins_chilfos_room_first_floor,$chilfos"
+        ]
+      },
+      {
+        "name": "West Courtyard Buried Chest",
+        "item_count": 1,
+        "access_rules": [
+          "$snowpeak_ruins_west_courtyard,wolf"
+        ]
+      },
+      {
+        "name": "Courtyard Central Chest",
+        "item_count": 1,
+        "access_rules": [
+          "ball_and_chain",
+          "$use_bombs,$ruins_small_keys:1,[$ruins_small_keys:2]",
+          "$use_bombs,$ruins_cheese"
+        ]
+      },
+      {
+        "name": "West Cannon Room Central Chest",
+        "item_count": 1,
+        "access_rules": [
+          "$snowpeak_ruins_west_cannon_room,ball_and_chain"
+        ]
+      },
+      {
+        "name": "West Cannon Room Corner Chest",
+        "item_count": 1,
+        "access_rules": [
+          "$snowpeak_ruins_west_cannon_room,$smash"
+        ]
+      },
+      {
+        "name": "Wooden Beam Central Chest",
+        "item_count": 1,
+        "access_rules": [
+          "$snowpeak_ruins_wooden_beam_room,$ice_keese"
+        ]
+      },
+      {
+        "name": "Wooden Beam Northwest Chest",
+        "item_count": 1,
+        "access_rules": [
+          "$snowpeak_ruins_wooden_beam_room,$ice_keese"
+        ]
+      },
+      {
+        "name": "Wooden Beam Chandelier Chest",
+        "item_count": 1,
+        "access_rules": [
+          "$snowpeak_ruins_wooden_beam_room,$ruins_cheese,ball_and_chain"
+        ]
+      },
+      {
+        "name": "Ball and Chain",
+        "item_count": 1,
+        "chest_unopened_img": "images/ball_and_chain_model.png",
+        "chest_opened_img": "images/ball_and_chain_model_gray.png",
+        "access_rules": [
+          "$snowpeak_ruins_darkhammer_room,$darkhammer"
+        ]
+      },
+      {
+        "name": "Goat Cheese Chest",
+        "item_count": 1,
+        "access_rules": [
+          "$snowpeak_ruins_darkhammer_room,$darkhammer,ball_and_chain"
+        ]
+      },
+      {
+        "name": "Broken Floor Chest",
+        "item_count": 1,
+        "access_rules": [
+          "$snowpeak_ruins_caged_freezard_room,ball_and_chain"
+        ]
+      },
+      {
+        "name": "Ice Room Poe",
+        "item_count": 1,
+        "chest_unopened_img": "images/poe_soul_model.png",
+        "chest_opened_img": "images/poe_soul_model_gray.png",
+        "access_rules": [
+          "$snowpeak_ruins_mini_freezard_room,wolf"
+        ],
+        "visibility_rules": [
+          "poes_on"
+        ]
+      },
+      {
+        "name": "Northeast Chandelier Chest",
+        "item_count": 1,
+        "access_rules": [
+          "$snowpeak_ruins_chilfos_room_second_floor,$chilfos,ball_and_chain"
+        ]
+      },
+      {
+        "name": "Chapel Chest",
+        "item_count": 1,
+        "access_rules": [
+          "$snowpeak_ruins_chapel,$chilfos"
+        ]
+      },
+      {
+        "name": "Blizzeta Heart Container",
+        "chest_unopened_img": "images/heart_container_model.png",
+        "chest_opened_img": "images/heart_container_model_gray.png",
+        "item_count": 1,
+        "access_rules": [
+          "$snowpeak_ruins_boss_room,$blizzeta"
+        ]
+      },
+      {
+        "name": "Dungeon Reward",
+        "item_count": 1,
+        "chest_unopened_img": "images/mirror.png",
+        "chest_opened_img": "images/mirror_gray.png",
+        "access_rules": [
+          "$snowpeak_ruins_boss_room,$blizzeta"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "overworld",
+        "x": 249,
+        "y": 357,
+        "size": 32
+      }
+    ]
+  }
+]

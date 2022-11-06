@@ -1,0 +1,503 @@
+[
+  {
+    "name": "Poe Souls",
+    "type": "progressive",
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "images/poe_soul.png",
+        "img_mods": "@disabled",
+        "codes": "poe_souls"
+      },
+      {
+        "img": "images/poe_soul.png",
+        "img_mods": "overlay|images/number_1_label.png"
+      },
+      {
+        "img": "images/poe_soul.png",
+        "img_mods": "overlay|images/number_2_label.png"
+      },
+      {
+        "img": "images/poe_soul.png",
+        "img_mods": "overlay|images/number_3_label.png"
+      },
+      {
+        "img": "images/poe_soul.png",
+        "img_mods": "overlay|images/number_4_label.png"
+      },
+      {
+        "img": "images/poe_soul.png",
+        "img_mods": "overlay|images/number_5_label.png"
+      },
+      {
+        "img": "images/poe_soul.png",
+        "img_mods": "overlay|images/number_6_label.png"
+      },
+      {
+        "img": "images/poe_soul.png",
+        "img_mods": "overlay|images/number_7_label.png"
+      },
+      {
+        "img": "images/poe_soul.png",
+        "img_mods": "overlay|images/number_8_label.png"
+      },
+      {
+        "img": "images/poe_soul.png",
+        "img_mods": "overlay|images/number_9_label.png"
+      },
+      {
+        "img": "images/poe_soul.png",
+        "img_mods": "overlay|images/number_10_label.png"
+      },
+      {
+        "img": "images/poe_soul.png",
+        "img_mods": "overlay|images/number_11_label.png"
+      },
+      {
+        "img": "images/poe_soul.png",
+        "img_mods": "overlay|images/number_12_label.png"
+      },
+      {
+        "img": "images/poe_soul.png",
+        "img_mods": "overlay|images/number_13_label.png"
+      },
+      {
+        "img": "images/poe_soul.png",
+        "img_mods": "overlay|images/number_14_label.png"
+      },
+      {
+        "img": "images/poe_soul.png",
+        "img_mods": "overlay|images/number_15_label.png"
+      },
+      {
+        "img": "images/poe_soul.png",
+        "img_mods": "overlay|images/number_16_label.png"
+      },
+      {
+        "img": "images/poe_soul.png",
+        "img_mods": "overlay|images/number_17_label.png"
+      },
+      {
+        "img": "images/poe_soul.png",
+        "img_mods": "overlay|images/number_18_label.png"
+      },
+      {
+        "img": "images/poe_soul.png",
+        "img_mods": "overlay|images/number_19_label.png"
+      },
+      {
+        "img": "images/poe_soul.png",
+        "img_mods": "overlay|images/number_20_label.png"
+      },
+      {
+        "img": "images/poe_soul.png",
+        "img_mods": "overlay|images/number_21_label.png"
+      },
+      {
+        "img": "images/poe_soul.png",
+        "img_mods": "overlay|images/number_22_label.png"
+      },
+      {
+        "img": "images/poe_soul.png",
+        "img_mods": "overlay|images/number_23_label.png"
+      },
+      {
+        "img": "images/poe_soul.png",
+        "img_mods": "overlay|images/number_24_label.png"
+      },
+      {
+        "img": "images/poe_soul.png",
+        "img_mods": "overlay|images/number_25_label.png"
+      },
+      {
+        "img": "images/poe_soul.png",
+        "img_mods": "overlay|images/number_26_label.png"
+      },
+      {
+        "img": "images/poe_soul.png",
+        "img_mods": "overlay|images/number_27_label.png"
+      },
+      {
+        "img": "images/poe_soul.png",
+        "img_mods": "overlay|images/number_28_label.png"
+      },
+      {
+        "img": "images/poe_soul.png",
+        "img_mods": "overlay|images/number_29_label.png"
+      },
+      {
+        "img": "images/poe_soul.png",
+        "img_mods": "overlay|images/number_30_label.png"
+      },
+      {
+        "img": "images/poe_soul.png",
+        "img_mods": "overlay|images/number_31_label.png"
+      },
+      {
+        "img": "images/poe_soul.png",
+        "img_mods": "overlay|images/number_32_label.png"
+      },
+      {
+        "img": "images/poe_soul.png",
+        "img_mods": "overlay|images/number_33_label.png"
+      },
+      {
+        "img": "images/poe_soul.png",
+        "img_mods": "overlay|images/number_34_label.png"
+      },
+      {
+        "img": "images/poe_soul.png",
+        "img_mods": "overlay|images/number_35_label.png"
+      },
+      {
+        "img": "images/poe_soul.png",
+        "img_mods": "overlay|images/number_36_label.png"
+      },
+      {
+        "img": "images/poe_soul.png",
+        "img_mods": "overlay|images/number_37_label.png"
+      },
+      {
+        "img": "images/poe_soul.png",
+        "img_mods": "overlay|images/number_38_label.png"
+      },
+      {
+        "img": "images/poe_soul.png",
+        "img_mods": "overlay|images/number_39_label.png"
+      },
+      {
+        "img": "images/poe_soul.png",
+        "img_mods": "overlay|images/number_40_label.png"
+      },
+      {
+        "img": "images/poe_soul.png",
+        "img_mods": "overlay|images/number_41_label.png"
+      },
+      {
+        "img": "images/poe_soul.png",
+        "img_mods": "overlay|images/number_42_label.png"
+      },
+      {
+        "img": "images/poe_soul.png",
+        "img_mods": "overlay|images/number_43_label.png"
+      },
+      {
+        "img": "images/poe_soul.png",
+        "img_mods": "overlay|images/number_44_label.png"
+      },
+      {
+        "img": "images/poe_soul.png",
+        "img_mods": "overlay|images/number_45_label.png"
+      },
+      {
+        "img": "images/poe_soul.png",
+        "img_mods": "overlay|images/number_46_label.png"
+      },
+      {
+        "img": "images/poe_soul.png",
+        "img_mods": "overlay|images/number_47_label.png"
+      },
+      {
+        "img": "images/poe_soul.png",
+        "img_mods": "overlay|images/number_48_label.png"
+      },
+      {
+        "img": "images/poe_soul.png",
+        "img_mods": "overlay|images/number_49_label.png"
+      },
+      {
+        "img": "images/poe_soul.png",
+        "img_mods": "overlay|images/number_50_label.png"
+      },
+      {
+        "img": "images/poe_soul.png",
+        "img_mods": "overlay|images/number_51_label.png"
+      },
+      {
+        "img": "images/poe_soul.png",
+        "img_mods": "overlay|images/number_52_label.png"
+      },
+      {
+        "img": "images/poe_soul.png",
+        "img_mods": "overlay|images/number_53_label.png"
+      },
+      {
+        "img": "images/poe_soul.png",
+        "img_mods": "overlay|images/number_54_label.png"
+      },
+      {
+        "img": "images/poe_soul.png",
+        "img_mods": "overlay|images/number_55_label.png"
+      },
+      {
+        "img": "images/poe_soul.png",
+        "img_mods": "overlay|images/number_56_label.png"
+      },
+      {
+        "img": "images/poe_soul.png",
+        "img_mods": "overlay|images/number_57_label.png"
+      },
+      {
+        "img": "images/poe_soul.png",
+        "img_mods": "overlay|images/number_58_label.png"
+      },
+      {
+        "img": "images/poe_soul.png",
+        "img_mods": "overlay|images/number_59_label.png"
+      },
+      {
+        "img": "images/poe_soul.png",
+        "img_mods": "overlay|images/number_60_max_label.png"
+      }
+    ]
+  },
+  {
+    "name": "Wallet",
+    "type": "progressive",
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "images/wallet.png",
+        "codes": "wallet"
+      },
+      {
+        "img": "images/big_wallet.png",
+        "codes": "big_wallet"
+      },
+      {
+        "img": "images/giant_wallet.png",
+        "codes": "giant_wallet"
+      }
+    ]
+  },
+  {
+    "name": "Hidden Skills",
+    "type": "progressive",
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "images/hidden_skill.png",
+        "img_mods": "@disabled",
+        "codes": "skills"
+      },
+      {
+        "img": "images/hidden_skill.png",
+        "img_mods": "overlay|images/number_1_label.png"
+      },
+      {
+        "img": "images/hidden_skill.png",
+        "img_mods": "overlay|images/number_2_label.png"
+      },
+      {
+        "img": "images/hidden_skill.png",
+        "img_mods": "overlay|images/number_3_label.png"
+      },
+      {
+        "img": "images/hidden_skill.png",
+        "img_mods": "overlay|images/number_4_label.png"
+      },
+      {
+        "img": "images/hidden_skill.png",
+        "img_mods": "overlay|images/number_5_label.png"
+      },
+      {
+        "img": "images/hidden_skill.png",
+        "img_mods": "overlay|images/number_6_label.png"
+      },
+      {
+        "img": "images/hidden_skill.png",
+        "img_mods": "overlay|images/number_7_max_label.png"
+      }
+    ]
+  },
+  {
+    "name": "Auru's Memo",
+    "type": "toggle",
+    "img": "images/memo_or_sketch.png",
+    "img_mods": "overlay|images/letter_m_label.png",
+    "codes": "memo"
+  },
+  {
+    "name": "Ashei's Sketch",
+    "type": "toggle",
+    "img": "images/memo_or_sketch.png",
+    "img_mods": "overlay|images/letter_s_label.png",
+    "codes": "sketch"
+  },
+  {
+    "name": "Ilia's Memory Quest",
+    "type": "progressive",
+    "stages": [
+      {
+        "img": "images/letter.png",
+        "codes": "letter"
+      },
+      {
+        "img": "images/invoice.png",
+        "codes": "invoice"
+      },
+      {
+        "img": "images/wooden_statue.png",
+        "codes": "statue"
+      },
+      {
+        "img": "images/ilia_charm.png",
+        "codes": "charm"
+      }
+    ]
+  },
+  {
+    "name": "Ancient Sky Book",
+    "type": "progressive",
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "images/skybook.png",
+        "img_mods": "@disabled",
+        "codes": "skybook"
+      },
+      {
+        "img": "images/skybook.png",
+        "img_mods": "overlay|images/number_0_label.png"
+      },
+      {
+        "img": "images/skybook.png",
+        "img_mods": "overlay|images/number_1_label.png"
+      },
+      {
+        "img": "images/skybook.png",
+        "img_mods": "overlay|images/number_2_label.png"
+      },
+      {
+        "img": "images/skybook.png",
+        "img_mods": "overlay|images/number_3_label.png"
+      },
+      {
+        "img": "images/skybook.png",
+        "img_mods": "overlay|images/number_4_label.png"
+      },
+      {
+        "img": "images/skybook.png",
+        "img_mods": "overlay|images/number_5_label.png"
+      },
+      {
+        "img": "images/skybook.png",
+        "img_mods": "overlay|images/number_6_max_label.png"
+      }
+    ]
+  },
+  {
+    "name": "Golden Bugs",
+    "type": "progressive",
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "images/bug.png",
+        "img_mods": "@disabled",
+        "codes": "bugs"
+      },
+      {
+        "img": "images/bug.png",
+        "img_mods": "overlay|images/number_1_label.png"
+      },
+      {
+        "img": "images/bug.png",
+        "img_mods": "overlay|images/number_2_label.png"
+      },
+      {
+        "img": "images/bug.png",
+        "img_mods": "overlay|images/number_3_label.png"
+      },
+      {
+        "img": "images/bug.png",
+        "img_mods": "overlay|images/number_4_label.png"
+      },
+      {
+        "img": "images/bug.png",
+        "img_mods": "overlay|images/number_5_label.png"
+      },
+      {
+        "img": "images/bug.png",
+        "img_mods": "overlay|images/number_6_label.png"
+      },
+      {
+        "img": "images/bug.png",
+        "img_mods": "overlay|images/number_7_label.png"
+      },
+      {
+        "img": "images/bug.png",
+        "img_mods": "overlay|images/number_8_label.png"
+      },
+      {
+        "img": "images/bug.png",
+        "img_mods": "overlay|images/number_9_label.png"
+      },
+      {
+        "img": "images/bug.png",
+        "img_mods": "overlay|images/number_10_label.png"
+      },
+      {
+        "img": "images/bug.png",
+        "img_mods": "overlay|images/number_11_label.png"
+      },
+      {
+        "img": "images/bug.png",
+        "img_mods": "overlay|images/number_12_label.png"
+      },
+      {
+        "img": "images/bug.png",
+        "img_mods": "overlay|images/number_13_label.png"
+      },
+      {
+        "img": "images/bug.png",
+        "img_mods": "overlay|images/number_14_label.png"
+      },
+      {
+        "img": "images/bug.png",
+        "img_mods": "overlay|images/number_15_label.png"
+      },
+      {
+        "img": "images/bug.png",
+        "img_mods": "overlay|images/number_16_label.png"
+      },
+      {
+        "img": "images/bug.png",
+        "img_mods": "overlay|images/number_17_label.png"
+      },
+      {
+        "img": "images/bug.png",
+        "img_mods": "overlay|images/number_18_label.png"
+      },
+      {
+        "img": "images/bug.png",
+        "img_mods": "overlay|images/number_19_label.png"
+      },
+      {
+        "img": "images/bug.png",
+        "img_mods": "overlay|images/number_20_label.png"
+      },
+      {
+        "img": "images/bug.png",
+        "img_mods": "overlay|images/number_21_label.png"
+      },
+      {
+        "img": "images/bug.png",
+        "img_mods": "overlay|images/number_22_label.png"
+      },
+      {
+        "img": "images/bug.png",
+        "img_mods": "overlay|images/number_23_label.png"
+      },
+      {
+        "img": "images/bug.png",
+        "img_mods": "overlay|images/number_24_max_label.png"
+      }
+    ]
+  },
+  {
+    "name": "Triforce",
+    "type": "toggle",
+    "img": "images/triforce.png",
+    "codes": "triforce"
+  }
+]

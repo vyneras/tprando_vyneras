@@ -1,0 +1,174 @@
+[
+  {
+    "name": "Goron Mines",
+    "color": "#A51109",
+    "always_allow_chest_manipulation": true,
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_gray.png",
+    "access_rules": [
+      "$goron_mines"
+    ],
+    "sections": [
+      {
+        "name": "Entrance Chest",
+        "item_count": 1,
+        "access_rules": [
+          "$mines_switch,$wooden_door"
+        ]
+      },
+      {
+        "name": "Magnet Room Bottom Chest",
+        "item_count": 1,
+        "access_rules": [
+          "$goron_mines_magnet_room"
+        ]
+      },
+      {
+        "name": "Gor Amato's Key Shard",
+        "item_count": 1,
+        "chest_unopened_img": "images/mines_key_model.png",
+        "chest_opened_img": "images/mines_key_model_crossed.png",
+        "access_rules": [
+          "$goron_mines_lower_west_wing,boots"
+        ]
+      },
+      {
+        "name": "Gor Amato's Room Chests",
+        "item_count": 2,
+        "access_rules": [
+          "$goron_mines_lower_west_wing,boots"
+        ]
+      },
+      {
+        "name": "Magnet Maze Chest",
+        "item_count": 1,
+        "access_rules": [
+          "$goron_mines_lower_west_wing,boots"
+        ]
+      },
+      {
+        "name": "Crystal Switch Room Chests",
+        "item_count": 2,
+        "access_rules": [
+          "$goron_mines_crystal_switch_room,boots"
+        ]
+      },
+      {
+        "name": "Magnet Wall Chest",
+        "item_count": 1,
+        "access_rules": [
+          "$goron_mines_crystal_switch_room,boots"
+        ]
+      },
+      {
+        "name": "Outside Beamos Chest",
+        "item_count": 1,
+        "access_rules": [
+          "$goron_mines_north_wing"
+        ]
+      },
+      {
+        "name": "Outside Underwater Chest",
+        "item_count": 1,
+        "access_rules": [
+          "$goron_mines_north_wing,$heavy,sword",
+          "$goron_mines_north_wing,$heavy,$use_water_bombs"
+        ]
+      },
+      {
+        "name": "Outside Clawshot Chest",
+        "item_count": 1,
+        "access_rules": [
+          "clawshot,$use_bow",
+          "clawshot,slingshot"
+        ]
+      },
+      {
+        "name": "Gor Ebizo's Key Shard",
+        "item_count": 1,
+        "chest_unopened_img": "images/mines_key_model.png",
+        "chest_opened_img": "images/mines_key_model_crossed.png",
+        "access_rules": [
+          "$goron_mines_upper_east_wing"
+        ]
+      },
+      {
+        "name": "Gor Ebizo's Room Chest",
+        "item_count": 1,
+        "access_rules": [
+          "$goron_mines_upper_east_wing"
+        ]
+      },
+      {
+        "name": "Chest Before Dangoro",
+        "item_count": 1,
+        "access_rules": [
+          "$goron_mines_upper_east_wing,boots"
+        ]
+      },
+      {
+        "name": "Dangoro's Chest",
+        "item_count": 1,
+        "access_rules": [
+          "$goron_mines_upper_east_wing,boots,$dangoro"
+        ]
+      },
+      {
+        "name": "Beamos Room Chest",
+        "item_count": 1,
+        "access_rules": [
+          "$goron_mines_upper_east_wing,boots,$dangoro,$use_bow"
+        ]
+      },
+      {
+        "name": "Gor Liggs' Key Shard",
+        "item_count": 1,
+        "chest_unopened_img": "images/mines_key_model.png",
+        "chest_opened_img": "images/mines_key_model_crossed.png",
+        "access_rules": [
+          "$goron_mines_upper_east_wing,boots,$dangoro,$use_bow"
+        ]
+      },
+      {
+        "name": "Gor Liggs' Room Chest",
+        "item_count": 1,
+        "access_rules": [
+          "$goron_mines_upper_east_wing,boots,$dangoro,$use_bow"
+        ]
+      },
+      {
+        "name": "Magnet Room Top Chest",
+        "item_count": 1,
+        "access_rules": [
+          "$goron_mines_upper_east_wing,boots,$dangoro,$use_bow"
+        ]
+      },
+      {
+        "name": "Fyrus Heart Container",
+        "chest_unopened_img": "images/heart_container_model.png",
+        "chest_opened_img": "images/heart_container_model_gray.png",
+        "item_count": 1,
+        "access_rules": [
+          "$goron_mines_boss_room,$fyrus"
+        ]
+      },
+      {
+        "name": "Dungeon Reward",
+        "chest_unopened_img": "images/fused_shadow.png",
+        "chest_opened_img": "images/fused_shadow_gray.png",
+        "item_count": 1,
+        "access_rules": [
+          "$goron_mines_boss_room,$fyrus"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "overworld",
+        "x": 1025,
+        "y": 480,
+        "size": 32
+      }
+    ]
+  }
+]

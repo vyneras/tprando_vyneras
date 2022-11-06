@@ -1,0 +1,156 @@
+[
+  {
+    "name": "Forest Temple",
+    "color": "#17892A",
+    "always_allow_chest_manipulation": true,
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_gray.png",
+    "access_rules": [
+      "$forest_temple"
+    ],
+    "sections": [
+      {
+        "name": "Entrance Vines Chest",
+        "item_count": 1,
+        "access_rules": [
+          "$walltula"
+        ]
+      },
+      {
+        "name": "Central North Chest",
+        "item_count": 1,
+        "access_rules": [
+          "$forest_temple_lobby,lantern"
+        ]
+      },
+      {
+        "name": "Central Chest Behind Stairs",
+        "item_count": 1,
+        "access_rules": [
+          "$forest_temple_lobby,[boomerang]"
+        ]
+      },
+      {
+        "name": "Central Chest Hanging from Web",
+        "item_count": 1,
+        "access_rules": [
+          "$forest_temple_lobby,$hanging_web"
+        ]
+      },
+      {
+        "name": "East Water Cave Chest",
+        "item_count": 1,
+        "access_rules": [
+          "$forest_temple_lobby"
+        ]
+      },
+      {
+        "name": "Second Monkey Under Bridge Chest",
+        "item_count": 1,
+        "access_rules": [
+          "$forest_temple_lobby,$forest_small_keys:1,[$forest_small_keys:4]"
+        ]
+      },
+      {
+        "name": "Big Key Chest",
+        "item_count": 1,
+        "access_rules": [
+          "$forest_temple_lobby,boomerang"
+        ]
+      },
+      {
+        "name": "West Deku Like Chest",
+        "item_count": 1,
+        "access_rules": [
+          "$forest_temple_west_wing,$walltula"
+        ]
+      },
+      {
+        "name": "Totem Pole Chest",
+        "item_count": 1,
+        "access_rules": [
+          "$forest_temple_west_wing"
+        ]
+      },
+      {
+        "name": "West Tile Worm Room Vines Chest",
+        "item_count": 1,
+        "access_rules": [
+          "$forest_temple_west_wing"
+        ]
+      },
+      {
+        "name": "West Tile Worm Chest Behind Stairs",
+        "item_count": 1,
+        "access_rules": [
+          "$forest_temple_west_wing,boomerang"
+        ]
+      },
+      {
+        "name": "Big Baba Key",
+        "item_count": 1,
+        "chest_unopened_img": "images/small_key_model.png",
+        "chest_opened_img": "images/small_key_model_crossed.png",
+        "access_rules": [
+          "$forest_temple_west_wing,$big_baba,$walltula"
+        ]
+      },
+      {
+        "name": "Gale Boomerang",
+        "item_count": 1,
+        "chest_unopened_img": "images/gale_boomerang_model.png",
+        "chest_opened_img": "images/gale_boomerang_model_gray.png",
+        "access_rules": [
+          "$forest_temple_ook_room,$ook"
+        ]
+      },
+      {
+        "name": "Windless Bridge Chest",
+        "item_count": 1,
+        "access_rules": [
+          "$forest_temple_lobby"
+        ]
+      },
+      {
+        "name": "East Tile Worm Chest",
+        "item_count": 1,
+        "access_rules": [
+          "$forest_temple_lobby,$tile_worm,$skulltula,$walltula,boomerang,$forest_small_keys:1,[$forest_small_keys:4]"
+        ]
+      },
+      {
+        "name": "North Deku Like Chest",
+        "item_count": 1,
+        "access_rules": [
+          "$forest_temple_lobby,boomerang"
+        ]
+      },
+      {
+        "name": "Diababa Heart Container",
+        "item_count": 1,
+        "chest_unopened_img": "images/heart_container_model.png",
+        "chest_opened_img": "images/heart_container_model_gray.png",
+        "access_rules": [
+          "$forest_temple_boss_room,$diababa"
+        ]
+      },
+      {
+        "name": "Dungeon Reward",
+        "item_count": 1,
+        "chest_unopened_img": "images/fused_shadow.png",
+        "chest_opened_img": "images/fused_shadow_gray.png",
+        "access_rules": [
+          "$forest_temple_boss_room,$diababa"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "overworld",
+        "x": 572,
+        "y": 833,
+        "size": 32
+      }
+    ]
+  }
+]

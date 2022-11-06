@@ -1,0 +1,190 @@
+[
+  {
+    "name": "City in the Sky",
+    "color": "#F5EAB5",
+    "always_allow_chest_manipulation": true,
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_gray.png",
+    "access_rules": [
+      "$city_in_the_sky"
+    ],
+    "sections": [
+      {
+        "name": "Underwater Chests",
+        "item_count": 2,
+        "access_rules": [
+          "$heavy"
+        ]
+      },
+      {
+        "name": "East Wing Chest After Fans",
+        "item_count": 1,
+        "access_rules": [
+          "$city_in_the_sky_east_wing,clawshot"
+        ]
+      },
+      {
+        "name": "East Wing Lower Level Chest",
+        "item_count": 1,
+        "access_rules": [
+          "$city_in_the_sky_east_wing,double_clawshot"
+        ]
+      },
+      {
+        "name": "East Tile Worm Small Chest",
+        "item_count": 1,
+        "access_rules": [
+          "$city_in_the_sky_east_wing,clawshot"
+        ]
+      },
+      {
+        "name": "East Wing After Dinalfos Alcove Chest",
+        "item_count": 1,
+        "access_rules": [
+          "$city_in_the_sky_east_wing,clawshot,$tile_worm,$dinalfos"
+        ]
+      },
+      {
+        "name": "East Wing After Dinalfos Ledge Chest",
+        "item_count": 1,
+        "access_rules": [
+          "$city_in_the_sky_east_wing,clawshot,$tile_worm,$dinalfos"
+        ]
+      },
+      {
+        "name": "Aeralfos Chest",
+        "item_count": 1,
+        "access_rules": [
+          "$city_in_the_sky_east_wing,$aeralfos,clawshot,boots,$dinalfos"
+        ]
+      },
+      {
+        "name": "West Wing First Chest",
+        "item_count": 1,
+        "access_rules": [
+          "$city_in_the_sky_west_wing"
+        ]
+      },
+      {
+        "name": "West Wing Baba Balcony Chest",
+        "item_count": 1,
+        "access_rules": [
+          "$city_in_the_sky_west_wing,double_clawshot"
+        ]
+      },
+      {
+        "name": "West Wing Narrow Ledge Chest",
+        "item_count": 1,
+        "access_rules": [
+          "$city_in_the_sky_west_wing,double_clawshot"
+        ]
+      },
+      {
+        "name": "West Wing Tile Worm Chest",
+        "item_count": 1,
+        "access_rules": [
+          "$city_in_the_sky_west_wing,double_clawshot"
+        ]
+      },
+      {
+        "name": "Baba Tower Chests",
+        "item_count": 3,
+        "access_rules": [
+          "$city_in_the_sky_west_wing,$baba_serpent,$big_baba,double_clawshot"
+        ]
+      },
+      {
+        "name": "West Garden Chests",
+        "item_count": 4,
+        "access_rules": [
+          "$city_in_the_sky_west_wing,double_clawshot"
+        ]
+      },
+      {
+        "name": "Garden Island Poe",
+        "item_count": 1,
+        "chest_unopened_img": "images/poe_soul_model.png",
+        "chest_opened_img": "images/poe_soul_model_gray.png",
+        "access_rules": [
+          "$city_in_the_sky_west_wing,wolf,double_clawshot"
+        ],
+        "visibility_rules": [
+          "poes_on"
+        ]
+      },
+      {
+        "name": "Central Outside Ledge Chest",
+        "item_count": 1,
+        "access_rules": [
+          "$city_in_the_sky_west_wing,$dinalfos,$walltula,$kargarok,wolf"
+        ]
+      },
+      {
+        "name": "Central Outside Poe Island Chest",
+        "item_count": 1,
+        "access_rules": [
+          "$city_in_the_sky_west_wing,$dinalfos,$walltula,$kargarok,wolf"
+        ]
+      },
+      {
+        "name": "Poe Above Central Fan",
+        "item_count": 1,
+        "chest_unopened_img": "images/poe_soul_model.png",
+        "chest_opened_img": "images/poe_soul_model_gray.png",
+        "access_rules": [
+          "$city_in_the_sky_west_wing,$walltula,wolf"
+        ],
+        "visibility_rules": [
+          "poes_on"
+        ]
+      },
+      {
+        "name": "Big Key Chest",
+        "item_count": 1,
+        "access_rules": [
+          "$city_in_the_sky_west_wing,$dinalfos,$walltula,$kargarok,wolf,clawshot,$heavy"
+        ]
+      },
+      {
+        "name": "Chest Below Big Key Chest",
+        "item_count": 1,
+        "access_rules": [
+          "$city_in_the_sky_west_wing,$helmasaur"
+        ]
+      },
+      {
+        "name": "Chest Behind North Fan",
+        "item_count": 1,
+        "access_rules": [
+          "$city_in_the_sky_north_wing,double_clawshot"
+        ]
+      },
+      {
+        "name": "Argorok Heart Container",
+        "chest_unopened_img": "images/heart_container_model.png",
+        "chest_opened_img": "images/heart_container_model_gray.png",
+        "item_count": 1,
+        "access_rules": [
+          "$city_in_the_sky_boss_room,$argorok"
+        ]
+      },
+      {
+        "name": "Dungeon Prize",
+        "chest_unopened_img": "images/mirror.png",
+        "chest_opened_img": "images/mirror_gray.png",
+        "item_count": 1,
+        "access_rules": [
+          "$city_in_the_sky_boss_room,$argorok"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "overworld",
+        "x": 395,
+        "y": 570,
+        "size": 32
+      }
+    ]
+  }
+]

@@ -1,0 +1,170 @@
+[
+  {
+    "name": "Arbiter's Grounds",
+    "color": "#99814A",
+    "always_allow_chest_manipulation": true,
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_gray.png",
+    "access_rules": [
+      "$arbiters_grounds"
+    ],
+    "sections": [
+      {
+        "name": "Entrance Chest",
+        "item_count": 1,
+        "access_rules": [
+          "$wooden_door"
+        ]
+      },
+      {
+        "name": "Torch Room Chests",
+        "item_count": 2,
+        "access_rules": [
+          "$arbiters_grounds_lobby"
+        ]
+      },
+      {
+        "name": "Torch Room Poe",
+        "item_count": 1,
+        "chest_unopened_img": "images/poe_soul_model.png",
+        "chest_opened_img": "images/poe_soul_model_gray.png",
+        "access_rules": [
+          "$arbiters_grounds_lobby,wolf"
+        ],
+        "visibility_rules": [
+          "poes_on"
+        ]
+      },
+      {
+        "name": "East Lower Turnable Redead Chest",
+        "item_count": 1,
+        "access_rules": [
+          "$arbiters_grounds_lobby,wolf"
+        ]
+      },
+      {
+        "name": "East Turning Room Poe",
+        "item_count": 1,
+        "chest_unopened_img": "images/poe_soul_model.png",
+        "chest_opened_img": "images/poe_soul_model_gray.png",
+        "access_rules": [
+          "$arbiters_grounds_lobby,wolf,clawshot"
+        ],
+        "visibility_rules": [
+          "poes_on"
+        ]
+      },
+      {
+        "name": "East Upper Turnable Chest",
+        "item_count": 1,
+        "access_rules": [
+          "$arbiters_grounds_lobby,$grounds_small_keys:2"
+        ]
+      },
+      {
+        "name": "East Upper Turnable Redead Chest",
+        "item_count": 1,
+        "access_rules": [
+          "$arbiters_grounds_lobby,$damage,$grounds_small_keys:2"
+        ]
+      },
+      {
+        "name": "Hidden Wall Poe",
+        "item_count": 1,
+        "chest_unopened_img": "images/poe_soul_model.png",
+        "chest_opened_img": "images/poe_soul_model_gray.png",
+        "access_rules": [
+          "$arbiters_grounds_lobby,wolf,$redead_knight,$grounds_small_keys:3"
+        ],
+        "visibility_rules": [
+          "poes_on"
+        ]
+      },
+      {
+        "name": "Ghoul Rat Room Chest",
+        "item_count": 1,
+        "access_rules": [
+          "$arbiters_grounds_lobby,$bubble,$stalchild,$redead_knight,$grounds_small_keys:3"
+        ]
+      },
+      {
+        "name": "West Small Chest Behind Block",
+        "item_count": 1,
+        "access_rules": [
+          "$arbiters_grounds_lobby"
+        ]
+      },
+      {
+        "name": "West Chandelier Chest",
+        "item_count": 1,
+        "access_rules": [
+          "$arbiters_grounds_lobby,$grounds_small_keys:4,wolf"
+        ]
+      },
+      {
+        "name": "West Stalfos Chests",
+        "item_count": 2,
+        "access_rules": [
+          "$arbiters_grounds_lobby,$wooden_door,$grounds_small_keys:4,$redead_knight,$stalchild,$bubble,$ghoul_rat"
+        ]
+      },
+      {
+        "name": "West Poe",
+        "item_count": 1,
+        "chest_unopened_img": "images/poe_soul_model.png",
+        "chest_opened_img": "images/poe_soul_model_gray.png",
+        "access_rules": [
+          "$arbiters_grounds_lobby,wolf,$smash,$grounds_small_keys:4,$redead_knight,$stalchild,$bubble,$ghoul_rat"
+        ],
+        "visibility_rules": [
+          "poes_on"
+        ]
+      },
+      {
+        "name": "North Turning Room Chest",
+        "item_count": 1,
+        "access_rules": [
+          "$arbiters_grounds_poe_gate,[clawshot]"
+        ]
+      },
+      {
+        "name": "Death Sword Chest",
+        "item_count": 1,
+        "access_rules": [
+          "$arbiters_grounds_poe_gate,$death_sword,[clawshot],$bubble,$stalfos,$grounds_small_keys:5"
+        ]
+      },
+      {
+        "name": "Spinner Room Chests",
+        "item_count": 5,
+        "access_rules": [
+          "$arbiters_grounds_poe_gate,[clawshot],spinner,$bubble,$stalfos,$grounds_small_keys:5"
+        ]
+      },
+      {
+        "name": "Big Key Chest",
+        "item_count": 1,
+        "access_rules": [
+          "$arbiters_grounds_poe_gate,$grounds_small_keys:5,[clawshot],spinner,$smash"
+        ]
+      },
+      {
+        "name": "Stallord Heart Container",
+        "item_count": 1,
+        "chest_unopened_img": "images/heart_container_model.png",
+        "chest_opened_img": "images/heart_container_model_gray.png",
+        "access_rules": [
+          "$arbiters_grounds_boss_room,$stallord"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "overworld",
+        "x": 176,
+        "y": 481,
+        "size": 32
+      }
+    ]
+  }
+]

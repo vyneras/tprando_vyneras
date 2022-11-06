@@ -1,0 +1,394 @@
+{
+  "item_grid": {
+    "type": "array",
+    "orientation": "vertical",
+    "content": [
+      {
+        "type": "itemgrid",
+        "h_alignment": "center",
+        "item_margin": "1,2",
+        "rows": [
+          [
+            "sword",
+            "shield",
+            "lantern",
+            "fishing_rod",
+            "slingshot",
+            "boomerang",
+            "bow"
+          ],
+          [
+            "boots",
+            "wolf",
+            "bombs",
+            "clawshot",
+            "spinner",
+            "dominion_rod",
+            "ball_and_chain"
+          ],
+          [
+            "zora",
+            "magic",
+            "bottle",
+            "wallet",
+            "memo",
+            "sketch",
+            "letter"
+          ],
+          [
+            "skybook",
+            "skills",
+            "bugs",
+            "poe_souls",
+            "pumpkin_and_cheese"
+          ]
+        ]
+      }
+    ]
+  },
+  "item_grid_sk_off": {
+    "type": "array",
+    "orientation": "vertical",
+    "content": [
+      {
+        "type": "itemgrid",
+        "h_alignment": "center",
+        "item_margin": "1,2",
+        "rows": [
+          [
+            "sword",
+            "shield",
+            "lantern",
+            "fishing_rod",
+            "slingshot",
+            "boomerang",
+            "bow"
+          ],
+          [
+            "boots",
+            "wolf",
+            "bombs",
+            "clawshot",
+            "spinner",
+            "dominion_rod",
+            "ball_and_chain"
+          ],
+          [
+            "zora",
+            "magic",
+            "bottle",
+            "wallet",
+            "memo",
+            "sketch",
+            "letter"
+          ],
+          [
+            "skybook",
+            "skills",
+            "bugs",
+            "poe_souls"
+          ]
+        ]
+      }
+    ]
+  },
+  "dungeon_grid": {
+    "type": "array",
+    "orientation": "horizontal",
+    "content": [
+      {
+        "type": "itemgrid",
+        "h_alignment": "center",
+        "item_margin": "1,2",
+        "rows": [
+          [
+            "gate_label"
+          ],
+          [
+            "gate_keys"
+          ],
+          [
+            "desert_label"
+          ],
+          [
+            "desert_key"
+          ]
+        ]
+      },
+      {
+        "type": "array",
+        "orientation": "vertical",
+        "content": [
+          {
+            "type": "itemgrid",
+            "h_alignment": "center",
+            "item_margin": "1,2",
+            "rows": [
+              [
+                "forest_label",
+                "mines_label",
+                "lakebed_label",
+                "grounds_label",
+                "time_label",
+                "ruins_label",
+                "sky_label",
+                "palace_label",
+                "castle_label"
+              ],
+              [
+                "forest_small_keys",
+                "mines_small_keys",
+                "lakebed_small_keys",
+                "grounds_small_keys",
+                "time_small_keys",
+                "ruins_small_keys",
+                "sky_small_key",
+                "palace_small_keys",
+                "castle_small_keys"
+              ],
+              [
+                "forest_big_key",
+                "mines_big_key",
+                "lakebed_big_key",
+                "grounds_big_key",
+                "time_big_key",
+                "ruins_big_key",
+                "sky_big_key",
+                "palace_big_key",
+                "castle_big_key"
+              ],
+              [
+                "forest",
+                "mines",
+                "lakebed",
+                "grounds",
+                "time",
+                "ruins",
+                "sky",
+                "palace",
+                "triforce"
+              ]
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "dungeon_grid_sk_off": {
+    "type": "array",
+    "orientation": "vertical",
+    "content": [
+      {
+        "type": "itemgrid",
+        "h_alignment": "center",
+        "item_margin": "1,2",
+        "rows": [
+          [
+            "forest_label",
+            "mines_label",
+            "lakebed_label",
+            "grounds_label",
+            "time_label",
+            "ruins_label",
+            "sky_label",
+            "palace_label",
+            "castle_label"
+          ],
+          [
+            "forest_big_key",
+            "mines_big_key",
+            "lakebed_big_key",
+            "grounds_big_key",
+            "time_big_key",
+            "ruins_big_key",
+            "sky_big_key",
+            "palace_big_key",
+            "castle_big_key"
+          ],
+          [
+            "forest",
+            "mines",
+            "lakebed",
+            "grounds",
+            "time",
+            "ruins",
+            "sky",
+            "palace",
+            "triforce"
+          ]
+        ]
+      }
+    ]
+  },
+  "dungeon_grid_bk_off": {
+    "type": "array",
+    "orientation": "horizontal",
+    "content": [
+      {
+        "type": "itemgrid",
+        "h_alignment": "center",
+        "item_margin": "1,2",
+        "rows": [
+          [
+            "gate_label"
+          ],
+          [
+            "gate_keys"
+          ],
+          [
+            "desert_label"
+          ],
+          [
+            "desert_key"
+          ]
+        ]
+      },
+      {
+        "type": "array",
+        "orientation": "vertical",
+        "content": [
+          {
+            "type": "itemgrid",
+            "h_alignment": "center",
+            "item_margin": "1,2",
+            "rows": [
+              [
+                "forest_label",
+                "mines_label",
+                "lakebed_label",
+                "grounds_label",
+                "time_label",
+                "ruins_label",
+                "sky_label",
+                "palace_label",
+                "castle_label"
+              ],
+              [
+                "forest_small_keys",
+                "mines_small_keys",
+                "lakebed_small_keys",
+                "grounds_small_keys",
+                "time_small_keys",
+                "ruins_small_keys",
+                "sky_small_key",
+                "palace_small_keys",
+                "castle_small_keys"
+              ],
+              [
+                "forest",
+                "mines",
+                "lakebed",
+                "grounds",
+                "time",
+                "ruins",
+                "sky",
+                "palace",
+                "triforce"
+              ]
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "dungeon_grid_keys_off": {
+    "type": "array",
+    "orientation": "vertical",
+    "content": [
+      {
+        "type": "itemgrid",
+        "h_alignment": "center",
+        "item_margin": "1,2",
+        "rows": [
+          [
+            "forest_label",
+            "mines_label",
+            "lakebed_label",
+            "grounds_label",
+            "time_label",
+            "ruins_label",
+            "sky_label",
+            "palace_label",
+            "castle_label"
+          ],
+          [
+            "forest",
+            "mines",
+            "lakebed",
+            "grounds",
+            "time",
+            "ruins",
+            "sky",
+            "palace",
+            "triforce"
+          ]
+        ]
+      }
+    ]
+  },
+  "settings": {
+    "type": "array",
+    "orientation": "vertical",
+    "content": [
+      {
+        "type": "itemgrid",
+        "h_alignment": "center",
+        "item_margin": "5",
+        "rows": [
+          [
+            "prologue_skipped",
+            "faron_skipped",
+            "eldin_skipped",
+            "lanayru_skipped",
+            "midna_not_skipped",
+            "transform_anywhere_on"
+          ],
+          [
+            "bugs_off",
+            "skys_off",
+            "npcs_off",
+            "poes_off",
+            "shops_off",
+            "skills_off"
+          ],
+          [
+            "wrestling_not_skipped",
+            "lakebed_not_skipped",
+            "grounds_not_skipped",
+            "ruins_not_skipped",
+            "grove_not_skipped",
+            "cannon_not_skipped"
+          ],
+          [
+            "wallet_on",
+            "small_keys_setting",
+            "big_keys_setting",
+            "faron_open",
+            "palace_open",
+            "hc_open"
+          ]
+        ]
+      }
+    ]
+  },
+  "item_grid_container": {
+    "type": "array",
+    "orientation": "vertical",
+    "content": [
+      {
+        "type": "layout",
+        "key": "item_grid"
+      }
+    ]
+  },
+  "dungeon_grid_container": {
+    "type": "array",
+    "orientation": "vertical",
+    "content": [
+      {
+        "type": "layout",
+        "key": "dungeon_grid"
+      }
+    ]
+  }
+}

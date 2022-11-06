@@ -1,0 +1,599 @@
+[
+  {
+    "name": "Forest Temple Label",
+    "type": "static",
+    "img": "images/forest_label.png",
+    "codes": "forest_label"
+  },
+  {
+    "name": "Forest Temple Small Keys",
+    "type": "progressive",
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "images/small_key.png",
+        "img_mods": "@disabled",
+        "codes": "forest_small_keys"
+      },
+      {
+        "img": "images/small_key.png",
+        "img_mods": "overlay|images/number_1_label.png"
+      },
+      {
+        "img": "images/small_key.png",
+        "img_mods": "overlay|images/number_2_label.png"
+      },
+      {
+        "img": "images/small_key.png",
+        "img_mods": "overlay|images/number_3_label.png"
+      },
+      {
+        "img": "images/small_key.png",
+        "img_mods": "overlay|images/number_4_max_label.png"
+      }
+    ]
+  },
+  {
+    "name": "Forest Temple Big Key",
+    "type": "toggle",
+    "img": "images/big_key.png",
+    "codes": "forest_big_key"
+  },
+  {
+    "name": "Forest Temple Prize",
+    "type": "progressive_toggle",
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/unknown.png",
+        "codes": "forest"
+      },
+      {
+        "img": "images/fused_shadow.png",
+        "codes": "forest,shadow"
+      },
+      {
+        "img": "images/mirror_shard.png",
+        "codes": "forest,mirror"
+      },
+      {
+        "img": "images/empty_label.png",
+        "codes": "forest,empty"
+      }
+    ]
+  },
+  {
+    "name": "Goron Mines Label",
+    "type": "static",
+    "img": "images/mines_label.png",
+    "codes": "mines_label"
+  },
+  {
+    "name": "Goron Mines Small Keys",
+    "type": "progressive",
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "images/small_key.png",
+        "img_mods": "@disabled",
+        "codes": "mines_small_keys"
+      },
+      {
+        "img": "images/small_key.png",
+        "img_mods": "overlay|images/number_1_label.png"
+      },
+      {
+        "img": "images/small_key.png",
+        "img_mods": "overlay|images/number_2_label.png"
+      },
+      {
+        "img": "images/small_key.png",
+        "img_mods": "overlay|images/number_3_max_label.png"
+      }
+    ]
+  },
+  {
+    "name": "Goron Mines Big Key",
+    "type": "progressive",
+    "stages": [
+      {
+        "img": "images/mines_key_1.png",
+        "codes": "mines_big_key"
+      },
+      {
+        "img": "images/mines_key_2.png"
+      },
+      {
+        "img": "images/mines_key_3.png"
+      }
+    ]
+  },
+  {
+    "name": "Goron Mines Prize",
+    "type": "progressive_toggle",
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/unknown.png",
+        "codes": "mines"
+      },
+      {
+        "img": "images/fused_shadow.png",
+        "codes": "mines,shadow"
+      },
+      {
+        "img": "images/mirror_shard.png",
+        "codes": "mines,mirror"
+      },
+      {
+        "img": "images/empty_label.png",
+        "codes": "mines,empty"
+      }
+    ]
+  },
+  {
+    "name": "Lakebed Temple Label",
+    "type": "static",
+    "img": "images/lakebed_label.png",
+    "codes": "lakebed_label"
+  },
+  {
+    "name": "Lakebed Temple Small Keys",
+    "type": "progressive",
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "images/small_key.png",
+        "img_mods": "@disabled",
+        "codes": "lakebed_small_keys"
+      },
+      {
+        "img": "images/small_key.png",
+        "img_mods": "overlay|images/number_1_label.png"
+      },
+      {
+        "img": "images/small_key.png",
+        "img_mods": "overlay|images/number_2_label.png"
+      },
+      {
+        "img": "images/small_key.png",
+        "img_mods": "overlay|images/number_3_max_label.png"
+      }
+    ]
+  },
+  {
+    "name": "Lakebed Temple Big Key",
+    "type": "toggle",
+    "img": "images/big_key.png",
+    "codes": "lakebed_big_key"
+  },
+  {
+    "name": "Lakebed Temple Prize",
+    "type": "progressive_toggle",
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/unknown.png",
+        "codes": "lakebed"
+      },
+      {
+        "img": "images/fused_shadow.png",
+        "codes": "lakebed,shadow"
+      },
+      {
+        "img": "images/mirror_shard.png",
+        "codes": "lakebed,mirror"
+      },
+      {
+        "img": "images/empty_label.png",
+        "codes": "lakebed,empty"
+      }
+    ]
+  },
+  {
+    "name": "Arbiter's Grounds Label",
+    "type": "static",
+    "img": "images/grounds_label.png",
+    "codes": "grounds_label"
+  },
+  {
+    "name": "Arbiter's Grounds Small Keys",
+    "type": "progressive",
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "images/small_key.png",
+        "img_mods": "@disabled",
+        "codes": "grounds_small_keys"
+      },
+      {
+        "img": "images/small_key.png",
+        "img_mods": "overlay|images/number_1_label.png"
+      },
+      {
+        "img": "images/small_key.png",
+        "img_mods": "overlay|images/number_2_label.png"
+      },
+      {
+        "img": "images/small_key.png",
+        "img_mods": "overlay|images/number_3_label.png"
+      },
+      {
+        "img": "images/small_key.png",
+        "img_mods": "overlay|images/number_4_label.png"
+      },
+      {
+        "img": "images/small_key.png",
+        "img_mods": "overlay|images/number_5_max_label.png"
+      }
+    ]
+  },
+  {
+    "name": "Arbiter's Grounds Big Key",
+    "type": "toggle",
+    "img": "images/big_key.png",
+    "codes": "grounds_big_key"
+  },
+  {
+    "name": "Arbiter's Grounds Prize",
+    "type": "progressive_toggle",
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/unknown.png",
+        "codes": "grounds"
+      },
+      {
+        "img": "images/fused_shadow.png",
+        "codes": "grounds,shadow"
+      },
+      {
+        "img": "images/mirror_shard.png",
+        "codes": "grounds,mirror"
+      },
+      {
+        "img": "images/empty_label.png",
+        "codes": "grounds,empty"
+      }
+    ]
+  },
+  {
+    "name": "Snowpeak Ruins Label",
+    "type": "static",
+    "img": "images/ruins_label.png",
+    "codes": "ruins_label"
+  },
+  {
+    "name": "Snowpeak Ruins Small Keys",
+    "type": "progressive",
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "images/small_key.png",
+        "img_mods": "@disabled",
+        "codes": "ruins_small_keys"
+      },
+      {
+        "img": "images/small_key.png",
+        "img_mods": "overlay|images/number_1_label.png"
+      },
+      {
+        "img": "images/small_key.png",
+        "img_mods": "overlay|images/number_2_label.png"
+      },
+      {
+        "img": "images/small_key.png",
+        "img_mods": "overlay|images/number_3_label.png"
+      },
+      {
+        "img": "images/small_key.png",
+        "img_mods": "overlay|images/number_4_max_label.png"
+      }
+    ]
+  },
+  {
+    "name": "Ordon Pumpkin",
+    "type": "toggle",
+    "img": "images/ordon_pumpkin.png",
+    "codes": "pumpkin"
+  },
+  {
+    "name": "Ordon Goat Cheese",
+    "type": "toggle",
+    "img": "images/ordon_goat_cheese.png",
+    "codes": "cheese"
+  },
+  {
+    "name": "Ordon Pumpkin and Ordon Goat Cheese",
+    "type": "composite_toggle",
+    "codes": "pumpkin_and_cheese",
+    "item_left": "pumpkin",
+    "item_right": "cheese",
+    "images": [
+      {
+        "left": false,
+        "right": false,
+        "img": "images/pumpkin_and_cheese_gray.png"
+      },
+      {
+        "left": true,
+        "right": false,
+        "img": "images/pumpkin_and_cheese_p.png"
+      },
+      {
+        "left": false,
+        "right": true,
+        "img": "images/pumpkin_and_cheese_c.png"
+      },
+      {
+        "left": true,
+        "right": true,
+        "img": "images/pumpkin_and_cheese_both.png"
+      }
+    ]
+  },
+  {
+    "name": "Snowpeak Ruins Bedroom Key",
+    "type": "toggle",
+    "img": "images/bedroom_key.png",
+    "codes": "ruins_big_key"
+  },
+  {
+    "name": "Snowpeak Ruins Prize",
+    "type": "progressive_toggle",
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/unknown.png",
+        "codes": "ruins"
+      },
+      {
+        "img": "images/fused_shadow.png",
+        "codes": "ruins,shadow"
+      },
+      {
+        "img": "images/mirror_shard.png",
+        "codes": "ruins,mirror"
+      },
+      {
+        "img": "images/empty_label.png",
+        "codes": "ruins,empty"
+      }
+    ]
+  },
+  {
+    "name": "Temple of Time Label",
+    "type": "static",
+    "img": "images/time_label.png",
+    "codes": "time_label"
+  },
+  {
+    "name": "Temple of Time Small Keys",
+    "type": "progressive",
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "images/small_key.png",
+        "img_mods": "@disabled",
+        "codes": "time_small_keys"
+      },
+      {
+        "img": "images/small_key.png",
+        "img_mods": "overlay|images/number_1_label.png"
+      },
+      {
+        "img": "images/small_key.png",
+        "img_mods": "overlay|images/number_2_label.png"
+      },
+      {
+        "img": "images/small_key.png",
+        "img_mods": "overlay|images/number_3_max_label.png"
+      }
+    ]
+  },
+  {
+    "name": "Temple of Time Big Key",
+    "type": "toggle",
+    "img": "images/big_key.png",
+    "codes": "time_big_key"
+  },
+  {
+    "name": "Temple of Time Prize",
+    "type": "progressive_toggle",
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/unknown.png",
+        "codes": "time"
+      },
+      {
+        "img": "images/fused_shadow.png",
+        "codes": "time,shadow"
+      },
+      {
+        "img": "images/mirror_shard.png",
+        "codes": "time,mirror"
+      },
+      {
+        "img": "images/empty_label.png",
+        "codes": "time,empty"
+      }
+    ]
+  },
+  {
+    "name": "City in the Sky Label",
+    "type": "static",
+    "img": "images/sky_label.png",
+    "codes": "sky_label"
+  },
+  {
+    "name": "City in the Sky Small Key",
+    "type": "toggle",
+    "img": "images/small_key.png",
+    "codes": "sky_small_key"
+  },
+  {
+    "name": "City in the Sky Big Key",
+    "type": "toggle",
+    "img": "images/big_key.png",
+    "codes": "sky_big_key"
+  },
+  {
+    "name": "City in the Sky Prize",
+    "type": "progressive_toggle",
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/unknown.png",
+        "codes": "sky"
+      },
+      {
+        "img": "images/fused_shadow.png",
+        "codes": "sky,shadow"
+      },
+      {
+        "img": "images/mirror_shard.png",
+        "codes": "sky,mirror"
+      },
+      {
+        "img": "images/empty_label.png",
+        "codes": "sky,empty"
+      }
+    ]
+  },
+  {
+    "name": "Palace of Twilight Label",
+    "type": "static",
+    "img": "images/twilight_label.png",
+    "codes": "palace_label"
+  },
+  {
+    "name": "Palace of Twilight Small Keys",
+    "type": "progressive",
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "images/small_key.png",
+        "img_mods": "@disabled",
+        "codes": "palace_small_keys"
+      },
+      {
+        "img": "images/small_key.png",
+        "img_mods": "overlay|images/number_1_label.png"
+      },
+      {
+        "img": "images/small_key.png",
+        "img_mods": "overlay|images/number_2_label.png"
+      },
+      {
+        "img": "images/small_key.png",
+        "img_mods": "overlay|images/number_3_label.png"
+      },
+      {
+        "img": "images/small_key.png",
+        "img_mods": "overlay|images/number_4_label.png"
+      },
+      {
+        "img": "images/small_key.png",
+        "img_mods": "overlay|images/number_5_label.png"
+      },
+      {
+        "img": "images/small_key.png",
+        "img_mods": "overlay|images/number_6_label.png"
+      },
+      {
+        "img": "images/small_key.png",
+        "img_mods": "overlay|images/number_7_max_label.png"
+      }
+    ]
+  },
+  {
+    "name": "Palace of Twilight Big Key",
+    "type": "toggle",
+    "img": "images/big_key.png",
+    "codes": "palace_big_key"
+  },
+  {
+    "name": "Palace of Twilight Prize",
+    "type": "progressive_toggle",
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/unknown.png",
+        "codes": "palace"
+      },
+      {
+        "img": "images/fused_shadow.png",
+        "codes": "palace,shadow"
+      },
+      {
+        "img": "images/mirror_shard.png",
+        "codes": "palace,mirror"
+      },
+      {
+        "img": "images/empty_label.png",
+        "codes": "palace,empty"
+      }
+    ]
+  },
+  {
+    "name": "Hyrule Castle Label",
+    "type": "static",
+    "img": "images/castle_label.png",
+    "codes": "castle_label"
+  },
+  {
+    "name": "Hyrule Castle Small Keys",
+    "type": "progressive",
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "images/small_key.png",
+        "img_mods": "@disabled",
+        "codes": "castle_small_keys"
+      },
+      {
+        "img": "images/small_key.png",
+        "img_mods": "overlay|images/number_1_label.png"
+      },
+      {
+        "img": "images/small_key.png",
+        "img_mods": "overlay|images/number_2_label.png"
+      },
+      {
+        "img": "images/small_key.png",
+        "img_mods": "overlay|images/number_3_max_label.png"
+      }
+    ]
+  },
+  {
+    "name": "Hyrule Castle Big Key",
+    "type": "toggle",
+    "img": "images/big_key.png",
+    "codes": "castle_big_key"
+  },
+  {
+    "name": "Bulblin Base Label",
+    "type": "static",
+    "img": "images/desert_label.png",
+    "codes": "desert_label"
+  },
+  {
+    "name": "Bulblin Base Small Key",
+    "type": "toggle",
+    "img": "images/small_key.png",
+    "codes": "desert_key"
+  },
+  {
+    "name": "Hyrule Field Gates Label",
+    "type": "static",
+    "img": "images/gate_label.png",
+    "codes": "gate_label"
+  },
+  {
+    "name": "Hyrule Field Gate Keys",
+    "type": "toggle",
+    "img": "images/small_key.png",
+    "codes": "gate_keys"
+  }
+]

@@ -1,0 +1,206 @@
+[
+  {
+    "name": "Lakebed Temple",
+    "color": "#154799",
+    "always_allow_chest_manipulation": true,
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_gray.png",
+    "access_rules": [
+      "$lakebed_temple"
+    ],
+    "sections": [
+      {
+        "name": "Lobby Chests",
+        "item_count": 2,
+        "access_rules": [
+          "zora"
+        ]
+      },
+      {
+        "name": "Stalactite Room Chest",
+        "item_count": 1,
+        "access_rules": [
+          "$launch_bombs"
+        ]
+      },
+      {
+        "name": "Central Room Chests",
+        "item_count": 2,
+        "access_rules": [
+          "$lakebed_temple_central_room"
+        ]
+      },
+      {
+        "name": "Chandelier Chest",
+        "item_count": 1,
+        "access_rules": [
+          "$lakebed_temple_central_room,clawshot"
+        ]
+      },
+      {
+        "name": "Central Room Spire Chest",
+        "item_count": 1,
+        "access_rules": [
+          "$lakebed_temple_central_room,$lakebed_small_keys:2,[$lakebed_small_keys:3],$heavy,$launch_bombs"
+        ]
+      },
+      {
+        "name": "East Second Floor Southwest Chest",
+        "item_count": 1,
+        "access_rules": [
+          "$lakebed_temple_east_wing_second_floor"
+        ]
+      },
+      {
+        "name": "East Second Floor Southeast Chest",
+        "item_count": 1,
+        "access_rules": [
+          "$lakebed_temple_east_wing_second_floor,$launch_bombs",
+          "$lakebed_temple_east_wing_second_floor,clawshot,$smash"
+        ]
+      },
+      {
+        "name": "East Water Supply Small Chest",
+        "item_count": 1,
+        "access_rules": [
+          "$lakebed_temple_east_wing_second_floor,$lakebed_small_keys:2,[$lakebed_small_keys:3]"
+        ]
+      },
+      {
+        "name": "East Water Supply Clawshot Chest",
+        "item_count": 1,
+        "access_rules": [
+          "$lakebed_temple_east_wing_second_floor,$lakebed_small_keys:2,[$lakebed_small_keys:3],clawshot,$launch_bombs"
+        ]
+      },
+      {
+        "name": "East Lower Waterwheel Stalactite Chest",
+        "item_count": 1,
+        "access_rules": [
+          "$lakebed_temple_central_room,$launch_bombs"
+        ]
+      },
+      {
+        "name": "East Lower Waterwheel Bridge Chest",
+        "item_count": 1,
+        "access_rules": [
+          "$lakebed_temple_central_room,clawshot,$lakebed_small_keys:2,[$lakebed_small_keys:3],$launch_bombs"
+        ]
+      },
+      {
+        "name": "Before Deku Toad Alcove Chest",
+        "item_count": 1,
+        "access_rules": [
+          "$lakebed_temple_central_room,$deku_toad,$lakebed_small_keys:2,zora,$heavy,$use_water_bombs,clawshot",
+          "$lakebed_temple_central_room,$lakebed_small_keys:2,[$lakebed_small_keys:3],$launch_bombs",
+          "$lakebed_temple_central_room,$lakebed_small_keys:2,[$lakebed_small_keys:3],clawshot,$smash"
+        ]
+      },
+      {
+        "name": "Before Deku Toad Underwater Chests",
+        "item_count": 2,
+        "access_rules": [
+          "$lakebed_temple_central_room,zora,$heavy,$lakebed_small_keys:2,[$lakebed_small_keys:3],$launch_bombs",
+          "$lakebed_temple_central_room,zora,$heavy,$lakebed_small_keys:2,[$lakebed_small_keys:3],clawshot,$smash"
+        ]
+      },
+      {
+        "name": "Deku Toad Chest",
+        "item_count": 1,
+        "access_rules": [
+          "$lakebed_temple_central_room,$deku_toad,$lakebed_small_keys:2,[$lakebed_small_keys:3],zora,$heavy,$use_water_bombs,$launch_bombs",
+          "$lakebed_temple_central_room,$deku_toad,$lakebed_small_keys:2,[$lakebed_small_keys:3],zora,$heavy,$use_water_bombs,clawshot,$smash"
+        ]
+      },
+      {
+        "name": "West Lower Small Chest",
+        "item_count": 1,
+        "access_rules": [
+          "$lakebed_temple_west_wing,clawshot"
+        ]
+      },
+      {
+        "name": "West Second Floor Central Small Chest",
+        "item_count": 1,
+        "access_rules": [
+          "$lakebed_temple_west_wing,clawshot"
+        ]
+      },
+      {
+        "name": "West Water Supply Small Chest",
+        "item_count": 1,
+        "access_rules": [
+          "$lakebed_temple_west_wing,clawshot,$launch_bombs"
+        ]
+      },
+      {
+        "name": "West Water Supply Chest",
+        "item_count": 1,
+        "access_rules": [
+          "$lakebed_temple_west_wing,clawshot,$launch_bombs"
+        ]
+      },
+      {
+        "name": "West Second Floor Northeast Chest",
+        "item_count": 1,
+        "access_rules": [
+          "$lakebed_temple_west_wing,clawshot,$launch_bombs"
+        ]
+      },
+      {
+        "name": "West Second Floor Southwest Underwater Chest",
+        "item_count": 1,
+        "access_rules": [
+          "$lakebed_temple_west_wing,clawshot,$heavy,$launch_bombs"
+        ]
+      },
+      {
+        "name": "West Second Floor Southeast Chest",
+        "item_count": 1,
+        "access_rules": [
+          "$lakebed_temple_west_wing,clawshot,$launch_bombs"
+        ]
+      },
+      {
+        "name": "Underwater Maze Chest",
+        "item_count": 1,
+        "access_rules": [
+          "$lakebed_temple_west_wing,zora,clawshot,$launch_bombs"
+        ]
+      },
+      {
+        "name": "Big Key Chest",
+        "item_count": 1,
+        "access_rules": [
+          "$lakebed_temple_west_wing,clawshot,$use_water_bombs,zora,$launch_bombs"
+        ]
+      },
+      {
+        "name": "Morpheel Heart Container",
+        "item_count": 1,
+        "chest_unopened_img": "images/heart_container_model.png",
+        "chest_opened_img": "images/heart_container_model_gray.png",
+        "access_rules": [
+          "$lakebed_temple_boss_room,$morpheel"
+        ]
+      },
+      {
+        "name": "Dungeon Reward",
+        "item_count": 1,
+        "chest_unopened_img": "images/fused_shadow.png",
+        "chest_opened_img": "images/fused_shadow_gray.png",
+        "access_rules": [
+          "$lakebed_temple_boss_room,$morpheel"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "overworld",
+        "x": 492,
+        "y": 610,
+        "size": 32
+      }
+    ]
+  }
+]

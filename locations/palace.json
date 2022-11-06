@@ -1,0 +1,140 @@
+[
+  {
+    "name": "Palace of Twilight",
+    "color": "#2D212F",
+    "always_allow_chest_manipulation": true,
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_gray.png",
+    "access_rules": [
+      "$palace_of_twilight"
+    ],
+    "sections": [
+      {
+        "name": "Light Sword Upgrade",
+        "item_count": 1,
+        "chest_unopened_img": "images/sol.png",
+        "chest_opened_img": "images/sol_gray.png",
+        "access_rules": [
+          "$phantom_zant,clawshot,$zant_head,$palace_small_keys:4,$shadow_beast"
+        ]
+      },
+      {
+        "name": "West Wing First Room Central Chest",
+        "item_count": 1,
+        "access_rules": [
+          "$zant_head"
+        ]
+      },
+      {
+        "name": "West Wing Chest Behind Wall of Darkness",
+        "item_count": 1,
+        "access_rules": [
+          "light_sword,clawshot"
+        ]
+      },
+      {
+        "name": "West Wing Second Room Central Chest",
+        "item_count": 1,
+        "access_rules": [
+          "$palace_small_keys:1,$zant_head,clawshot"
+        ]
+      },
+      {
+        "name": "West Wing Second Room Lower South Chest",
+        "item_count": 1,
+        "access_rules": [
+          "$palace_small_keys:1,$zant_head,clawshot"
+        ]
+      },
+      {
+        "name": "West Wing Second Room Southeast Chest",
+        "item_count": 1,
+        "access_rules": [
+          "$palace_small_keys:1,$zant_head,double_clawshot"
+        ]
+      },
+      {
+        "name": "East Wing First Room North Small Chest",
+        "item_count": 1,
+        "access_rules": [
+          "$palace_of_twilight_east_wing,clawshot"
+        ]
+      },
+      {
+        "name": "East Wing First Room Zant Head Chest",
+        "item_count": 1,
+        "access_rules": [
+          "$palace_of_twilight_east_wing,$zant_head,clawshot"
+        ]
+      },
+      {
+        "name": "East Wing First Room East Alcove Chest",
+        "item_count": 1,
+        "access_rules": [
+          "$palace_of_twilight_east_wing,light_sword",
+          "$palace_of_twilight_east_wing,$phantom_zant,clawshot,$zant_head,$palace_small_keys:4,$shadow_beast"
+        ]
+      },
+      {
+        "name": "East Wing First Room West Alcove Chest",
+        "item_count": 1,
+        "access_rules": [
+          "$palace_of_twilight_east_wing,light_sword",
+          "$palace_of_twilight_east_wing,$phantom_zant,clawshot,$zant_head,$palace_small_keys:4,$shadow_beast"
+        ]
+      },
+      {
+        "name": "East Wing Second Room Chests",
+        "item_count": 4,
+        "access_rules": [
+          "$palace_of_twilight_east_wing,$zant_head,$shadow_beast,double_clawshot,$palace_small_keys:3"
+        ]
+      },
+      {
+        "name": "Central First Room Chest",
+        "item_count": 1,
+        "access_rules": [
+          "$palace_of_twilight_north_tower,$zant_head,light_sword"
+        ]
+      },
+      {
+        "name": "Big Key Chest",
+        "item_count": 1,
+        "access_rules": [
+          "$palace_of_twilight_north_tower,light_sword,double_clawshot,$palace_small_keys:5,$zant_head"
+        ]
+      },
+      {
+        "name": "Central Outdoor Chest",
+        "item_count": 1,
+        "access_rules": [
+          "$palace_of_twilight_north_tower,$zant_head,$palace_small_keys:5,light_sword"
+        ]
+      },
+      {
+        "name": "Central Tower Chest",
+        "item_count": 1,
+        "access_rules": [
+          "$palace_of_twilight_north_tower,$zant_head,light_sword,clawshot,$palace_small_keys:6"
+        ]
+      },
+      {
+        "name": "Zant Heart Container",
+        "item_count": 1,
+        "chest_unopened_img": "images/heart_container_model.png",
+        "chest_opened_img": "images/heart_container_model_gray.png",
+        "access_rules": [
+          "$palace_of_twilight_boss_room,$zant"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "overworld",
+        "x": 176,
+        "y": 445,
+        "size": 32
+      }
+    ]
+  }
+]

@@ -1,0 +1,176 @@
+[
+  {
+    "name": "Temple of Time",
+    "color": "#E5B65E",
+    "always_allow_chest_manipulation": true,
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_gray.png",
+    "access_rules": [
+      "$temple_of_time"
+    ],
+    "sections": [
+      {
+        "name": "Lobby Lantern Chest",
+        "item_count": 1,
+        "access_rules": [
+          "lantern"
+        ]
+      },
+      {
+        "name": "First Staircase Gohma Gate Chest",
+        "item_count": 1,
+        "access_rules": [
+          "$temple_of_time_connecting_corridors,$young_gohma"
+        ]
+      },
+      {
+        "name": "First Staircase Window Chest",
+        "item_count": 1,
+        "access_rules": [
+          "$temple_of_time_connecting_corridors,$ranged"
+        ]
+      },
+      {
+        "name": "First Staircase Armos Chest",
+        "item_count": 1,
+        "access_rules": [
+          "$temple_of_time_connecting_corridors,$armos,$ranged"
+        ]
+      },
+      {
+        "name": "Poe Behind Gate",
+        "item_count": 1,
+        "chest_unopened_img": "images/poe_soul_model.png",
+        "chest_opened_img": "images/poe_soul_model_gray.png",
+        "access_rules": [
+          "$temple_of_time_central_mechanical_platform,wolf,$dominion_rod_level:1"
+        ],
+        "visibility_rules": [
+          "poes_on"
+        ]
+      },
+      {
+        "name": "Armos Antechamber East Chest",
+        "item_count": 1,
+        "access_rules": [
+          "$temple_of_time_armos_antechamber,$armos"
+        ]
+      },
+      {
+        "name": "Armos Antechamber North Chest",
+        "item_count": 1,
+        "access_rules": [
+          "$temple_of_time_armos_antechamber"
+        ]
+      },
+      {
+        "name": "Armos Antechamber Statue Chest",
+        "item_count": 1,
+        "access_rules": [
+          "$temple_of_time_armos_antechamber,$dominion_rod_level:1"
+        ]
+      },
+      {
+        "name": "Moving Wall Beamos Room Chest",
+        "item_count": 1,
+        "access_rules": [
+          "$temple_of_time_moving_wall_hallways,$use_bow"
+        ]
+      },
+      {
+        "name": "Moving Wall Dinalfos Room Chest",
+        "item_count": 1,
+        "access_rules": [
+          "$temple_of_time_moving_wall_hallways,$dinalfos,$dominion_rod_level:1,$use_bow"
+        ]
+      },
+      {
+        "name": "Scales Gohma Chest",
+        "item_count": 1,
+        "access_rules": [
+          "$temple_of_time_scales_of_time,$young_gohma,$baby_gohma"
+        ]
+      },
+      {
+        "name": "Scales Upper Chest",
+        "item_count": 1,
+        "access_rules": [
+          "$temple_of_time_scales_of_time,clawshot,spinner"
+        ]
+      },
+      {
+        "name": "Poe Above Scales",
+        "item_count": 1,
+        "chest_unopened_img": "images/poe_soul_model.png",
+        "chest_opened_img": "images/poe_soul_model_gray.png",
+        "access_rules": [
+          "$temple_of_time_scales_of_time,wolf,clawshot,spinner"
+        ],
+        "visibility_rules": [
+          "poes_on"
+        ]
+      },
+      {
+        "name": "Floor Switch Puzzle Room Upper Chest",
+        "item_count": 1,
+        "access_rules": [
+          "$temple_of_time_floor_switch_puzzle_room,clawshot"
+        ]
+      },
+      {
+        "name": "Big Key Chest",
+        "item_count": 1,
+        "access_rules": [
+          "$temple_of_time_floor_switch_puzzle_room,$helmasaur,clawshot"
+        ]
+      },
+      {
+        "name": "Gilloutine Chest",
+        "item_count": 1,
+        "access_rules": [
+          "$temple_of_time_scales_of_time"
+        ]
+      },
+      {
+        "name": "Chest Before Darknut",
+        "item_count": 1,
+        "access_rules": [
+          "$$temple_of_time_scales_of_time,$armos,$baby_gohma,$young_gohma"
+        ]
+      },
+      {
+        "name": "Darknut Chest",
+        "item_count": 1,
+        "access_rules": [
+          "$function temple_of_time_darknut_arena,$darknut"
+        ]
+      },
+      {
+        "name": "Armogohma Heart Container",
+      "chest_unopened_img": "images/heart_container_model.png",
+        "chest_opened_img": "images/heart_container_model_gray.png",
+        "item_count": 1,
+        "access_rules": [
+          "$temple_of_time_boss_room,$armogohma"
+        ]
+      },
+      {
+        "name": "Dungeon Reward",
+      "chest_unopened_img": "images/mirror.png",
+      "chest_opened_img": "images/mirror_gray.png",
+        "item_count": 1,
+        "access_rules": [
+          "$temple_of_time_boss_room,$armogohma"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "overworld",
+        "x": 522,
+        "y": 770,
+        "size": 32
+      }
+    ]
+  }
+]

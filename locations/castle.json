@@ -1,0 +1,131 @@
+[
+  {
+    "name": "Hyrule Castle",
+    "color": "#979E98",
+    "always_allow_chest_manipulation": true,
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_gray.png",
+    "access_rules": [
+      "$hyrule_castle"
+    ],
+    "sections": [
+      {
+        "name": "West Courtyard North Small Chest",
+        "item_count": 1,
+        "access_rules": [
+          "$hyrule_castle_outside_west_wing,$bokoblin"
+        ]
+      },
+      {
+        "name": "West Courtyard Central Small Chest",
+        "item_count": 1,
+        "access_rules": [
+          "$hyrule_castle_outside_west_wing,$bokoblin"
+        ]
+      },
+      {
+        "name": "King Bulblin Key",
+        "item_count": 1,
+        "chest_unopened_img": "images/small_key_model.png",
+        "chest_opened_img": "images/small_key_model_crossed.png",
+        "access_rules": [
+          "$hyrule_castle_outside_west_wing,$king_bulblin_castle"
+        ]
+      },
+      {
+        "name": "East Wing Boomerang Puzzle Chest",
+        "item_count": 1,
+        "access_rules": [
+          "$hyrule_castle_outside_east_wing,boomerang"
+        ]
+      },
+      {
+        "name": "East Wing Balcony Chest",
+        "item_count": 1,
+        "access_rules": [
+          "$hyrule_castle_outside_east_wing,boomerang"
+        ]
+      },
+      {
+        "name": "Graveyard Switch Room Chests",
+        "item_count": 3,
+        "access_rules": [
+          "$hyrule_castle_graveyard,$smash"
+        ]
+      },
+      {
+        "name": "Graveyard Owl Statue Chest",
+        "item_count": 1,
+        "access_rules": [
+          "$hyrule_castle_graveyard,$smash,lantern,$dominion_rod_level:2"
+        ]
+      },
+      {
+        "name": "Main Hall Northeast Chest",
+        "item_count": 1,
+        "access_rules": [
+          "$hyrule_castle_main_hall,$bokoblin,$lizalfos,clawshot"
+        ]
+      },
+      {
+        "name": "Lantern Staircase Chest",
+        "item_count": 1,
+        "access_rules": [
+          "$hyrule_castle_main_hall,$darknut,boomerang,$bokoblin,$lizalfos,double_clawshot"
+        ]
+      },
+      {
+        "name": "Main Hall Northwest Chest",
+        "item_count": 1,
+        "access_rules": [
+          "$hyrule_castle_main_hall,$castle_painting,$lizalfos,$darknut,boomerang,lantern,double_clawshot"
+        ]
+      },
+      {
+        "name": "Main Hall Southwest Chest",
+        "item_count": 1,
+        "access_rules": [
+          "$hyrule_castle_main_hall,$castle_painting,$lizalfos,$darknut,boomerang,lantern,double_clawshot"
+        ]
+      },
+      {
+        "name": "Southeast Balcony Tower Chest",
+        "item_count": 1,
+        "access_rules": [
+          "$hyrule_castle_third_floor_balcony,$aeralfos"
+        ]
+      },
+      {
+        "name": "Big Key Chest",
+        "item_count": 1,
+        "access_rules": [
+          "$hyrule_castle_third_floor_balcony"
+        ]
+      },
+      {
+        "name": "Treasure Room Chests",
+        "item_count": 13,
+        "access_rules": [
+          "$hyrule_castle_treasure_room"
+        ]
+      },
+      {
+        "name": "Ganondorf",
+        "item_count": 1,
+        "chest_unopened_img": "images/beast_ganon.png",
+        "chest_opened_img": "images/beast_ganon_gray.png",
+        "access_rules": [
+          "$ganondorf_castle"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "overworld",
+        "x": 638,
+        "y": 440,
+        "size": 32
+      }
+    ]
+  }
+]

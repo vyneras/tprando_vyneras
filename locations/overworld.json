@@ -1345,6 +1345,9 @@
           },
           {
             "name": "Hidden Village",
+            "access_rules": [
+              "$hidden_village"
+            ],
             "sections": [
               {
                 "name": "Ilia's Charm",
@@ -1987,8 +1990,8 @@
               {
                 "name": "Golden Wolf",
                 "item_count": 1,
-                "chest_unopened_img": "images/Hidden Skill.png",
-                "chest_opened_img": "images/Hidden Skill (Disabled).png",
+                "chest_unopened_img": "images/golden_wolf.png",
+                "chest_opened_img": "images/golden_wolf_gray.png",
                 "access_rules": [
                   "sword,shield,$midna_desperate_hour,$north_castle_town_wolf"
                 ],

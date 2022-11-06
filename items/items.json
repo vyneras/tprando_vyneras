@@ -1,9 +1,27 @@
 [
   {
     "name": "Hero's Bow",
-    "type": "toggle",
-    "img": "images/bow.png",
-    "codes": "bow"
+    "type": "progressive",
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "images/bow.png",
+        "img_mods": "@disabled",
+        "codes": "bow"
+      },
+      {
+        "img": "images/bow.png",
+        "img_mods": "overlay|images/number_30_label.png"
+      },
+      {
+        "img": "images/bow.png",
+        "img_mods": "overlay|images/number_60_label.png"
+      },
+      {
+        "img": "images/bow.png",
+        "img_mods": "overlay|images/number_100_max_label.png"
+      }
+    ]
   },
   {
     "name": "Slingshot",
@@ -16,12 +34,6 @@
     "type": "toggle",
     "img": "images/gale_boomerang.png",
     "codes": "boomerang"
-  },
-  {
-    "name": "Bomb Bag",
-    "type": "toggle",
-    "img": "images/bomb_bag.png",
-    "codes": "bombs"
   },
   {
     "name": "Clawshot",

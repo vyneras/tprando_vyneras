@@ -11,10 +11,13 @@ ScriptHost:LoadScript("scripts/global.lua")
 ScriptHost:LoadScript("scripts/class.lua")
 ScriptHost:LoadScript("scripts/custom_item.lua")
 ScriptHost:LoadScript("scripts/key_setting.lua")
+ScriptHost:LoadScript("scripts/bomb_bag.lua")
 ScriptHost:LoadScript("scripts/logic.lua")
 
 KeySetting("Small Keys Shuffle", "small_keys_setting", "images/small_key_model.png")
 KeySetting("Big Keys Shuffle", "big_keys_setting", "images/big_key_model.png")
+
+BombBag()
 
 if has_map then
   Tracker:AddMaps("maps/maps.json")

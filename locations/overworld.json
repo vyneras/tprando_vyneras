@@ -2156,8 +2156,8 @@
               {
                 "name": "Iza's Raging Rapids Game",
                 "item_count": 1,
-                "chest_unopened_img": "images/giant_bomb_bag.png",
-                "chest_opened_img": "images/giant_bomb_bag_gray.png",
+                "chest_unopened_img": "images/giant_bomb_bag_model.png",
+                "chest_opened_img": "images/giant_bomb_bag_model_gray.png",
                 "access_rules": [
                   "$use_bow,sword",
                   "$use_bow,$shadow_beast,[transform_anywhere_on]"

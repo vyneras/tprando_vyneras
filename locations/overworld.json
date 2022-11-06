@@ -30,7 +30,7 @@
                   "fishing_rod"
                 ],
                 "visibility_rules": [
-                  "prologue_not_skipped"
+                  "prologue_not_skipped,npcs_on"
                 ]
               },
               {
@@ -1364,7 +1364,7 @@
                   "$use_bow,$dominion_rod_level:1"
                 ],
                 "visibility_rules": [
-                  "skys_on"
+                  "npcs_on"
                 ]
               },
               {

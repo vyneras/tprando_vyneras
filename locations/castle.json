@@ -30,6 +30,9 @@
         "chest_opened_img": "images/small_key_model_crossed.png",
         "access_rules": [
           "$hyrule_castle_outside_west_wing,$king_bulblin_castle"
+        ],
+        "visibility_rules": [
+          "npcs_on"
         ]
       },
       {

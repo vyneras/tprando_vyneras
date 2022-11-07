@@ -1432,8 +1432,8 @@
                 "item_count": 1,
                 "access_rules": [
                   "mines",
-                  "clawshot,[boots]",
-                  "clawshot,[wolf]"
+                  "clawshot,boots",
+                  "clawshot,wolf"
                 ]
               },
               {

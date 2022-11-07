@@ -580,7 +580,7 @@ end
 function goron_mines()
   if faron_field() and has("boots") and goron() then
     return true, AccessibilityLevel.Normal
-  elseif faron_field() and goron() and has("shield") and has("wrestling_skipped") then
+  elseif faron_field() and goron() and (has("shield") or has("magic")) and has("wrestling_skipped") then
     return true, AccessibilityLevel.SequenceBreak
   else
     return false, AccessibilityLevel.None

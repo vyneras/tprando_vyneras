@@ -3,8 +3,11 @@
 # Description
 Item and Map Tracker for The Legend of Zelda: Twilight Princess Randomizer for use with Emo Tracker
 
-# Setup
-Put the .zip in your EmoTracker/packs folder
+# Requirements
+Need to have EmoTracker installed
+
+# Installation
+Download the latest release and place the tprando_vyneras.zip in your Documents\EmoTracker\packs folder
 
 # Settings
 Select the cog symbol in the top left of the item layout to change the game settings the tracker is using

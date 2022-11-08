@@ -20,7 +20,13 @@ function bugs_held()
 end
 
 function burn_webs()
-  return has("lantern") or use_bombs()
+  if has("lantern") or use_bombs() then
+    return true, AccessibilityLevel.Normal
+  elseif has("ball_and_chain") then
+    return true, AccessibilityLevel.SequenceBreak
+  else
+    return false, AccessibilityLevel.None
+  end
 end
 
 function castle_painting()
@@ -38,7 +44,9 @@ function dominion_rod_level()
 end
 
 function free_all_monkeys()
-  return free_monkey() and (has("lantern") or (SMALL_KEYS_REMOVED and (use_bombs() or has("boots")))) and burn_webs() and has("boomerang") and bokoblin() and (forest_small_keys() >= 4)
+  local burn_webs, accessibility = burn_webs()
+
+  return free_monkey() and (has("lantern") or (SMALL_KEYS_REMOVED and (use_bombs() or has("boots")))) and burn_webs and has("boomerang") and bokoblin() and (forest_small_keys() >= 4), accessibility
 end
 
 function free_monkey()
@@ -534,7 +542,7 @@ function forest_temple_ook_room()
 
   if (forest_temple_lobby() and has("lantern") and (forest_small_keys() >= 4)) or (west_wing and (accessibility == AccessibilityLevel.Normal) and has("boomerang")) then
     return true, AccessibilityLevel.Normal
-  elseif (forest_temple_lobby() and has("lantern") and (forest_small_keys() >= 3)) or (west_wing and (accessibility == AccessibilityLevel.SequenceBreak) and has("boomerang")) then
+  elseif (forest_temple_lobby() and has("lantern") and (forest_small_keys() >= 3)) or (west_wing and has("boomerang")) then
     return true, AccessibilityLevel.SequenceBreak
   else
     return false, AccessibilityLevel.None
@@ -542,9 +550,11 @@ function forest_temple_ook_room()
 end
 
 function forest_temple_west_wing()
-  if forest_temple_lobby() and burn_webs() and (has("clawshot") or ((forest_small_keys() >= 2) and bokoblin())) then
+  local burn_webs, accessibility = burn_webs()
+
+  if forest_temple_lobby() and burn_webs and (accessibility == AccessibilityLevel.Normal) and (has("clawshot") or ((forest_small_keys() >= 2) and bokoblin())) then
     return true, AccessibilityLevel.Normal
-  elseif forest_temple_lobby() and burn_webs() and ((forest_small_keys() >= 1) and bokoblin()) then
+  elseif forest_temple_lobby() and  burn_webs and ((forest_small_keys() >= 1) and bokoblin()) then
     return true, AccessibilityLevel.SequenceBreak
   else
     return false, AccessibilityLevel.None
@@ -702,7 +712,7 @@ function lakebed_temple_boss_room()
 
   if central_room and (accessibility == AccessibilityLevel.Normal) and (lakebed_small_keys() >= 3) and launch_bombs() and has("clawshot") and lakebed_big_key() then
     return true, AccessibilityLevel.Normal
-  elseif central_room and (accessibility == AccessibilityLevel.SequenceBreak) and (lakebed_small_keys() >= 2) and launch_bombs() and has("clawshot") and lakebed_big_key() then
+  elseif central_room and (lakebed_small_keys() >= 2) and launch_bombs() and has("clawshot") and lakebed_big_key() then
     return true, AccessibilityLevel.SequenceBreak
   else
     return false, AccessibilityLevel.None
@@ -712,7 +722,13 @@ end
 function lakebed_temple_central_room()
   local lakebed_temple, accessibility = lakebed_temple()
 
-  return lakebed_temple and launch_bombs(), accessibility
+  if lakebed_temple and (accessibility == AccessibilityLevel.Normal) and launch_bombs() then
+    return true, AccessibilityLevel.Normal
+  elseif lakebed_temple and (launch_bombs() or has("wolf")) then
+    return true, AccessibilityLevel.SequenceBreak
+  else
+    return false, AccessibilityLevel.None
+  end
 end
 
 function lakebed_temple_east_wing_second_floor()
@@ -726,7 +742,7 @@ function lakebed_temple_west_wing()
 
   if central_room and (accessibility == AccessibilityLevel.Normal) and (lakebed_small_keys() >= 3) and smash() and has("clawshot") then
     return true, AccessibilityLevel.Normal
-  elseif central_room and (accessibility == AccessibilityLevel.SequenceBreak) and (lakebed_small_keys() >= 2) and smash() and has("clawshot") then
+  elseif central_room and (lakebed_small_keys() >= 2) and smash() and has("clawshot") then
     return true, AccessibilityLevel.SequenceBreak
   else
     return false, AccessibilityLevel.None
@@ -821,7 +837,7 @@ function snowpeak_ruins_boss_room()
 
   if west_courtyard and (accessibility == AccessibilityLevel.Normal) and (ruins_small_keys() >= 4) and ruins_cheese() and has("ball_and_chain") and use_bombs() and ruins_big_key() then
     return true, AccessibilityLevel.Normal
-  elseif west_courtyard and (accessibility == AccessibilityLevel.SequenceBreak) and (ruins_small_keys() >= 2) and ruins_cheese() and has("ball_and_chain") and use_bombs() and ruins_big_key() then
+  elseif west_courtyard and (ruins_small_keys() >= 2) and ruins_cheese() and has("ball_and_chain") and use_bombs() and ruins_big_key() then
     return true, AccessibilityLevel.SequenceBreak
   else
     return false, AccessibilityLevel.None
@@ -837,7 +853,7 @@ function snowpeak_ruins_chapel()
 
   if west_courtyard and (accessibility == AccessibilityLevel.Normal) and (ruins_small_keys() >= 4) and ruins_cheese() and has("ball_and_chain") and use_bombs() then
     return true, AccessibilityLevel.Normal
-  elseif west_courtyard and (accessibility == AccessibilityLevel.SequenceBreak) and (ruins_small_keys() >= 2) and ruins_cheese() and has("ball_and_chain") and use_bombs() then
+  elseif west_courtyard and (ruins_small_keys() >= 2) and ruins_cheese() and has("ball_and_chain") and use_bombs() then
     return true, AccessibilityLevel.SequenceBreak
   else
     return false, AccessibilityLevel.None
@@ -865,7 +881,7 @@ function snowpeak_ruins_darkhammer_room()
 
   if west_courtyard and (accessibility == AccessibilityLevel.Normal) and (has("ball_and_chain") or (((ruins_small_keys() >= 2) or ruins_cheese()) and use_bombs())) then
     return true, AccessibilityLevel.Normal
-  elseif west_courtyard and (accessibility == AccessibilityLevel.SequenceBreak) and (has("ball_and_chain") or (((ruins_small_keys() >= 1) or ruins_cheese()) and use_bombs())) then
+  elseif west_courtyard and (has("ball_and_chain") or (((ruins_small_keys() >= 1) or ruins_cheese()) and use_bombs())) then
     return true, AccessibilityLevel.SequenceBreak
   else
     return false, AccessibilityLevel.None
@@ -891,7 +907,7 @@ function snowpeak_ruins_west_cannon_room()
 
   if (west_courtyard and (accessibility == AccessibilityLevel.Normal)) or (snowpeak_ruins_caged_freezard_room() and has("ball_and_chain")) then
     return true, AccessibilityLevel.Normal
-  elseif west_courtyard and (accessibility == AccessibilityLevel.SequenceBreak) then
+  elseif west_courtyard then
     return true, AccessibilityLevel.SequenceBreak
   else
     return false, AccessibilityLevel.None
@@ -913,7 +929,7 @@ function snowpeak_ruins_wooden_beam_room()
 
   if (west_cannon_room and (accessibility == AccessibilityLevel.Normal) and smash()) or (snowpeak_ruins_caged_freezard_room() and has("ball_and_chain")) then
     return true, AccessibilityLevel.Normal
-  elseif west_cannon_room and (accessibility == AccessibilityLevel.SequenceBreak) and smash() then
+  elseif west_cannon_room and smash() then
     return true, AccessibilityLevel.SequenceBreak
   else
     return false, AccessibilityLevel.None

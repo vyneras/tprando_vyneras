@@ -2173,7 +2173,7 @@
                 "name": " Female Dragonfly",
                 "item_count": 1,
                 "chest_unopened_img": "images/female_dragonfly.png",
-                "chest_opened_img": "images/female_dragonfly_model.png",
+                "chest_opened_img": "images/female_dragonfly_gray.png",
                 "visibility_rules": [
                   "bugs_on"
                 ]
@@ -2514,7 +2514,7 @@
             "name": "East Lake Hylia",
             "sections": [
               {
-                "name": "Plumm's Fruit Pop",
+                "name": "Plumm's Fruit Balloon Heart Piece",
                 "item_count": 1,
                 "chest_unopened_img": "images/heart_piece_model.png",
                 "chest_opened_img": "images/heart_piece_model_gray.png",

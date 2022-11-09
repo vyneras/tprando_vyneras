@@ -11,6 +11,10 @@ function has(item, amount)
   end
 end
 
+function accessibility_normal(accessibility)
+  return accessibility == AccessibilityLevel.Normal
+end
+
 -- Items
 function bugs_held()
   local bugs = Tracker:FindObjectForCode("bugs")
@@ -540,7 +544,7 @@ end
 function forest_temple_ook_room()
   local west_wing, accessibility = forest_temple_west_wing()
 
-  if (forest_temple_lobby() and has("lantern") and (forest_small_keys() >= 4)) or (west_wing and (accessibility == AccessibilityLevel.Normal) and has("boomerang")) then
+  if (forest_temple_lobby() and has("lantern") and (forest_small_keys() >= 4)) or (west_wing and accessibility_normal(accessibility) and has("boomerang")) then
     return true, AccessibilityLevel.Normal
   elseif (forest_temple_lobby() and has("lantern") and (forest_small_keys() >= 3)) or (west_wing and has("boomerang")) then
     return true, AccessibilityLevel.SequenceBreak
@@ -552,7 +556,7 @@ end
 function forest_temple_west_wing()
   local burn_webs, accessibility = burn_webs()
 
-  if forest_temple_lobby() and burn_webs and (accessibility == AccessibilityLevel.Normal) and (has("clawshot") or ((forest_small_keys() >= 2) and bokoblin())) then
+  if forest_temple_lobby() and burn_webs and accessibility_normal(accessibility) and (has("clawshot") or ((forest_small_keys() >= 2) and bokoblin())) then
     return true, AccessibilityLevel.Normal
   elseif forest_temple_lobby() and  burn_webs and ((forest_small_keys() >= 1) and bokoblin()) then
     return true, AccessibilityLevel.SequenceBreak
@@ -704,13 +708,19 @@ end
 function lakebed_temple()
   local heavy, accessibility = heavy()
 
-  return lanayru_field() and has("zora") and (has("lakebed_skipped") or (heavy and use_water_bombs())), accessibility
+  if lanayru_field() and has("zora") and (has("lakebed_skipped") or (heavy and accessibility_normal(accessibility) and use_water_bombs())) then
+    return true, AccessibilityLevel.Normal
+  else if lanayru_field() and has("zora") and heavy and use_water_bombs() then
+    return true, AccessibilityLevel.SequenceBreak
+  else
+    return false, AccessibilityLevel.None
+  end
 end
 
 function lakebed_temple_boss_room()
   local central_room, accessibility = lakebed_temple_central_room()
 
-  if central_room and (accessibility == AccessibilityLevel.Normal) and (lakebed_small_keys() >= 3) and launch_bombs() and has("clawshot") and lakebed_big_key() then
+  if central_room and accessibility_normal(accessibility) and (lakebed_small_keys() >= 3) and launch_bombs() and has("clawshot") and lakebed_big_key() then
     return true, AccessibilityLevel.Normal
   elseif central_room and (lakebed_small_keys() >= 2) and launch_bombs() and has("clawshot") and lakebed_big_key() then
     return true, AccessibilityLevel.SequenceBreak
@@ -722,7 +732,7 @@ end
 function lakebed_temple_central_room()
   local lakebed_temple, accessibility = lakebed_temple()
 
-  if lakebed_temple and (accessibility == AccessibilityLevel.Normal) and launch_bombs() then
+  if lakebed_temple and accessibility_normal(accessibility) and launch_bombs() then
     return true, AccessibilityLevel.Normal
   elseif lakebed_temple and (launch_bombs() or has("wolf")) then
     return true, AccessibilityLevel.SequenceBreak
@@ -740,7 +750,7 @@ end
 function lakebed_temple_west_wing()
   local central_room, accessibility = lakebed_temple_central_room() 
 
-  if central_room and (accessibility == AccessibilityLevel.Normal) and (lakebed_small_keys() >= 3) and smash() and has("clawshot") then
+  if central_room and accessibility_normal(accessibility) and (lakebed_small_keys() >= 3) and smash() and has("clawshot") then
     return true, AccessibilityLevel.Normal
   elseif central_room and (lakebed_small_keys() >= 2) and smash() and has("clawshot") then
     return true, AccessibilityLevel.SequenceBreak
@@ -835,7 +845,7 @@ end
 function snowpeak_ruins_boss_room()
   local west_courtyard, accessibility = snowpeak_ruins_west_courtyard()
 
-  if west_courtyard and (accessibility == AccessibilityLevel.Normal) and (ruins_small_keys() >= 4) and ruins_cheese() and has("ball_and_chain") and use_bombs() and ruins_big_key() then
+  if west_courtyard and accessibility_normal(accessibility) and (ruins_small_keys() >= 4) and ruins_cheese() and has("ball_and_chain") and use_bombs() and ruins_big_key() then
     return true, AccessibilityLevel.Normal
   elseif west_courtyard and (ruins_small_keys() >= 2) and ruins_cheese() and has("ball_and_chain") and use_bombs() and ruins_big_key() then
     return true, AccessibilityLevel.SequenceBreak
@@ -851,7 +861,7 @@ end
 function snowpeak_ruins_chapel()
   local west_courtyard, accessibility = snowpeak_ruins_west_courtyard()
 
-  if west_courtyard and (accessibility == AccessibilityLevel.Normal) and (ruins_small_keys() >= 4) and ruins_cheese() and has("ball_and_chain") and use_bombs() then
+  if west_courtyard and accessibility_normal(accessibility) and (ruins_small_keys() >= 4) and ruins_cheese() and has("ball_and_chain") and use_bombs() then
     return true, AccessibilityLevel.Normal
   elseif west_courtyard and (ruins_small_keys() >= 2) and ruins_cheese() and has("ball_and_chain") and use_bombs() then
     return true, AccessibilityLevel.SequenceBreak
@@ -879,7 +889,7 @@ end
 function snowpeak_ruins_darkhammer_room()
   local west_courtyard, accessibility = snowpeak_ruins_west_courtyard()
 
-  if west_courtyard and (accessibility == AccessibilityLevel.Normal) and (has("ball_and_chain") or (((ruins_small_keys() >= 2) or ruins_cheese()) and use_bombs())) then
+  if west_courtyard and accessibility_normal(accessibility) and (has("ball_and_chain") or (((ruins_small_keys() >= 2) or ruins_cheese()) and use_bombs())) then
     return true, AccessibilityLevel.Normal
   elseif west_courtyard and (has("ball_and_chain") or (((ruins_small_keys() >= 1) or ruins_cheese()) and use_bombs())) then
     return true, AccessibilityLevel.SequenceBreak
@@ -905,7 +915,7 @@ end
 function snowpeak_ruins_west_cannon_room()
   local west_courtyard, accessibility = snowpeak_ruins_west_courtyard()
 
-  if (west_courtyard and (accessibility == AccessibilityLevel.Normal)) or (snowpeak_ruins_caged_freezard_room() and has("ball_and_chain")) then
+  if (west_courtyard and accessibility_normal(accessibility)) or (snowpeak_ruins_caged_freezard_room() and has("ball_and_chain")) then
     return true, AccessibilityLevel.Normal
   elseif west_courtyard then
     return true, AccessibilityLevel.SequenceBreak
@@ -927,7 +937,7 @@ end
 function snowpeak_ruins_wooden_beam_room()
   local west_cannon_room, accessibility = snowpeak_ruins_west_cannon_room()
 
-  if (west_cannon_room and (accessibility == AccessibilityLevel.Normal) and smash()) or (snowpeak_ruins_caged_freezard_room() and has("ball_and_chain")) then
+  if (west_cannon_room and accessibility_normal(accessibility) and smash()) or (snowpeak_ruins_caged_freezard_room() and has("ball_and_chain")) then
     return true, AccessibilityLevel.Normal
   elseif west_cannon_room and smash() then
     return true, AccessibilityLevel.SequenceBreak

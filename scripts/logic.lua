@@ -710,7 +710,7 @@ function lakebed_temple()
 
   if lanayru_field() and has("zora") and (has("lakebed_skipped") or (heavy and accessibility_normal(accessibility) and use_water_bombs())) then
     return true, AccessibilityLevel.Normal
-  else if lanayru_field() and has("zora") and heavy and use_water_bombs() then
+  elseif lanayru_field() and has("zora") and heavy and use_water_bombs() then
     return true, AccessibilityLevel.SequenceBreak
   else
     return false, AccessibilityLevel.None

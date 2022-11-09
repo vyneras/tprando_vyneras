@@ -79,8 +79,8 @@
         "name": "Outside Clawshot Chest",
         "item_count": 1,
         "access_rules": [
-          "clawshot,$use_bow",
-          "clawshot,slingshot"
+          "$goron_mines_north_wing,clawshot,$use_bow",
+          "$goron_mines_north_wing,clawshot,slingshot"
         ]
       },
       {

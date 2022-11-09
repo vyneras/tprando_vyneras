@@ -6,12 +6,12 @@
     "stages": [
       {
         "img": "images/bow.png",
-        "img_mods": "@disabled",
-        "codes": "bow"
+        "img_mods": "@disabled"
       },
       {
         "img": "images/bow.png",
-        "img_mods": "overlay|images/number_30_label.png"
+        "img_mods": "overlay|images/number_30_label.png",
+        "codes": "bow"
       },
       {
         "img": "images/bow.png",

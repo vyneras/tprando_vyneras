@@ -39,13 +39,22 @@
             {
               "type": "group",
               "header": "Pinned Locations",
+              "max_width": 370,
               "content": {
-                "type": "recentpins",
-                "style": "wrap",
-                "h_alignment": "stretch",
-                "v_alignment": "stretch",
-                "orientation": "vertical",
-                "compact": true
+                "type": "scroll",
+                "horizontal_scrollbar_visibility": "disabled",
+                "vertical_scrollbar_visibility": "hidden",
+                "content": [
+                  {
+                    "type": "recentpins",
+                    "style": "wrap",
+                    "h_alignment": "left",
+                    "v_alignment": "top",
+                    "orientation": "horizontal",
+                    "compact": true
+                  }
+                ]
+                
               }
             }
           ]
@@ -112,11 +121,22 @@
             {
               "type": "group",
               "header": "Pinned Locations",
+              "max_height": 190,
               "content": {
-                "style": "wrap",
-                "type": "recentpins",
-                "orientation": "horizontal",
-                "compact": true
+                "type": "scroll",
+                "horizontal_scrollbar_visibility": "disabled",
+                "vertical_scrollbar_visibility": "hidden",
+                "content": [
+                  {
+                    "type": "recentpins",
+                    "style": "wrap",
+                    "h_alignment": "left",
+                    "v_alignment": "top",
+                    "orientation": "horizontal",
+                    "compact": true
+                  }
+                ]
+                
               }
             }
           ]

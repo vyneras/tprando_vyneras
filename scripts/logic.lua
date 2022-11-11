@@ -24,13 +24,7 @@ function bugs_held()
 end
 
 function burn_webs()
-  if has("lantern") or use_bombs() then
-    return true, AccessibilityLevel.Normal
-  elseif has("ball_and_chain") then
-    return true, AccessibilityLevel.SequenceBreak
-  else
-    return false, AccessibilityLevel.None
-  end
+  return has("lantern") or use_bombs() or has("ball_and_chain")
 end
 
 function castle_painting()
@@ -48,9 +42,7 @@ function dominion_rod_level()
 end
 
 function free_all_monkeys()
-  local burn_webs, accessibility = burn_webs()
-
-  return free_monkey() and (has("lantern") or (SMALL_KEYS_REMOVED and (use_bombs() or has("boots")))) and burn_webs and has("boomerang") and bokoblin() and (forest_small_keys() >= 4), accessibility
+  return free_monkey() and (has("lantern") or (SMALL_KEYS_REMOVED and (use_bombs() or has("boots")))) and burn_webs() and has("boomerang") and bokoblin() and (forest_small_keys() >= 4)
 end
 
 function free_monkey()
@@ -554,11 +546,9 @@ function forest_temple_ook_room()
 end
 
 function forest_temple_west_wing()
-  local burn_webs, accessibility = burn_webs()
-
-  if forest_temple_lobby() and burn_webs and accessibility_normal(accessibility) and (has("clawshot") or ((forest_small_keys() >= 2) and bokoblin())) then
+  if forest_temple_lobby() and burn_webs() and (has("clawshot") or ((forest_small_keys() >= 2) and bokoblin())) then
     return true, AccessibilityLevel.Normal
-  elseif forest_temple_lobby() and  burn_webs and ((forest_small_keys() >= 1) and bokoblin()) then
+  elseif forest_temple_lobby() and  burn_webs() and ((forest_small_keys() >= 1) and bokoblin()) then
     return true, AccessibilityLevel.SequenceBreak
   else
     return false, AccessibilityLevel.None

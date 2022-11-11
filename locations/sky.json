@@ -27,7 +27,7 @@
         "name": "East Wing Lower Level Chest",
         "item_count": 1,
         "access_rules": [
-          "$city_in_the_sky_east_wing,double_clawshot"
+          "$city_in_the_sky_east_wing,double_clawshot,$dinalfos,$tile_worm"
         ]
       },
       {
@@ -55,7 +55,7 @@
         "name": "Aeralfos Chest",
         "item_count": 1,
         "access_rules": [
-          "$city_in_the_sky_east_wing,$aeralfos,clawshot,boots,$dinalfos"
+          "$city_in_the_sky_east_wing,$aeralfos,clawshot,boots,$dinalfos,$tile_worm"
         ]
       },
       {

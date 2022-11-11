@@ -63,14 +63,15 @@
         "name": "East Water Supply Small Chest",
         "item_count": 1,
         "access_rules": [
-          "$lakebed_temple_east_wing_second_floor,$lakebed_small_keys:2,[$lakebed_small_keys:3]"
+          "$lakebed_temple_east_wing_second_floor,$lakebed_small_keys:2,[$lakebed_small_keys:3],clawshot,$smash,boots",
+          "$lakebed_temple_east_wing_second_floor,$lakebed_small_keys:2,[$lakebed_small_keys:3],$launch_bombs,$smash,boots"
         ]
       },
       {
         "name": "East Water Supply Clawshot Chest",
         "item_count": 1,
         "access_rules": [
-          "$lakebed_temple_east_wing_second_floor,$lakebed_small_keys:2,[$lakebed_small_keys:3],clawshot,$launch_bombs"
+          "$lakebed_temple_east_wing_second_floor,$lakebed_small_keys:2,[$lakebed_small_keys:3],clawshot,$smash,boots"
         ]
       },
       {
@@ -130,14 +131,14 @@
         "name": "West Water Supply Small Chest",
         "item_count": 1,
         "access_rules": [
-          "$lakebed_temple_west_wing,clawshot,$launch_bombs"
+          "$lakebed_temple_west_wing,clawshot,$launch_bombs,boots"
         ]
       },
       {
         "name": "West Water Supply Chest",
         "item_count": 1,
         "access_rules": [
-          "$lakebed_temple_west_wing,clawshot,$launch_bombs"
+          "$lakebed_temple_west_wing,clawshot,$launch_bombs,boots"
         ]
       },
       {

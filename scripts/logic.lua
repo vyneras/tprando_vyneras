@@ -817,7 +817,7 @@ function sacred_grove()
 end
 
 function sacred_grove_arena()
-  return has("grove_skipped") or (skull_kid() and has("wolf"))
+  return sacred_grove() and (has("grove_skipped") or (skull_kid() and has("wolf")))
 end
 
 function sacred_grove_baba_serpent_grotto()

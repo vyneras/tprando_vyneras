@@ -5,6 +5,7 @@
     "content": [
       {
         "type": "itemgrid",
+        "item_size": 120,
         "h_alignment": "center",
         "item_margin": "1,2",
         "rows": [
@@ -15,7 +16,8 @@
             "slingshot",
             "boomerang",
             "bow",
-            "hawkeye"
+            "hawkeye",
+            "blank"
           ],
           [
             "lantern",
@@ -24,7 +26,8 @@
             "clawshot",
             "spinner",
             "dominion_rod",
-            "ball_and_chain"
+            "ball_and_chain",
+            "blank"
           ],
           [
             "zora",
@@ -33,16 +36,18 @@
             "memo",
             "sketch",
             "letter",
-            "pumpkin"
+            "wallet",
+            "heart_container"
           ],
           [
-            "wallet",
             "bottle",
             "skybook",
             "skills",
             "bugs",
             "poe_souls",
-            "cheese"
+            "pumpkin",
+            "cheese",
+            "heart_piece"
           ]
         ]
       }
@@ -54,6 +59,7 @@
     "content": [
       {
         "type": "itemgrid",
+        "item_size": 120,
         "h_alignment": "center",
         "item_margin": "1,2",
         "rows": [
@@ -101,6 +107,7 @@
     "content": [
       {
         "type": "itemgrid",
+        "item_size": 120,
         "h_alignment": "center",
         "item_margin": "1,2",
         "rows": [
@@ -124,6 +131,7 @@
         "content": [
           {
             "type": "itemgrid",
+            "item_size": 120,
             "h_alignment": "center",
             "item_margin": "1,2",
             "rows": [
@@ -183,6 +191,7 @@
     "content": [
       {
         "type": "itemgrid",
+        "item_size": 120,
         "h_alignment": "center",
         "item_margin": "1,2",
         "rows": [
@@ -229,6 +238,7 @@
     "content": [
       {
         "type": "itemgrid",
+        "item_size": 120,
         "h_alignment": "center",
         "item_margin": "1,2",
         "rows": [
@@ -252,6 +262,7 @@
         "content": [
           {
             "type": "itemgrid",
+            "item_size": 120,
             "h_alignment": "center",
             "item_margin": "1,2",
             "rows": [
@@ -300,6 +311,7 @@
     "content": [
       {
         "type": "itemgrid",
+        "item_size": 120,
         "h_alignment": "center",
         "item_margin": "1,2",
         "rows": [
@@ -335,6 +347,8 @@
     "content": [
       {
         "type": "itemgrid",
+        "item_size": 120,
+        "scale": 0.4,
         "h_alignment": "center",
         "item_margin": "5",
         "rows": [

@@ -2525,8 +2525,7 @@
                 "name": "Auru's Memo",
                 "item_count": 1,
                 "chest_unopened_img": "images/memo_or_sketch_model.png",
-                "chest_opened_img": "images/memo_or_sketch_model_gray.png",
-                "access_rules": [ "lanayru_skipped" ]
+                "chest_opened_img": "images/memo_or_sketch_model_gray.png"
               },
               {
                 "name": "Poe",

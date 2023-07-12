@@ -1,11 +1,10 @@
 {
   "tracker_broadcast": {
     "type": "container",
-    "width": 370,
-    "background": "#212121",
+    "background": "#FF00FF",
     "content": {
       "type": "dock",
-      "dropshadow": true,
+      "dropshadow": false,
       "content": [
         {
           "type": "group",

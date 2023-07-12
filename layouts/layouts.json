@@ -8,6 +8,7 @@
         {
           "type": "dock",
           "dock": "left",
+          "max_width": 370,
           "v_alignment": "stretch",
           "margin": "0,0,3,0",
           "dropshadow": true,
@@ -23,6 +24,7 @@
                 "layout": "settings"
               },
               "content": {
+                "scale": 0.4,
                 "type": "layout",
                 "key": "item_grid_container"
               }
@@ -32,6 +34,7 @@
               "header": "Dungeons",
               "dock": "top",
               "content": {
+                "scale": 0.28,
                 "type": "layout",
                 "key": "dungeon_grid_container"
               }
@@ -39,7 +42,6 @@
             {
               "type": "group",
               "header": "Pinned Locations",
-              "max_width": 370,
               "content": {
                 "type": "scroll",
                 "horizontal_scrollbar_visibility": "disabled",
@@ -92,6 +94,7 @@
         {
           "type": "dock",
           "dock": "bottom",
+          "max_height": 240,
           "dropshadow": true,
           "content": [
             {
@@ -105,6 +108,7 @@
                 "layout": "settings"
               },
               "content": {
+                "scale": 0.4,
                 "type": "layout",
                 "key": "item_grid_container"
               }
@@ -114,6 +118,7 @@
               "header": "Dungeons",
               "dock": "left",
               "content": {
+                "scale": 0.4,
                 "type": "layout",
                 "key": "dungeon_grid_container"
               }
@@ -121,7 +126,6 @@
             {
               "type": "group",
               "header": "Pinned Locations",
-              "max_height": 190,
               "content": {
                 "type": "scroll",
                 "horizontal_scrollbar_visibility": "disabled",

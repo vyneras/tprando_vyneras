@@ -499,5 +499,253 @@
     "type": "toggle",
     "img": "images/triforce.png",
     "codes": "triforce"
+  },
+  {
+    "name": "Petty Rupee",
+    "type": "toggle",
+    "img": "images/rupee_low.png",
+    "codes": "rupee,rupee_low"
+  },
+  {
+    "name": "Grand Rupee",
+    "type": "toggle",
+    "img": "images/rupee_high.png",
+    "codes": "rupee_high"
+  },
+  {
+    "name": "Heart Container",
+    "type": "progressive",
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "images/heart_container.png",
+        "img_mods": "@disabled",
+        "codes": "heart_container"
+      },
+      {
+        "img": "images/heart_container.png",
+        "img_mods": "overlay|images/number_1_label.png"
+      },
+      {
+        "img": "images/heart_container.png",
+        "img_mods": "overlay|images/number_2_label.png"
+      },
+      {
+        "img": "images/heart_container.png",
+        "img_mods": "overlay|images/number_3_label.png"
+      },
+      {
+        "img": "images/heart_container.png",
+        "img_mods": "overlay|images/number_4_label.png"
+      },
+      {
+        "img": "images/heart_container.png",
+        "img_mods": "overlay|images/number_5_label.png"
+      },
+      {
+        "img": "images/heart_container.png",
+        "img_mods": "overlay|images/number_6_label.png"
+      },
+      {
+        "img": "images/heart_container.png",
+        "img_mods": "overlay|images/number_7_label.png"
+      },
+      {
+        "img": "images/heart_container.png",
+        "img_mods": "overlay|images/number_8_max_label.png"
+      }
+    ] 
+  },
+  {
+    "name": "Heart Piece",
+    "type": "progressive",
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "images/heart_piece.png",
+        "img_mods": "@disabled",
+        "codes": "heart_piece"
+      },
+      {
+        "img": "images/heart_piece.png",
+        "img_mods": "overlay|images/number_1_label.png"
+      },
+      {
+        "img": "images/heart_piece.png",
+        "img_mods": "overlay|images/number_2_label.png"
+      },
+      {
+        "img": "images/heart_piece.png",
+        "img_mods": "overlay|images/number_3_label.png"
+      },
+      {
+        "img": "images/heart_piece.png",
+        "img_mods": "overlay|images/number_4_label.png"
+      },
+      {
+        "img": "images/heart_piece.png",
+        "img_mods": "overlay|images/number_5_label.png"
+      },
+      {
+        "img": "images/heart_piece.png",
+        "img_mods": "overlay|images/number_6_label.png"
+      },
+      {
+        "img": "images/heart_piece.png",
+        "img_mods": "overlay|images/number_7_label.png"
+      },
+      {
+        "img": "images/heart_piece.png",
+        "img_mods": "overlay|images/number_8_label.png"
+      },
+      {
+        "img": "images/heart_piece.png",
+        "img_mods": "overlay|images/number_9_label.png"
+      },
+      {
+        "img": "images/heart_piece.png",
+        "img_mods": "overlay|images/number_10_label.png"
+      },
+      {
+        "img": "images/heart_piece.png",
+        "img_mods": "overlay|images/number_11_label.png"
+      },
+      {
+        "img": "images/heart_piece.png",
+        "img_mods": "overlay|images/number_12_label.png"
+      },
+      {
+        "img": "images/heart_piece.png",
+        "img_mods": "overlay|images/number_13_label.png"
+      },
+      {
+        "img": "images/heart_piece.png",
+        "img_mods": "overlay|images/number_14_label.png"
+      },
+      {
+        "img": "images/heart_piece.png",
+        "img_mods": "overlay|images/number_15_label.png"
+      },
+      {
+        "img": "images/heart_piece.png",
+        "img_mods": "overlay|images/number_16_label.png"
+      },
+      {
+        "img": "images/heart_piece.png",
+        "img_mods": "overlay|images/number_17_label.png"
+      },
+      {
+        "img": "images/heart_piece.png",
+        "img_mods": "overlay|images/number_18_label.png"
+      },
+      {
+        "img": "images/heart_piece.png",
+        "img_mods": "overlay|images/number_19_label.png"
+      },
+      {
+        "img": "images/heart_piece.png",
+        "img_mods": "overlay|images/number_20_label.png"
+      },
+      {
+        "img": "images/heart_piece.png",
+        "img_mods": "overlay|images/number_21_label.png"
+      },
+      {
+        "img": "images/heart_piece.png",
+        "img_mods": "overlay|images/number_22_label.png"
+      },
+      {
+        "img": "images/heart_piece.png",
+        "img_mods": "overlay|images/number_23_label.png"
+      },
+      {
+        "img": "images/heart_piece.png",
+        "img_mods": "overlay|images/number_24_label.png"
+      },
+      {
+        "img": "images/heart_piece.png",
+        "img_mods": "overlay|images/number_25_label.png"
+      },
+      {
+        "img": "images/heart_piece.png",
+        "img_mods": "overlay|images/number_26_label.png"
+      },
+      {
+        "img": "images/heart_piece.png",
+        "img_mods": "overlay|images/number_27_label.png"
+      },
+      {
+        "img": "images/heart_piece.png",
+        "img_mods": "overlay|images/number_28_label.png"
+      },
+      {
+        "img": "images/heart_piece.png",
+        "img_mods": "overlay|images/number_29_label.png"
+      },
+      {
+        "img": "images/heart_piece.png",
+        "img_mods": "overlay|images/number_30_label.png"
+      },
+      {
+        "img": "images/heart_piece.png",
+        "img_mods": "overlay|images/number_31_label.png"
+      },
+      {
+        "img": "images/heart_piece.png",
+        "img_mods": "overlay|images/number_32_label.png"
+      },
+      {
+        "img": "images/heart_piece.png",
+        "img_mods": "overlay|images/number_33_label.png"
+      },
+      {
+        "img": "images/heart_piece.png",
+        "img_mods": "overlay|images/number_34_label.png"
+      },
+      {
+        "img": "images/heart_piece.png",
+        "img_mods": "overlay|images/number_35_label.png"
+      },
+      {
+        "img": "images/heart_piece.png",
+        "img_mods": "overlay|images/number_36_label.png"
+      },
+      {
+        "img": "images/heart_piece.png",
+        "img_mods": "overlay|images/number_37_label.png"
+      },
+      {
+        "img": "images/heart_piece.png",
+        "img_mods": "overlay|images/number_38_label.png"
+      },
+      {
+        "img": "images/heart_piece.png",
+        "img_mods": "overlay|images/number_39_label.png"
+      },
+      {
+        "img": "images/heart_piece.png",
+        "img_mods": "overlay|images/number_40_label.png"
+      },
+      {
+        "img": "images/heart_piece.png",
+        "img_mods": "overlay|images/number_41_label.png"
+      },
+      {
+        "img": "images/heart_piece.png",
+        "img_mods": "overlay|images/number_42_label.png"
+      },
+      {
+        "img": "images/heart_piece.png",
+        "img_mods": "overlay|images/number_43_label.png"
+      },
+      {
+        "img": "images/heart_piece.png",
+        "img_mods": "overlay|images/number_44_label.png"
+      },
+      {
+        "img": "images/heart_piece.png",
+        "img_mods": "overlay|images/number_45_max_label.png"
+      }
+    ]
   }
 ]

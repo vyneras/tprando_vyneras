@@ -3,6 +3,8 @@
     "type": "container",
     "content": {
       "type": "itemgrid",
+      "item_size": 120,
+      "scale": 0.3,
       "h_alignment": "center",
       "item_margin": "1,2",
       "rows": [
@@ -14,7 +16,8 @@
           "slingshot",
           "boomerang",
           "bow",
-          "hawkeye"
+          "hawkeye",
+          "rupee_low"
         ],
         [
           "lantern",
@@ -24,7 +27,8 @@
           "dominion_rod",
           "ball_and_chain",
           "pumpkin",
-          "cheese"
+          "cheese",
+          "rupee_high"
         ],
         [
           "fishing_rod",
@@ -34,7 +38,8 @@
           "memo",
           "sketch",
           "small_key",
-          "big_key"
+          "big_key",
+          "heart_container"
         ],
         [
           "wallet",
@@ -44,7 +49,8 @@
           "bugs",
           "poe_souls",
           "mines_big_key",
-          "ruins_big_key"
+          "ruins_big_key",
+          "heart_piece"
         ]
       ]
     }

@@ -87,6 +87,12 @@ function poe_souls()
   return poe_souls.CurrentStage
 end
 
+function ending_blow()
+  local skills = Tracker:FindObjectForCode("skills")
+
+  return skills.CurrentStage < 1
+end
+
 function ranged()
   return has("ball_and_chain") or has("slingshot") or use_bow() or has("clawshot") or has("boomerang")
 end

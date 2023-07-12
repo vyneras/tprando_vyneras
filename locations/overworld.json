@@ -34,7 +34,7 @@
                 ]
               },
               {
-                "name": "Slingshot Purchase",
+                "name": "Slingshot Purchase (30)",
                 "item_count": 1,
                 "capture_item": true,
                 "chest_unopened_img": "images/slingshot_model.png",
@@ -255,7 +255,7 @@
             "name": "Coro",
             "sections": [
               {
-                "name": "Bottle Purchase",
+                "name": "Bottle Purchase (100)",
                 "item_count": 1,
                 "chest_unopened_img": "images/bottle_model.png",
                 "chest_opened_img": "images/bottle_model_gray.png",
@@ -339,6 +339,14 @@
                 "visibility_rules": [
                   "skills_on"
                 ]
+              },
+              {
+                "name": "Ending Blow",
+                "item_count": 1,
+                "access_rules": [ "wolf" ],
+                "visibility_rules": [ "skills_off,$ending_blow" ],
+                "chest_unopened_img": "images/howling_stone.png",
+                "chest_opened_img": "images/holwing_stone_gray.png"
               }
             ],
             "map_locations": [
@@ -883,7 +891,7 @@
                 "item_count": 1
               },
               {
-                "name": "Hawkeye Purchase",
+                "name": "Hawkeye Purchase (100)",
                 "item_count": 1,
                 "capture_item": true,
                 "chest_unopened_img": "images/hawkeye_model.png",
@@ -896,7 +904,7 @@
                 ]
               },
               {
-                "name": "Hylian Shield Purchase",
+                "name": "Hylian Shield Purchase (200)",
                 "capture_item": true,
                 "chest_unopened_img": "images/hylian_shield_model.png",
                 "chest_opened_img": "images/hylian_shield_model_gray.png",
@@ -906,12 +914,12 @@
                 ]
               },
               {
-                "name": "Bomb Bag Purchase",
+                "name": "Bomb Bag Purchase (120)",
                 "item_count": 1,
                 "chest_unopened_img": "images/bomb_bag_model.png",
                 "chest_opened_img": "images/bomb_bag_model_gray.png",
-                "visibility_rules": [
-                  "npcs_on"
+                "access_rules": [
+                  "eldin_skipped"
                 ]
               },
               {
@@ -1008,9 +1016,6 @@
                 "chest_opened_img": "images/zora_armor_model_gray.png",
                 "access_rules": [
                   "$gate_keys"
-                ],
-                "visibility_rules": [
-                  "npcs_on"
                 ]
               },
               {
@@ -1020,9 +1025,6 @@
                 "chest_opened_img": "images/coral_earring_gray.png",
                 "access_rules": [
                   "sketch,$gate_keys"
-                ],
-                "visibility_rules": [
-                  "npcs_on"
                 ]
               },
               {
@@ -1141,7 +1143,7 @@
             "name": "Eldin Field Castle Town Bridge",
             "sections": [
               {
-                "name": "Goron Springwater Rush Heart Piece",
+                "name": "Goron Springwater Rush (1000 to Malo Mart in Kak)",
                 "item_count": 1,
                 "chest_unopened_img": "images/heart_piece_model.png",
                 "chest_opened_img": "images/heart_piece_model_gray.png",
@@ -1405,6 +1407,14 @@
                 "visibility_rules": [
                   "skills_on"
                 ]
+              },
+              {
+                "name": "Ending Blow",
+                "item_count": 1,
+                "access_rules": [ "wolf" ],
+                "visibility_rules": [ "skills_off,$ending_blow" ],
+                "chest_unopened_img": "images/howling_stone.png",
+                "chest_opened_img": "images/holwing_stone_gray.png"
               }
             ],
             "map_locations": [
@@ -1459,6 +1469,14 @@
                 "visibility_rules": [
                   "skills_on"
                 ]
+              },
+              {
+                "name": "Ending Blow",
+                "item_count": 1,
+                "access_rules": [ "wolf" ],
+                "visibility_rules": [ "skills_off,$ending_blow" ],
+                "chest_unopened_img": "images/howling_stone.png",
+                "chest_opened_img": "images/holwing_stone_gray.png"
               }
             ],
             "map_locations": [
@@ -1900,7 +1918,7 @@
             "name": "West Castle Town",
             "sections": [
               {
-                "name": "Charlo's Blessing",
+                "name": "Charlo's Blessing (500)",
                 "item_count": 1,
                 "chest_unopened_img": "images/heart_piece_model.png",
                 "chest_opened_img": "images/heart_piece_model_gray.png",
@@ -2012,7 +2030,7 @@
             "name": "Castle Town Malo Mart",
             "sections": [
               {
-                "name": "Magic Armor Purchase",
+                "name": "Magic Armor Purchase (998)",
                 "item_count": 1,
                 "chest_unopened_img": "images/magic_armor_model.png",
                 "chest_opened_img": "images/magic_armor_model_gray.png",
@@ -2048,11 +2066,24 @@
               {
                 "name": "Jovani's 20 Poe Reward",
                 "item_count": 1,
-                "chest_unopened_img": "images/bottle_model.png",
-                "chest_opened_img": "images/bottle_model_gray.png",
+                "chest_unopened_img": "images/great_fairy_tears.png",
+                "chest_opened_img": "images/great_fairy_tears_gray.png",
                 "access_rules": [
                   "$poe_souls:20,wolf,$midna_skipped",
                   "$poe_souls:20,wolf,lakebed"
+                ],
+                "visibility_rules": [
+                  "npcs_on"
+                ]
+              },
+              {
+                "name": "Jovani's 60 Poe Reward",
+                "item_count": 1,
+                "chest_unopened_img": "images/rupee_gray.png",
+                "chest_opened_img": "images/rupee_gray.png",
+                "access_rules": [
+                  "$poe_souls:60,wolf,$midna_skipped",
+                  "$poe_souls:60,wolf,lakebed"
                 ],
                 "visibility_rules": [
                   "npcs_on"
@@ -2149,15 +2180,12 @@
                 "chest_unopened_img": "images/bomb_bag_model.png",
                 "chest_opened_img": "images/bomb_bag_model_gray.png",
                 "access_rules": [
-                  "$use_bow,sword",
-                  "$use_bow,$shadow_beast,[transform_anywhere_on]"
-                ],
-                "visibility_rules": [
-                  "npcs_on"
+                  "$use_bow,$shadow_beast,[sword]",
+                  "$use_bow,$shadow_beast,[wolf]"
                 ]
               },
               {
-                "name": "Iza's Raging Rapids Game",
+                "name": "Iza's Raging Rapids Game (>= 25)",
                 "item_count": 1,
                 "chest_unopened_img": "images/giant_bomb_bag_model.png",
                 "chest_opened_img": "images/giant_bomb_bag_model_gray.png",
@@ -2201,6 +2229,14 @@
                 "visibility_rules": [
                   "skills_on"
                 ]
+              },
+              {
+                "name": "Ending Blow",
+                "item_count": 1,
+                "access_rules": [ "wolf" ],
+                "visibility_rules": [ "skills_off,$ending_blow" ],
+                "chest_unopened_img": "images/howling_stone.png",
+                "chest_opened_img": "images/holwing_stone_gray.png"
               }
             ],
             "map_locations": [
@@ -2300,9 +2336,6 @@
                 "chest_opened_img": "images/bomb_bag_model_gray.png",
                 "access_rules": [
                   "$use_water_bombs,boots,[zora]"
-                ],
-                "visibility_rules": [
-                  "npcs_on"
                 ]
               }
             ],
@@ -2467,6 +2500,14 @@
                 "visibility_rules": [
                   "skills_on"
                 ]
+              },
+              {
+                "name": "Ending Blow",
+                "item_count": 1,
+                "access_rules": [ "wolf" ],
+                "visibility_rules": [ "skills_off,$ending_blow" ],
+                "chest_unopened_img": "images/howling_stone.png",
+                "chest_opened_img": "images/holwing_stone_gray.png"
               }
             ],
             "map_locations": [
@@ -2485,9 +2526,7 @@
                 "item_count": 1,
                 "chest_unopened_img": "images/memo_or_sketch_model.png",
                 "chest_opened_img": "images/memo_or_sketch_model_gray.png",
-                "visibility_rules": [
-                  "npcs_on"
-                ]
+                "access_rules": [ "lanayru_skipped" ]
               },
               {
                 "name": "Poe",
@@ -2514,7 +2553,7 @@
             "name": "East Lake Hylia",
             "sections": [
               {
-                "name": "Plumm's Fruit Balloon Heart Piece",
+                "name": "Plumm's Fruit Balloon Game (>= 10k)",
                 "item_count": 1,
                 "chest_unopened_img": "images/heart_piece_model.png",
                 "chest_opened_img": "images/heart_piece_model_gray.png",
@@ -3232,10 +3271,7 @@
                 "name": "Ashei's Sketch",
                 "item_count": 1,
                 "chest_unopened_img": "images/memo_or_sketch_model.png",
-                "chest_opened_img": "images/memo_or_sketch_model_gray.png",
-                "visibility_rules": [
-                  "npcs_on"
-                ]
+                "chest_opened_img": "images/memo_or_sketch_model_gray.png"
               }
             ],
             "map_locations": [
@@ -3307,6 +3343,14 @@
                 "visibility_rules": [
                   "skills_on"
                 ]
+              },
+              {
+                "name": "Ending Blow",
+                "item_count": 1,
+                "access_rules": [ "wolf,coral_earring","wolf,ruins_skipped" ],
+                "visibility_rules": [ "skills_off,$ending_blow" ],
+                "chest_unopened_img": "images/howling_stone.png",
+                "chest_opened_img": "images/holwing_stone_gray.png"
               }
             ],
             "map_locations": [

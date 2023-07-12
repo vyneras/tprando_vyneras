@@ -1,0 +1,3455 @@
+[
+  {
+    "name": "World",
+    "always_allow_chest_manipulation": true,
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_gray.png",
+    "children": [
+      {
+        "name": "Ordon Province",
+        "color": "#D8B400",
+        "children": [
+          {
+            "name": "Ordon Village",
+            "sections": [
+              {
+                "name": "Uli Cradle Delivery Reward",
+                "item_count": 1,
+                "chest_unopened_img": "images/fishing_rod_model.png",
+                "chest_opened_img": "images/fishing_rod_model_gray.png",
+                "visibility_rules": [
+                  "prologue_not_skipped"
+                ]
+              },
+              {
+                "name": "Cat Rescue Reward",
+                "item_count": 1,
+                "chest_unopened_img": "images/bottle_model.png",
+                "chest_opened_img": "images/bottle_model_gray.png",
+                "access_rules": [
+                  "fishing_rod"
+                ],
+                "visibility_rules": [
+                  "prologue_not_skipped,npcs_on"
+                ]
+              },
+              {
+                "name": "Slingshot Purchase (30)",
+                "item_count": 1,
+                "capture_item": true,
+                "chest_unopened_img": "images/slingshot_model.png",
+                "chest_opened_img": "images/slingshot_model_gray.png",
+                "access_rules": [
+                  "prologue_skipped",
+                  "fishing_rod"
+                ],
+                "visibility_rules": [
+                  "shops_on"
+                ]
+              },
+              {
+                "name": "Ordon Shield",
+                "item_count": 1,
+                "chest_unopened_img": "images/ordon_shield_model.png",
+                "chest_opened_img": "images/ordon_shield_model_gray.png",
+                "access_rules": [
+                  "$complete_intro"
+                ],
+                "visibility_rules": [
+                  "faron_not_skipped"
+                ]
+              },
+              {
+                "name": "Ordon Sword",
+                "item_count": 1,
+                "chest_unopened_img": "images/ordon_sword_model.png",
+                "chest_opened_img": "images/ordon_sword_model_gray.png",
+                "access_rules": [
+                  "$complete_intro"
+                ],
+                "visibility_rules": [
+                  "faron_not_skipped"
+                ]
+              },
+              {
+                "name": "Wrestling With Bo",
+                "item_count": 1,
+                "access_rules": [
+                  "$complete_intro"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "overworld",
+                "x": 660,
+                "y": 1080
+              }
+            ]
+          },
+          {
+            "name": "Link's House",
+            "sections": [
+              {
+                "name": "Wooden Sword Chest",
+                "item_count": 1,
+                "access_rules": [
+                  "prologue_skipped",
+                  "fishing_rod"
+                ]
+              },
+              {
+                "name": "Basement Chest",
+                "item_count": 1,
+                "access_rules": [
+                  "lantern"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "overworld",
+                "x": 660,
+                "y": 1055
+              }
+            ]
+          },
+          {
+            "name": "Ordon Ranch",
+            "sections": [
+              {
+                "name": "Grotto Chest",
+                "item_count": 1,
+                "access_rules": [
+                  "$ordon_ranch_grotto,lantern"
+                ]
+              },
+              {
+                "name": "Herding Goats Heart Piece",
+                "item_count": 1,
+                "chest_unopened_img": "images/heart_piece_model.png",
+                "chest_opened_img": "images/heart_piece_model_gray.png",
+                "access_rules": [
+                  "$complete_intro"
+                ],
+                "visibility_rules": [
+                  "npcs_on"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "overworld",
+                "x": 660,
+                "y": 1130
+              }
+            ]
+          },
+          {
+            "name": "Ordon Spring",
+            "sections": [
+              {
+                "name": "Golden Wolf",
+                "item_count": 1,
+                "chest_unopened_img": "images/golden_wolf.png",
+                "chest_opened_img": "images/golden_wolf_gray.png",
+                "access_rules": [
+                  "sword,shield,$ordon_spring_wolf"
+                ],
+                "visibility_rules": [
+                  "skills_on"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "overworld",
+                "x": 635,
+                "y": 1015
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Faron Woods",
+        "color": "#17892A",
+        "access_rules": [
+          "$south_faron_woods"
+        ],
+        "children": [
+          {
+            "name": "Faron Woods South Cave",
+            "sections": [
+              {
+                "name": "Chest",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "overworld",
+                "x": 637,
+                "y": 902
+              }
+            ]
+          },
+          {
+            "name": "Faron Woods Mist Area",
+            "sections": [
+              {
+                "name": "Chests",
+                "item_count": 3,
+                "access_rules": [
+                  "$complete_intro,lantern"
+                ]
+              },
+              {
+                "name": "Poe",
+                "item_count": 1,
+                "chest_unopened_img": "images/poe_soul_model.png",
+                "chest_opened_img": "images/poe_soul_model_gray.png",
+                "access_rules": [
+                  "$complete_intro,wolf"
+                ],
+                "visibility_rules": [
+                  "poes_on"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "overworld",
+                "x": 617,
+                "y": 870
+              }
+            ]
+          },
+          {
+            "name": "Faron Woods Mist Cave",
+            "access_rules": [
+              "$faron_woods_mist_cave"
+            ],
+            "sections": [
+              {
+                "name": "Open Chest",
+                "item_count": 1
+              },
+              {
+                "name": "Lantern Chest",
+                "item_count": 1,
+                "access_rules": [
+                  "lantern"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "overworld",
+                "x": 640,
+                "y": 845
+              }
+            ]
+          },
+          {
+            "name": "Coro",
+            "sections": [
+              {
+                "name": "Bottle Purchase (100)",
+                "item_count": 1,
+                "chest_unopened_img": "images/bottle_model.png",
+                "chest_opened_img": "images/bottle_model_gray.png",
+                "access_rules": [
+                  "$complete_intro"
+                ],
+                "visibility_rules": [
+                  "npcs_on"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "overworld",
+                "x": 662,
+                "y": 895
+              }
+            ]
+          },
+          {
+            "name": "Faron Woods Owl Statue",
+            "access_rules": [
+              "$smash,$dominion_rod_level:2,$forest_open"
+            ],
+            "sections": [
+              {
+                "name": "Chest",
+                "item_count": 1,
+                "access_rules": [
+                  "wolf"
+                ]
+              },
+              {
+                "name": "Skybook Character",
+                "item_count": 1,
+                "chest_unopened_img": "images/skybook_model.png",
+                "chest_opened_img": "images/skybook_model_gray.png",
+                "visibility_rules": [
+                  "skys_on"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "overworld",
+                "x": 650,
+                "y": 870
+              }
+            ]
+          },
+          {
+            "name": "North Faron Woods",
+            "access_rules": [
+              "$north_faron_woods"
+            ],
+            "sections": [
+              {
+                "name": "Deku Baba Chest",
+                "item_count": 1
+              },
+              {
+                "name": "Golden Wolf",
+                "item_count": 1,
+                "chest_unopened_img": "images/golden_wolf.png",
+                "chest_opened_img": "images/golden_wolf_gray.png",
+                "access_rules": [
+                  "sword,shield"
+                ],
+                "visibility_rules": [
+                  "skills_on"
+                ]
+              },
+              {
+                "name": "Howling Stone",
+                "item_count": 1,
+                "chest_unopened_img": "images/howling_stone.png",
+                "chest_opened_img": "images/holwing_stone_gray.png",
+                "access_rules": [
+                  "wolf"
+                ],
+                "visibility_rules": [
+                  "skills_on"
+                ]
+              },
+              {
+                "name": "Ending Blow",
+                "item_count": 1,
+                "access_rules": [ "wolf" ],
+                "visibility_rules": [ "skills_off,$ending_blow" ],
+                "chest_unopened_img": "images/howling_stone.png",
+                "chest_opened_img": "images/holwing_stone_gray.png"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "overworld",
+                "x": 580,
+                "y": 870
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Sacred Grove",
+        "color": "#5F8C28",
+        "access_rules": [
+          "$sacred_grove"
+        ],
+        "children": [
+          {
+            "name": "Lost Woods",
+            "sections": [
+              {
+                "name": "Lantern Chest",
+                "item_count": 1,
+                "access_rules": [
+                  "lantern"
+                ]
+              },
+              {
+                "name": "Waterfall Poe",
+                "item_count": 1,
+                "chest_unopened_img": "images/poe_soul_model.png",
+                "chest_opened_img": "images/poe_soul_model_gray.png",
+                "access_rules": [
+                  "wolf"
+                ],
+                "visibility_rules": [
+                  "poes_on"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "overworld",
+                "x": 523,
+                "y": 900
+              }
+            ]
+          },
+          {
+            "name": "Cave Before Guardian Puzzle",
+            "access_rules": [
+              "$sacred_grove_arena"
+            ],
+            "sections": [
+              {
+                "name": "Male Snail",
+                "item_count": 1,
+                "capture_item": true,
+                "chest_unopened_img": "images/male_snail.png",
+                "chest_opened_img": "images/male_snail_gray.png",
+                "access_rules": [
+                  "clawshot",
+                  "boomerang",
+                  "{}"
+                ],
+                "visibility_rules": [
+                  "bugs_on"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "overworld",
+                "x": 525,
+                "y": 870
+              }
+            ]
+          },
+          {
+            "name": "Sacred Grove Arena",
+            "access_rules": [
+              "$sacred_grove_arena"
+            ],
+            "sections": [
+              {
+                "name": "Grove Grotto",
+                "item_count": 1,
+                "access_rules": [
+                  "$sacred_grove_baba_serpent_grotto,$baba_serpent,$hanging_baba"
+                ]
+              },
+              {
+                "name": "Spinner Chest",
+                "item_count": 1,
+                "access_rules": [
+                  "spinner"
+                ]
+              },
+              {
+                "name": "Boulder Poe",
+                "item_count": 1,
+                "chest_unopened_img": "images/poe_soul_model.png",
+                "chest_opened_img": "images/poe_soul_model_gray.png",
+                "access_rules": [
+                  "wolf,$smash"
+                ],
+                "visibility_rules": [
+                  "poes_on"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "overworld",
+                "x": 500,
+                "y": 860
+              }
+            ]
+          },
+          {
+            "name": "Master Sword Pedestal",
+            "access_rules": [
+              "$sacred_grove_arena"
+            ],
+            "sections": [
+              {
+                "name": "Poe",
+                "item_count": 1,
+                "chest_unopened_img": "images/poe_soul_model.png",
+                "chest_opened_img": "images/poe_soul_model_gray.png",
+                "access_rules": [
+                  "wolf"
+                ],
+                "visibility_rules": [
+                  "poes_on"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "overworld",
+                "x": 523,
+                "y": 830
+              }
+            ]
+          },
+          {
+            "name": "Temple of Time Entrance",
+            "access_rules": [
+              "$temple_of_time"
+            ],
+            "sections": [
+              {
+                "name": "Owl Statue Chest",
+                "item_count": 1,
+                "access_rules": [
+                  "$dominion_rod_level:1"
+                ]
+              },
+              {
+                "name": "Female Snail",
+                "item_count": 1,
+                "capture_item": true,
+                "chest_unopened_img": "images/female_snail.png",
+                "chest_opened_img": "images/female_snail_gray.png",
+                "access_rules": [
+                  "clawshot",
+                  "boomerang",
+                  "{}"
+                ],
+                "visibility_rules": [
+                  "bugs_on"
+                ]
+              },
+              {
+                "name": "Owl Statue Poe",
+                "item_count": 1,
+                "chest_unopened_img": "images/poe_soul_model.png",
+                "chest_opened_img": "images/poe_soul_model_gray.png",
+                "access_rules": [
+                  "wolf,$dominion_rod_level:1"
+                ],
+                "visibility_rules": [
+                  "poes_on"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "overworld",
+                "x": 523,
+                "y": 800
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Faron Field",
+        "color": "#92CC00",
+        "access_rules": [
+          "$faron_field"
+        ],
+        "children": [
+          {
+            "name": "Faron Field South Area",
+            "sections": [
+              {
+                "name": "Bridge Chest",
+                "item_count": 1,
+                "access_rules": [
+                  "clawshot"
+                ]
+              },
+              {
+                "name": "Tree Heart Piece",
+                "item_count": 1,
+                "capture_item": true,
+                "chest_unopened_img": "images/heart_piece_model.png",
+                "chest_opened_img": "images/heart_piece_model_gray.png",
+                "access_rules": [
+                  "boomerang",
+                  "clawshot",
+                  "{}"
+                ]
+              },
+              {
+                "name": "Male Beetle",
+                "item_count": 1,
+                "chest_unopened_img": "images/male_beetle.png",
+                "chest_opened_img": "images/male_beetle_gray.png",
+                "visibility_rules": [
+                  "bugs_on"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "overworld",
+                "x": 652,
+                "y": 775
+              }
+            ]
+          },
+          {
+            "name": "Faron Field North Area",
+            "sections": [
+              {
+                "name": "Female Beetle",
+                "item_count": 1,
+                "capture_item": true,
+                "chest_unopened_img": "images/female_beetle.png",
+                "chest_opened_img": "images/female_beetle_gray.png",
+                "access_rules": [
+                  "boomerang",
+                  "clawshot",
+                  "{}"
+                ],
+                "visibility_rules": [
+                  "bugs_on"
+                ]
+              },
+              {
+                "name": "Poe",
+                "item_count": 1,
+                "chest_unopened_img": "images/poe_soul_model.png",
+                "chest_opened_img": "images/poe_soul_model_gray.png",
+                "access_rules": [
+                  "wolf,$midna_desperate_hour"
+                ],
+                "visibility_rules": [
+                  "poes_on"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "overworld",
+                "x": 665,
+                "y": 732
+              }
+            ]
+          },
+          {
+            "name": "Faron Field Corner Grotto",
+            "access_rules": [
+              "$faron_field_corner_grotto"
+            ],
+            "sections": [
+              {
+                "name": "Chests",
+                "item_count": 3
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "overworld",
+                "x": 700,
+                "y": 810
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Kakariko Gorge",
+        "color": "#AA5A17",
+        "access_rules": [
+          "$faron_field"
+        ],
+        "children": [
+          {
+            "name": "Kakariko Gorge Spires",
+            "sections": [
+              {
+                "name": "Chest",
+                "item_count": 1,
+                "access_rules": [
+                  "double_clawshot"
+                ]
+              },
+              {
+                "name": "Heart Piece",
+                "item_count": 1,
+                "capture_item": true,
+                "chest_unopened_img": "images/heart_piece_model.png",
+                "chest_opened_img": "images/heart_piece_model_gray.png",
+                "access_rules": [
+                  "clawshot",
+                  "boomerang",
+                  "{}"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "overworld",
+                "x": 742,
+                "y": 656
+              }
+            ]
+          },
+          {
+            "name": "Kakariko Gorge Bridge",
+            "sections": [
+              {
+                "name": "Male Pill Bug",
+                "item_count": 1,
+                "chest_unopened_img": "images/male_pill_bug.png",
+                "chest_opened_img": "images/male_pill_bug_gray.png",
+                "visibility_rules": [
+                  "bugs_on"
+                ]
+              },
+              {
+                "name": "Poe",
+                "item_count": 1,
+                "chest_unopened_img": "images/poe_soul_model.png",
+                "chest_opened_img": "images/poe_soul_model_gray.png",
+                "access_rules": [
+                  "wolf,$midna_desperate_hour"
+                ],
+                "visibility_rules": [
+                  "poes_on"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "overworld",
+                "x": 775,
+                "y": 670
+              }
+            ]
+          },
+          {
+            "name": "Kakriko Gorge Owl Statue",
+            "access_rules": [
+              "$dominion_rod_level:2"
+            ],
+            "sections": [
+              {
+                "name": "Chest",
+                "item_count": 1
+              },
+              {
+                "name": "Skybook Character",
+                "item_count": 1,
+                "chest_unopened_img": "images/skybook_model.png",
+                "chest_opened_img": "images/skybook_model_gray.png",
+                "visibility_rules": [
+                  "skys_on"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "overworld",
+                "x": 785,
+                "y": 613
+              }
+            ]
+          },
+          {
+            "name": "Kakariko Gorge Lantern Cave",
+            "access_rules": [
+              "$kakariko_gorge_lantern_cave"
+            ],
+            "sections": [
+              {
+                "name": "Open Chests",
+                "access_rules": [
+                  "$burn_webs"
+                ],
+                "item_count": 2
+              },
+              {
+                "name": "Lantern Chest",
+                "item_count": 1,
+                "access_rules": [
+                  "lantern"
+                ]
+              },
+              {
+                "name": "Poe",
+                "item_count": 1,
+                "chest_unopened_img": "images/poe_soul_model.png",
+                "chest_opened_img": "images/poe_soul_model_gray.png",
+                "access_rules": [
+                  "wolf,$burn_webs"
+                ],
+                "visibility_rules": [
+                  "poes_on"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "overworld",
+                "x": 788,
+                "y": 710
+              }
+            ]
+          },
+          {
+            "name": "Kakariko Gorge Flower Patch",
+            "sections": [
+              {
+                "name": "Female Pill Bug",
+                "item_count": 1,
+                "chest_unopened_img": "images/female_pill_bug.png",
+                "chest_opened_img": "images/female_pill_bug_gray.png",
+                "visibility_rules": [
+                  "bugs_on"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "overworld",
+                "x": 815,
+                "y": 682
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Kakariko Village",
+        "access_rules": [
+          "$faron_field"
+        ],
+        "color": "#AA5A17",
+        "children": [
+          {
+            "name": "Eldin Spring",
+            "sections": [
+              {
+                "name": "Underwater Chest",
+                "item_count": 1,
+                "access_rules": [
+                  "$smash,$heavy"
+                ]
+              },
+              {
+                "name": "Rock Spire Heart Piece",
+                "item_count": 1,
+                "capture_item": true,
+                "chest_unopened_img": "images/heart_piece_model.png",
+                "chest_opened_img": "images/heart_piece_model_gray.png",
+                "access_rules": [
+                  "$launch_bombs,boomerang",
+                  "{$launch_bombs}"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "overworld",
+                "x": 970,
+                "y": 718
+              }
+            ]
+          },
+          {
+            "name": "Sanctuary",
+            "sections": [
+              {
+                "name": "Renado's Letter",
+                "item_count": 1,
+                "chest_unopened_img": "images/letter_model.png",
+                "chest_opened_img": "images/letter_model_gray.png",
+                "access_rules": [
+                  "time"
+                ]
+              },
+              {
+                "name": "Ilia's Memory",
+                "item_count": 1,
+                "chest_unopened_img": "images/ilia_charm_model.png",
+                "chest_opened_img": "images/ilia_charm_model_gray.png",
+                "access_rules": [
+                  "charm"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "overworld",
+                "x": 970,
+                "y": 682
+              }
+            ]
+          },
+          {
+            "name": "Kakariko Village Lower Area",
+            "sections": [
+              {
+                "name": "Inn Chest",
+                "item_count": 1
+              },
+              {
+                "name": "Hawkeye Purchase (100)",
+                "item_count": 1,
+                "capture_item": true,
+                "chest_unopened_img": "images/hawkeye_model.png",
+                "chest_opened_img": "images/hawkeye_model_gray.png",
+                "access_rules": [
+                  "mines,$use_bow"
+                ],
+                "visibility_rules": [
+                  "shops_on"
+                ]
+              },
+              {
+                "name": "Hylian Shield Purchase (200)",
+                "capture_item": true,
+                "chest_unopened_img": "images/hylian_shield_model.png",
+                "chest_opened_img": "images/hylian_shield_model_gray.png",
+                "item_count": 1,
+                "visibility_rules": [
+                  "shops_on"
+                ]
+              },
+              {
+                "name": "Bomb Bag Purchase (120)",
+                "item_count": 1,
+                "chest_unopened_img": "images/bomb_bag_model.png",
+                "chest_opened_img": "images/bomb_bag_model_gray.png",
+                "access_rules": [
+                  "eldin_skipped"
+                ]
+              },
+              {
+                "name": "Female Ant",
+                "item_count": 1,
+                "chest_unopened_img": "images/female_ant.png",
+                "chest_opened_img": "images/female_ant_gray.png",
+                "visibility_rules": [
+                  "bugs_on"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "overworld",
+                "x": 950,
+                "y": 652
+              }
+            ]
+          },
+          {
+            "name": "Kakariko Village Upper Area",
+            "sections": [
+              {
+                "name": "Watchtower Chest",
+                "item_count": 1
+              },
+              {
+                "name": "Watchtower Alcove Chest",
+                "item_count": 1,
+                "access_rules": [
+                  "$smash"
+                ]
+              },
+              {
+                "name": "Talo's Sharpshooting",
+                "item_count": 1,
+                "chest_unopened_img": "images/Heart Piece.png",
+                "chest_opened_img": "images/Heart Piece (Disabled).png",
+                "access_rules": [
+                  "mines,$use_bow"
+                ],
+                "visibility_rules": [
+                  "npcs_on"
+                ]
+              },
+              {
+                "name": "Watchtower Poe",
+                "item_count": 1,
+                "chest_unopened_img": "images/poe_soul_model.png",
+                "chest_opened_img": "images/poe_soul_model_gray.png",
+                "access_rules": [
+                  "wolf"
+                ],
+                "visibility_rules": [
+                  "poes_on"
+                ]
+              },
+              {
+                "name": "Bomb Shop Poe",
+                "item_count": 1,
+                "chest_unopened_img": "images/poe_soul_model.png",
+                "chest_opened_img": "images/poe_soul_model_gray.png",
+                "access_rules": [
+                  "wolf"
+                ],
+                "visibility_rules": [
+                  "poes_on"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "overworld",
+                "x": 975,
+                "y": 643
+              }
+            ]
+          },
+          {
+            "name": "Kakariko Graveyard",
+            "sections": [
+              {
+                "name": "Lantern Chest",
+                "item_count": 1,
+                "access_rules": [
+                  "lantern"
+                ]
+              },
+              {
+                "name": "Rutela's Blessing",
+                "item_count": 1,
+                "chest_unopened_img": "images/zora_armor_model.png",
+                "chest_opened_img": "images/zora_armor_model_gray.png",
+                "access_rules": [
+                  "$gate_keys"
+                ]
+              },
+              {
+                "name": "Gift from Ralis",
+                "item_count": 1,
+                "chest_unopened_img": "images/coral_earring.png",
+                "chest_opened_img": "images/coral_earring_gray.png",
+                "access_rules": [
+                  "sketch,$gate_keys"
+                ]
+              },
+              {
+                "name": "Male Ant",
+                "item_count": 1,
+                "chest_unopened_img": "images/male_ant.png",
+                "chest_opened_img": "images/male_ant_gray.png",
+                "visibility_rules": [
+                  "bugs_on"
+                ]
+              },
+              {
+                "name": "Poes",
+                "item_count": 2,
+                "chest_unopened_img": "images/poe_soul_model.png",
+                "chest_opened_img": "images/poe_soul_model_gray.png",
+                "access_rules": [
+                  "wolf"
+                ],
+                "visibility_rules": [
+                  "poes_on"
+                ]
+              },
+              {
+                "name": "Golden Wolf",
+                "item_count": 1,
+                "chest_unopened_img": "images/golden_wolf.png",
+                "chest_opened_img": "images/golden_wolf_gray.png",
+                "access_rules": [
+                  "sword,shield,$kakariko_graveyard_wolf"
+                ],
+                "visibility_rules": [
+                  "skills_on"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "overworld",
+                "x": 1012,
+                "y": 677
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Eldin Field",
+        "access_rules": [
+          "$faron_field"
+        ],
+        "color": "#AA5A17",
+        "children": [
+          {
+            "name": "Eldin Field Bomb Rocks",
+            "sections": [
+              {
+                "name": "Chest",
+                "item_count": 1,
+                "access_rules": [
+                  "$smash"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "overworld",
+                "x": 861,
+                "y": 558
+              }
+            ]
+          },
+          {
+            "name": "Eldin Field Southeast Area",
+            "sections": [
+              {
+                "name": "Male Grasshopper",
+                "item_count": 1,
+                "chest_unopened_img": "images/male_grasshopper.png",
+                "chest_opened_img": "images/male_grasshopper_gray.png",
+                "visibility_rules": [
+                  "bugs_on"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "overworld",
+                "x": 895,
+                "y": 510
+              }
+            ]
+          },
+          {
+            "name": "Eldin Field Northwest Area",
+            "sections": [
+              {
+                "name": "Female Grasshopper",
+                "item_count": 1,
+                "chest_unopened_img": "images/female_grasshopper.png",
+                "chest_opened_img": "images/female_grasshopper_gray.png",
+                "visibility_rules": [
+                  "bugs_on"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "overworld",
+                "x": 790,
+                "y": 450
+              }
+            ]
+          },
+          {
+            "name": "Eldin Field Castle Town Bridge",
+            "sections": [
+              {
+                "name": "Goron Springwater Rush (1000 to Malo Mart in Kak)",
+                "item_count": 1,
+                "chest_unopened_img": "images/heart_piece_model.png",
+                "chest_opened_img": "images/heart_piece_model_gray.png",
+                "access_rules": [
+                  "$smash",
+                  "$gate_keys,lanayru_skipped",
+                  "$gate_keys,wolf"
+                ],
+                "visibility_rules": [
+                  "npcs_on"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "overworld",
+                "x": 725,
+                "y": 505
+              }
+            ]
+          },
+          {
+            "name": "Elden Field Bomskit Grotto",
+            "access_rules": [
+              "$eldin_field_bomskit_grotto"
+            ],
+            "sections": [
+              {
+                "name": "Open Chest",
+                "item_count": 1,
+                "access_rules": [
+                  "$bomskit"
+                ]
+              },
+              {
+                "name": "Lantern Chest",
+                "item_count": 1,
+                "access_rules": [
+                  "$bomskit,lantern"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "overworld",
+                "x": 823,
+                "y": 485
+              }
+            ]
+          },
+          {
+            "name": "Eldin Field Bombfish Grotto",
+            "access_rules": [
+              "$eldin_field_bombfish_grotto"
+            ],
+            "sections": [
+              {
+                "name": "Chest",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "overworld",
+                "x": 924,
+                "y": 435
+              }
+            ]
+          },
+          {
+            "name": "Bridge of Eldin South End",
+            "sections": [
+              {
+                "name": "Owl Statue Chest",
+                "item_count": 1,
+                "access_rules": [
+                  "$dominion_rod_level:2"
+                ]
+              },
+              {
+                "name": "Male Phasmid",
+                "item_count": 1,
+                "capture_item": true,
+                "chest_unopened_img": "images/male_phasmid.png",
+                "chest_opened_img": "images/male_phasmid_gray.png",
+                "access_rules": [
+                  "clawshot",
+                  "boomerang",
+                  "{}"
+                ],
+                "visibility_rules": [
+                  "bugs_on"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "overworld",
+                "x": 939,
+                "y": 410
+              }
+            ]
+          },
+          {
+            "name": "Bridge of Eldin North End",
+            "sections": [
+              {
+                "name": "Skybook Character",
+                "item_count": 1,
+                "chest_unopened_img": "images/skybook_model.png",
+                "chest_opened_img": "images/skybook_model_gray.png",
+                "access_rules": [
+                  "$dominion_rod_level:2"
+                ],
+                "visibility_rules": [
+                  "skys_on"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "overworld",
+                "x": 939,
+                "y": 355
+              }
+            ]
+          },
+          {
+            "name": "Eldin Province Stockcave",
+            "sections": [
+              {
+                "name": "Upper Chest",
+                "item_count": 1,
+                "access_rules": [
+                  "$eldin_province_stockcave,boots"
+                ]
+              },
+              {
+                "name": "Lantern Chest",
+                "item_count": 1,
+                "access_rules": [
+                  "$eldin_province_stockcave,lantern,boots"
+                ]
+              },
+              {
+                "name": "Lower Chest",
+                "item_count": 1,
+                "access_rules": [
+                  "$eldin_province_stockcave,boots"
+                ]
+              },
+              {
+                "name": "Female Phasmid",
+                "item_count": 1,
+                "capture_item": true,
+                "chest_unopened_img": "images/female_phasmid.png",
+                "chest_opened_img": "images/female_phasmid_gray.png",
+                "access_rules": [
+                  "clawshot",
+                  "boomerang",
+                  "{}"
+                ],
+                "visibility_rules": [
+                  "bugs_on"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "overworld",
+                "x": 958,
+                "y": 335
+              }
+            ]
+          },
+          {
+            "name": "Eldin Province Stalfos Grotto",
+            "access_rules": [
+              "$eldin_province_stalfos_grotto"
+            ],
+            "sections": [
+              {
+                "name": "Open Chests",
+                "item_count": 2
+              },
+              {
+                "name": "Stalfos Chest",
+                "item_count": 1,
+                "access_rules": [
+                  "$stalfos"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "overworld",
+                "x": 897,
+                "y": 237
+              }
+            ]
+          },
+          {
+            "name": "Hidden Village",
+            "access_rules": [
+              "$hidden_village"
+            ],
+            "sections": [
+              {
+                "name": "Ilia's Charm",
+                "item_count": 1,
+                "chest_unopened_img": "images/ilia_charm_model.png",
+                "chest_opened_img": "images/ilia_charm_model_gray.png",
+                "access_rules": [
+                  "$use_bow"
+                ]
+              },
+              {
+                "name": "Skybook From Impaz",
+                "item_count": 1,
+                "chest_unopened_img": "images/skybook_model.png",
+                "chest_opened_img": "images/skybook_model_gray.png",
+                "access_rules": [
+                  "$use_bow,$dominion_rod_level:1"
+                ],
+                "visibility_rules": [
+                  "npcs_on"
+                ]
+              },
+              {
+                "name": "Cat's Hide and Seek Heart Piece",
+                "item_count": 1,
+                "chest_unopened_img": "images/heart_piece_model.png",
+                "chest_opened_img": "images/heart_piece_model_gray.png",
+                "access_rules": [
+                  "wolf,clawshot,charm,$use_bow,$dominion_rod_level:1"
+                ],
+                "visibility_rules": [
+                  "npcs_on"
+                ]
+              },
+              {
+                "name": "Poe",
+                "item_count": 1,
+                "chest_unopened_img": "images/poe_soul_model.png",
+                "chest_opened_img": "images/poe_soul_model_gray.png",
+                "access_rules": [
+                  "wolf,clawshot,charm,$use_bow,$dominion_rod_level:1"
+                ],
+                "visibility_rules": [
+                  "poes_on"
+                ]
+              },
+              {
+                "name": "Howling Stone",
+                "item_count": 1,
+                "chest_unopened_img": "images/howling_stone.png",
+                "chest_opened_img": "images/holwing_stone_gray.png",
+                "access_rules": [
+                  "wolf"
+                ],
+                "visibility_rules": [
+                  "skills_on"
+                ]
+              },
+              {
+                "name": "Ending Blow",
+                "item_count": 1,
+                "access_rules": [ "wolf" ],
+                "visibility_rules": [ "skills_off,$ending_blow" ],
+                "chest_unopened_img": "images/howling_stone.png",
+                "chest_opened_img": "images/holwing_stone_gray.png"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "overworld",
+                "x": 852,
+                "y": 302
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Death Mountain",
+        "access_rules": [
+          "$faron_field"
+        ],
+        "color": "#A51109",
+        "children": [
+          {
+            "name": "Death Mountain Trail",
+            "sections": [
+              {
+                "name": "Alcove Chest",
+                "item_count": 1,
+                "access_rules": [
+                  "mines",
+                  "clawshot,boots",
+                  "clawshot,wolf"
+                ]
+              },
+              {
+                "name": "Poe",
+                "item_count": 1,
+                "chest_unopened_img": "images/poe_soul_model.png",
+                "chest_opened_img": "images/poe_soul_model_gray.png",
+                "access_rules": [
+                  "wolf,mines"
+                ],
+                "visibility_rules": [
+                  "poes_on"
+                ]
+              },
+              {
+                "name": "Howling Stone",
+                "item_count": 1,
+                "chest_unopened_img": "images/howling_stone.png",
+                "chest_opened_img": "images/holwing_stone_gray.png",
+                "access_rules": [
+                  "wolf"
+                ],
+                "visibility_rules": [
+                  "skills_on"
+                ]
+              },
+              {
+                "name": "Ending Blow",
+                "item_count": 1,
+                "access_rules": [ "wolf" ],
+                "visibility_rules": [ "skills_off,$ending_blow" ],
+                "chest_unopened_img": "images/howling_stone.png",
+                "chest_opened_img": "images/holwing_stone_gray.png"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "overworld",
+                "x": 1029,
+                "y": 523
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "North Lanayru Field",
+        "color": "#3C95A3",
+        "access_rules": [
+          "$lanayru_field"
+        ],
+        "children": [
+          {
+            "name": "North Lanayru Field River",
+            "sections": [
+              {
+                "name": "Underwater Chest",
+                "item_count": 1,
+                "access_rules": [
+                  "$heavy"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "overworld",
+                "x": 655,
+                "y": 390
+              }
+            ]
+          },
+          {
+            "name": "North Lanayru Field Bridge",
+            "sections": [
+              {
+                "name": "Poe",
+                "item_count": 1,
+                "chest_unopened_img": "images/poe_soul_model.png",
+                "chest_opened_img": "images/poe_soul_model_gray.png",
+                "access_rules": [
+                  "wolf,$midna_desperate_hour"
+                ],
+                "visibility_rules": [
+                  "poes_on"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "overworld",
+                "x": 660,
+                "y": 350
+              }
+            ]
+          },
+          {
+            "name": "North Lanayru Field Hills",
+            "sections": [
+              {
+                "name": "Skulltula Grotto Chest",
+                "item_count": 1,
+                "access_rules": [
+                  "$lanayru_field_skulltula_grotto,$skulltula,lantern,$wooden_door"
+                ]
+              },
+              {
+                "name": "Ice Cave Chest",
+                "item_count": 1,
+                "access_rules": [
+                  "$lanayru_field_ice_cave,ball_and_chain"
+                ]
+              },
+              {
+                "name": "Female Stag Beetle",
+                "item_count": 1,
+                "capture_item": true,
+                "chest_unopened_img": "images/female_stag_beetle.png",
+                "chest_opened_img": "images/female_stag_beetle_gray.png",
+                "access_rules": [
+                  "clawshot",
+                  "boomerang",
+                  "{}"
+                ],
+                "visibility_rules": [
+                  "bugs_on"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "overworld",
+                "x": 648,
+                "y": 307
+              }
+            ]
+          },
+          {
+            "name": "North Lanayru Field Meadow",
+            "sections": [
+              {
+                "name": "Male Stag Beetle",
+                "item_count": 1,
+                "capture_item": true,
+                "chest_unopened_img": "images/male_stag_beetle.png",
+                "chest_opened_img": "images/male_stag_beetle_gray.png",
+                "access_rules": [
+                  "clawshot",
+                  "boomerang",
+                  "{}"
+                ],
+                "visibility_rules": [
+                  "bugs_on"
+                ]
+              },
+              {
+                "name": "Grotto Poes",
+                "item_count": 2,
+                "chest_unopened_img": "images/poe_soul_model.png",
+                "chest_opened_img": "images/poe_soul_model_gray.png",
+                "access_rules": [
+                  "$lanayru_field_poe_grotto,wolf"
+                ],
+                "visibility_rules": [
+                  "poes_on"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "overworld",
+                "x": 590,
+                "y": 359
+              }
+            ]
+          },
+          {
+            "name": "Lanayru Province North Pass",
+            "access_rules": [
+              "$smash,spinner"
+            ],
+            "sections": [
+              {
+                "name": "Spinner Track Chest",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "overworld",
+                "x": 516,
+                "y": 440
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "West Lanayru Field",
+        "color": "#3C95A3",
+        "access_rules": [
+          "$lanayru_field"
+        ],
+        "children": [
+          {
+            "name": "West Lanayru Field Ampitheatre",
+            "sections": [
+              {
+                "name": "Chest",
+                "item_count": 1,
+                "access_rules": [
+                  "$dominion_rod_level:2"
+                ]
+              },
+              {
+                "name": "Skybook Character",
+                "item_count": 1,
+                "chest_unopened_img": "images/skybook_model.png",
+                "chest_opened_img": "images/skybook_model_gray.png",
+                "access_rules": [
+                  "$dominion_rod_level:2"
+                ],
+                "visibility_rules": [
+                  "skys_on"
+                ]
+              },
+              {
+                "name": "Poe",
+                "item_count": 1,
+                "chest_unopened_img": "images/poe_soul_model.png",
+                "chest_opened_img": "images/poe_soul_model_gray.png",
+                "access_rules": [
+                  "wolf"
+                ],
+                "visibility_rules": [
+                  "poes_on"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "overworld",
+                "x": 537,
+                "y": 546
+              }
+            ]
+          },
+          {
+            "name": "West Lanayru Field Flower Patch",
+            "sections": [
+              {
+                "name": "Male Butterfly",
+                "item_count": 1,
+                "chest_unopened_img": "images/male_butterfly.png",
+                "chest_opened_img": "images/male_butterfly_gray.png",
+                "visibility_rules": [
+                  "bugs_on"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "overworld",
+                "x": 560,
+                "y": 529
+              }
+            ]
+          },
+          {
+            "name": "West Lanayru Field Platform",
+            "sections": [
+              {
+                "name": "Golden Wolf",
+                "item_count": 1,
+                "chest_unopened_img": "images/golden_wolf.png",
+                "chest_opened_img": "images/golden_wolf_gray.png",
+                "access_rules": [
+                  "sword,shield,$west_hyrule_field_wolf"
+                ],
+                "visibility_rules": [
+                  "skills_on"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "overworld",
+                "x": 578,
+                "y": 495
+              }
+            ]
+          },
+          {
+            "name": "West Lanayru Field Ledge",
+            "sections": [
+              {
+                "name": "Helmasaur Grotto Chest",
+                "item_count": 1,
+                "access_rules": [
+                  "$lanayru_field_helmasaur_grotto,$helmasaur"
+                ]
+              },
+              {
+                "name": "Female Butterfly",
+                "item_count": 1,
+                "capture_item": true,
+                "chest_unopened_img": "images/female_butterfly.png",
+                "chest_opened_img": "images/female_butterfly_gray.png",
+                "access_rules": [
+                  "clawshot",
+                  "boomerang",
+                  "{}"
+                ],
+                "visibility_rules": [
+                  "bugs_on"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "overworld",
+                "x": 542,
+                "y": 484
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "South Lanayru Field",
+        "color": "#3C95A3",
+        "access_rules": [
+          "$lanayru_field"
+        ],
+        "children": [
+          {
+            "name": "South Lanayru Field Chasm",
+            "sections": [
+              {
+                "name": "Chest",
+                "item_count": 1,
+                "access_rules": [
+                  "double_clawshot"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "overworld",
+                "x": 614,
+                "y": 578
+              }
+            ]
+          },
+          {
+            "name": "South Lanayru Field Pillar",
+            "sections": [
+              {
+                "name": "Tektite Grotto Chest",
+                "item_count": 1,
+                "access_rules": [
+                  "$lanayru_field_tektite_grotto,$tektite"
+                ]
+              },
+              {
+                "name": "Male Ladybug",
+                "item_count": 1,
+                "chest_unopened_img": "images/male_ladybug.png",
+                "chest_opened_img": "images/male_ladybug_gray.png",
+                "visibility_rules": [
+                  "bugs_on"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "overworld",
+                "x": 663,
+                "y": 576
+              }
+            ]
+          },
+          {
+            "name": "South Lanaryu Field Fountain",
+            "sections": [
+              {
+                "name": "Fountain Chest",
+                "item_count": 1,
+                "access_rules": [
+                  "spinner,clawshot"
+                ]
+              },
+              {
+                "name": "Tightrope Chest",
+                "item_count": 1,
+                "access_rules": [
+                  "clawshot,wolf"
+                ]
+              },
+              {
+                "name": "Female Ladybug",
+                "item_count": 1,
+                "chest_unopened_img": "images/female_ladybug.png",
+                "chest_opened_img": "images/female_ladybug_gray.png",
+                "visibility_rules": [
+                  "bugs_on"
+                ]
+              },
+              {
+                "name": "Poe",
+                "item_count": 1,
+                "chest_unopened_img": "images/poe_soul_model.png",
+                "chest_opened_img": "images/poe_soul_model_gray.png",
+                "access_rules": [
+                  "wolf"
+                ],
+                "visibility_rules": [
+                  "poes_on"
+                ]
+              },
+              {
+                "name": "Golden Wolf",
+                "item_count": 1,
+                "chest_unopened_img": "images/golden_wolf.png",
+                "chest_opened_img": "images/golden_wolf_gray.png",
+                "access_rules": [
+                  "sword,shield,$south_hyrule_field_wolf"
+                ],
+                "visibility_rules": [
+                  "skills_on"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "overworld",
+                "x": 638,
+                "y": 555
+              }
+            ]
+          },
+          {
+            "name": "South Lanayru Field Road",
+            "sections": [
+              {
+                "name": "Wooden Statue",
+                "item_count": 1,
+                "chest_unopened_img": "images/wooden_statue_model.png",
+                "chest_opened_img": "images/wooden_statue_model_gray.png",
+                "access_rules": [
+                  "invoice"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "overworld",
+                "x": 638,
+                "y": 592
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Hyrule Castle Town",
+        "color": "#979E98",
+        "access_rules": [
+          "$lanayru_field"
+        ],
+        "children": [
+          {
+            "name": "West Castle Town",
+            "sections": [
+              {
+                "name": "Charlo's Blessing (500)",
+                "item_count": 1,
+                "chest_unopened_img": "images/heart_piece_model.png",
+                "chest_opened_img": "images/heart_piece_model_gray.png",
+                "visibility_rules": [
+                  "npcs_on"
+                ]
+              },
+              {
+                "name": "STAR Big Quiver",
+                "item_count": 1,
+                "chest_unopened_img": "images/big_quiver.png",
+                "chest_opened_img": "images/big_quiver_gray.png",
+                "access_rules": [
+                  "[clawshot]"
+                ],
+                "visibility_rules": [
+                  "npcs_on"
+                ]
+              },
+              {
+                "name": "STAR Giant Quiver",
+                "item_count": 1,
+                "chest_unopened_img": "images/giant_quiver.png",
+                "chest_opened_img": "images/giant_quiver_gray.png",
+                "access_rules": [
+                  "clawshot,[double_clawshot]"
+                ],
+                "visibility_rules": [
+                  "npcs_on"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "overworld",
+                "x": 615,
+                "y": 508
+              }
+            ]
+          },
+          {
+            "name": "Doctor's Office",
+            "sections": [
+              {
+                "name": "Balcony Chest",
+                "item_count": 1,
+                "access_rules": [
+                  "invoice,wolf"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "overworld",
+                "x": 665,
+                "y": 508
+              }
+            ]
+          },
+          {
+            "name": "East Castle Town Bridge",
+            "sections": [
+              {
+                "name": "Poe",
+                "item_count": 1,
+                "chest_unopened_img": "images/poe_soul_model.png",
+                "chest_opened_img": "images/poe_soul_model_gray.png",
+                "access_rules": [
+                  "wolf"
+                ],
+                "visibility_rules": [
+                  "poes_on"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "overworld",
+                "x": 692,
+                "y": 508
+              }
+            ]
+          },
+          {
+            "name": "North Castle Town",
+            "sections": [
+              {
+                "name": "Golden Wolf",
+                "item_count": 1,
+                "chest_unopened_img": "images/golden_wolf.png",
+                "chest_opened_img": "images/golden_wolf_gray.png",
+                "access_rules": [
+                  "sword,shield,$midna_desperate_hour,$north_castle_town_wolf"
+                ],
+                "visibility_rules": [
+                  "skills_on"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "overworld",
+                "x": 638,
+                "y": 472
+              }
+            ]
+          },
+          {
+            "name": "Castle Town Malo Mart",
+            "sections": [
+              {
+                "name": "Magic Armor Purchase (998)",
+                "item_count": 1,
+                "chest_unopened_img": "images/magic_armor_model.png",
+                "chest_opened_img": "images/magic_armor_model_gray.png",
+                "access_rules": [
+                  "wallet_on",
+                  "big_wallet"
+                ],
+                "visibility_rules": [
+                  "shops_on"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "overworld",
+                "x": 640,
+                "y": 508
+              }
+            ]
+          },
+          {
+            "name": "South Castle Town",
+            "sections": [
+              {
+                "name": "Telma's Invoice",
+                "item_count": 1,
+                "chest_unopened_img": "images/invoice_model.png",
+                "chest_opened_img": "images/invoice_model_gray.png",
+                "access_rules": [
+                  "letter"
+                ]
+              },
+              {
+                "name": "Jovani's 20 Poe Reward",
+                "item_count": 1,
+                "chest_unopened_img": "images/great_fairy_tears.png",
+                "chest_opened_img": "images/great_fairy_tears_gray.png",
+                "access_rules": [
+                  "$poe_souls:20,wolf,$midna_skipped",
+                  "$poe_souls:20,wolf,lakebed"
+                ],
+                "visibility_rules": [
+                  "npcs_on"
+                ]
+              },
+              {
+                "name": "Jovani's 60 Poe Reward",
+                "item_count": 1,
+                "chest_unopened_img": "images/rupee_gray.png",
+                "chest_opened_img": "images/rupee_gray.png",
+                "access_rules": [
+                  "$poe_souls:60,wolf,$midna_skipped",
+                  "$poe_souls:60,wolf,lakebed"
+                ],
+                "visibility_rules": [
+                  "npcs_on"
+                ]
+              },
+              {
+                "name": "Jovani's Poe",
+                "chest_unopened_img": "images/poe_soul_model.png",
+                "chest_opened_img": "images/poe_soul_model_gray.png",
+                "item_count": 1,
+                "access_rules": [
+                  "wolf"
+                ],
+                "visibility_rules": [
+                  "poes_on"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "overworld",
+                "x": 660,
+                "y": 530
+              }
+            ]
+          },
+          {
+            "name": "Agitha's Castle",
+            "sections": [
+              {
+                "name": "Agitha's Rewards",
+                "item_count": 24,
+                "clear_as_group": false,
+                "chest_unopened_img": "images/rupee.png",
+                "chest_opened_img": "images/rupee_gray.png",
+                "access_rules": [
+                  "$bugs_held"
+                ],
+                "visibility_rules": [
+                  "npcs_on"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "overworld",
+                "x": 620,
+                "y": 530
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Zora's River",
+        "color": "#154799",
+        "access_rules": [
+          "$zora_domain"
+        ],
+        "children": [
+          {
+            "name": "Fishing Hole",
+            "sections": [
+              {
+                "name": "Fishing Hole Heart Piece",
+                "item_count": 1,
+                "chest_unopened_img": "images/heart_piece_model.png",
+                "chest_opened_img": "images/heart_piece_model_gray.png"
+              },
+              {
+                "name": "Fishing Hole Bottle",
+                "item_count": 1,
+                "chest_unopened_img": "images/bottle_model.png",
+                "chest_opened_img": "images/bottle_model_gray.png",
+                "access_rules": [
+                  "fishing_rod"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "overworld",
+                "x": 769,
+                "y": 113
+              }
+            ]
+          },
+          {
+            "name": "Upper Zora's River",
+            "sections": [
+              {
+                "name": "Iza's Helping Hand",
+                "item_count": 1,
+                "chest_unopened_img": "images/bomb_bag_model.png",
+                "chest_opened_img": "images/bomb_bag_model_gray.png",
+                "access_rules": [
+                  "$use_bow,$shadow_beast,[sword]",
+                  "$use_bow,$shadow_beast,[wolf]"
+                ]
+              },
+              {
+                "name": "Iza's Raging Rapids Game (>= 25)",
+                "item_count": 1,
+                "chest_unopened_img": "images/giant_bomb_bag_model.png",
+                "chest_opened_img": "images/giant_bomb_bag_model_gray.png",
+                "access_rules": [
+                  "$use_bow,sword",
+                  "$use_bow,$shadow_beast,[transform_anywhere_on]"
+                ],
+                "visibility_rules": [
+                  "npcs_on"
+                ]
+              },
+              {
+                "name": " Female Dragonfly",
+                "item_count": 1,
+                "chest_unopened_img": "images/female_dragonfly.png",
+                "chest_opened_img": "images/female_dragonfly_gray.png",
+                "visibility_rules": [
+                  "bugs_on"
+                ]
+              },
+              {
+                "name": "Poe",
+                "item_count": 1,
+                "chest_unopened_img": "images/poe_soul_model.png",
+                "chest_opened_img": "images/poe_soul_model_gray.png",
+                "access_rules": [
+                  "wolf"
+                ],
+                "visibility_rules": [
+                  "poes_on"
+                ]
+              },
+              {
+                "name": "Howling Stone",
+                "item_count": 1,
+                "chest_unopened_img": "images/howling_stone.png",
+                "chest_opened_img": "images/holwing_stone_gray.png",
+                "access_rules": [
+                  "wolf"
+                ],
+                "visibility_rules": [
+                  "skills_on"
+                ]
+              },
+              {
+                "name": "Ending Blow",
+                "item_count": 1,
+                "access_rules": [ "wolf" ],
+                "visibility_rules": [ "skills_off,$ending_blow" ],
+                "chest_unopened_img": "images/howling_stone.png",
+                "chest_opened_img": "images/holwing_stone_gray.png"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "overworld",
+                "x": 775,
+                "y": 166
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Zora's Domain",
+        "color": "#154799",
+        "access_rules": [
+          "$zora_domain"
+        ],
+        "children": [
+          {
+            "name": "Zora's Domain Lower Area",
+            "sections": [
+              {
+                "name": "Mother and Child Isles Chest",
+                "item_count": 1
+              },
+              {
+                "name": "Waterfall Chest",
+                "item_count": 1,
+                "access_rules": [
+                  "wolf"
+                ]
+              },
+              {
+                "name": "Male Dragonfly",
+                "item_count": 1,
+                "chest_unopened_img": "images/male_dragonfly.png",
+                "chest_opened_img": "images/male_dragonfly_gray.png",
+                "visibility_rules": [
+                  "bugs_on"
+                ]
+              },
+              {
+                "name": "Mother and Child Isles Poe",
+                "item_count": 1,
+                "chest_unopened_img": "images/poe_soul_model.png",
+                "chest_opened_img": "images/poe_soul_model_gray.png",
+                "access_rules": [
+                  "wolf"
+                ],
+                "visibility_rules": [
+                  "poes_on"
+                ]
+              },
+              {
+                "name": "Waterfall Poe",
+                "item_count": 1,
+                "chest_unopened_img": "images/poe_soul_model.png",
+                "chest_opened_img": "images/poe_soul_model_gray.png",
+                "access_rules": [
+                  "wolf"
+                ],
+                "visibility_rules": [
+                  "poes_on"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "overworld",
+                "x": 651,
+                "y": 137
+              }
+            ]
+          },
+          {
+            "name": "Zora's Domain Upper Area",
+            "sections": [
+              {
+                "name": "Torches Lit Chest",
+                "item_count": 1,
+                "access_rules": [
+                  "lantern,$heavy"
+                ]
+              },
+              {
+                "name": "Torches Extinguished Chest",
+                "item_count": 1,
+                "access_rules": [
+                  "boomerang,$heavy"
+                ]
+              },
+              {
+                "name": "Underwater Goron Reward",
+                "item_count": 1,
+                "chest_unopened_img": "images/bomb_bag_model.png",
+                "chest_opened_img": "images/bomb_bag_model_gray.png",
+                "access_rules": [
+                  "$use_water_bombs,boots,[zora]"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "overworld",
+                "x": 654,
+                "y": 87
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Lake Hylia",
+        "color": "#154799",
+        "access_rules": [
+          "$lanayru_field"
+        ],
+        "children": [
+          {
+            "name": "Isle of Riches",
+            "sections": [
+              {
+                "name": "Chests",
+                "item_count": 5
+              },
+              {
+                "name": "Poe",
+                "item_count": 1,
+                "chest_unopened_img": "images/poe_soul_model.png",
+                "chest_opened_img": "images/poe_soul_model_gray.png",
+                "access_rules": [
+                  "wolf"
+                ],
+                "visibility_rules": [
+                  "poes_on"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "overworld",
+                "x": 460,
+                "y": 630
+              }
+            ]
+          },
+          {
+            "name": "Lake Hylia North Ledge",
+            "sections": [
+              {
+                "name": "Shellblade Grotto Chest",
+                "item_count": 1,
+                "access_rules": [
+                  "$lake_hylia_shell_blade_grotto,$shell_blade"
+                ]
+              },
+              {
+                "name": "Poe",
+                "item_count": 1,
+                "chest_unopened_img": "images/poe_soul_model.png",
+                "chest_opened_img": "images/poe_soul_model_gray.png",
+                "access_rules": [
+                  "wolf"
+                ],
+                "visibility_rules": [
+                  "poes_on"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "overworld",
+                "x": 440,
+                "y": 583
+              }
+            ]
+          },
+          {
+            "name": "Lanayru Spring",
+            "sections": [
+              {
+                "name": "Outside Pillar Chests",
+                "item_count": 2,
+                "clear_as_group": false
+              },
+              {
+                "name": "Spring Underwater Chests",
+                "item_count": 2,
+                "access_rules": [
+                  "$heavy"
+                ]
+              },
+              {
+                "name": "Spring Backroom Chests",
+                "item_count": 2,
+                "access_rules": [
+                  "clawshot"
+                ]
+              },
+              {
+                "name": "Spring Backroom Lantern Chest",
+                "item_count": 1,
+                "access_rules": [
+                  "clawshot,lantern"
+                ]
+              },
+              {
+                "name": "Spring Upper Chests",
+                "item_count": 2,
+                "access_rules": [
+                  "double_clawshot"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "overworld",
+                "x": 502,
+                "y": 652
+              }
+            ]
+          },
+          {
+            "name": "Lake Hylia South Ledges",
+            "sections": [
+              {
+                "name": "Underwater Chest",
+                "item_count": 1,
+                "access_rules": [
+                  "$heavy"
+                ]
+              },
+              {
+                "name": "Toadpoli Grotto Chest",
+                "item_count": 1,
+                "access_rules": [
+                  "$lake_hylia_toadpoli_grotto,$toadpoli"
+                ]
+              },
+              {
+                "name": "Alcove Poe",
+                "item_count": 1,
+                "chest_unopened_img": "images/poe_soul_model.png",
+                "chest_opened_img": "images/poe_soul_model_gray.png",
+                "access_rules": [
+                  "wolf"
+                ],
+                "visibility_rules": [
+                  "poes_on"
+                ]
+              },
+              {
+                "name": "Howling Stone",
+                "item_count": 1,
+                "chest_unopened_img": "images/howling_stone.png",
+                "chest_opened_img": "images/holwing_stone_gray.png",
+                "access_rules": [
+                  "wolf"
+                ],
+                "visibility_rules": [
+                  "skills_on"
+                ]
+              },
+              {
+                "name": "Ending Blow",
+                "item_count": 1,
+                "access_rules": [ "wolf" ],
+                "visibility_rules": [ "skills_off,$ending_blow" ],
+                "chest_unopened_img": "images/howling_stone.png",
+                "chest_opened_img": "images/holwing_stone_gray.png"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "overworld",
+                "x": 480,
+                "y": 685
+              }
+            ]
+          },
+          {
+            "name": "Auru's Watchtower",
+            "sections": [
+              {
+                "name": "Auru's Memo",
+                "item_count": 1,
+                "chest_unopened_img": "images/memo_or_sketch_model.png",
+                "chest_opened_img": "images/memo_or_sketch_model_gray.png"
+              },
+              {
+                "name": "Poe",
+                "item_count": 1,
+                "chest_unopened_img": "images/poe_soul_model.png",
+                "chest_opened_img": "images/poe_soul_model_gray.png",
+                "access_rules": [
+                  "wolf"
+                ],
+                "visibility_rules": [
+                  "poes_on"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "overworld",
+                "x": 410,
+                "y": 678
+              }
+            ]
+          },
+          {
+            "name": "East Lake Hylia",
+            "sections": [
+              {
+                "name": "Plumm's Fruit Balloon Game (>= 10k)",
+                "item_count": 1,
+                "chest_unopened_img": "images/heart_piece_model.png",
+                "chest_opened_img": "images/heart_piece_model_gray.png",
+                "access_rules": [
+                  "wolf"
+                ],
+                "visibility_rules": [
+                  "npcs_on"
+                ]
+              },
+              {
+                "name": "Dock Poe",
+                "item_count": 1,
+                "chest_unopened_img": "images/poe_soul_model.png",
+                "chest_opened_img": "images/poe_soul_model_gray.png",
+                "access_rules": [
+                  "wolf"
+                ],
+                "visibility_rules": [
+                  "poes_on"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "overworld",
+                "x": 557,
+                "y": 633
+              }
+            ]
+          },
+          {
+            "name": "Lake Hylia Lantern Cave",
+            "access_rules": [
+              "$lake_hylia_lantern_cave"
+            ],
+            "sections": [
+              {
+                "name": "Open Chests",
+                "item_count": 13,
+                "clear_as_group": false,
+                "access_rules": [
+                  "$smash,[lantern]"
+                ]
+              },
+              {
+                "name": "Lantern Chests",
+                "item_count": 2,
+                "clear_as_group": false,
+                "access_rules": [
+                  "$smash,lantern"
+                ]
+              },
+              {
+                "name": "Poes",
+                "item_count": 3,
+                "clear_as_group": false,
+                "chest_unopened_img": "images/poe_soul_model.png",
+                "chest_opened_img": "images/poe_soul_model_gray.png",
+                "access_rules": [
+                  "wolf,$smash,[lantern]"
+                ],
+                "visibility_rules": [
+                  "poes_on"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "overworld",
+                "x": 456,
+                "y": 685
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Lake Hylia Bridge",
+        "color": "#3C95A3",
+        "access_rules": [
+          "$lanayru_field"
+        ],
+        "children": [
+          {
+            "name": "Lake Hylia Bridge North End",
+            "sections": [
+              {
+                "name": "Vines Chest",
+                "item_count": 1,
+                "access_rules": [
+                  "clawshot"
+                ]
+              },
+              {
+                "name": "Male Mantis",
+                "item_count": 1,
+                "capture_item": true,
+                "chest_unopened_img": "images/male_mantis.png",
+                "chest_opened_img": "images/male_mantis_gray.png",
+                "access_rules": [
+                  "clawshot",
+                  "boomerang",
+                  "{}"
+                ],
+                "visibility_rules": [
+                  "bugs_on"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "overworld",
+                "x": 491,
+                "y": 578
+              }
+            ]
+          },
+          {
+            "name": "Lake Hylia Bridge Owl Statue",
+            "sections": [
+              {
+                "name": "Chest",
+                "item_count": 1,
+                "access_rules": [
+                  "$dominion_rod_level:2,clawshot"
+                ]
+              },
+              {
+                "name": "Skybook Character",
+                "item_count": 1,
+                "chest_unopened_img": "images/skybook_model.png",
+                "chest_opened_img": "images/skybook_model_gray.png",
+                "access_rules": [
+                  "$dominion_rod_level:2,clawshot"
+                ],
+                "visibility_rules": [
+                  "skys_on"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "overworld",
+                "x": 493,
+                "y": 544
+              }
+            ]
+          },
+          {
+            "name": "Lake Hylia Bridge South End",
+            "sections": [
+              {
+                "name": "Cliff Chest",
+                "item_count": 1,
+                "access_rules": [
+                  "$launch_bombs,clawshot"
+                ]
+              },
+              {
+                "name": "Bubble Grotto Chest",
+                "item_count": 1,
+                "access_rules": [
+                  "$lake_hylia_bridge_bubble_grotto,$bubble,$fire_bubble,$ice_bubble"
+                ]
+              },
+              {
+                "name": "Cliff Poe",
+                "item_count": 1,
+                "chest_unopened_img": "images/poe_soul_model.png",
+                "chest_opened_img": "images/poe_soul_model_gray.png",
+                "access_rules": [
+                  "wolf,$launch_bombs,clawshot,$midna_desperate_hour"
+                ],
+                "visibility_rules": [
+                  "poes_on"
+                ]
+              },
+              {
+                "name": "Female Mantis",
+                "item_count": 1,
+                "capture_item": true,
+                "chest_unopened_img": "images/female_mantis.png",
+                "chest_opened_img": "images/female_mantis_gray.png",
+                "access_rules": [
+                  "clawshot",
+                  "boomerang",
+                  "{}"
+                ],
+                "visibility_rules": [
+                  "bugs_on"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "overworld",
+                "x": 533,
+                "y": 700
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Gerudo Desert",
+        "color": "#99814A",
+        "access_rules": [
+          "$gerudo_desert"
+        ],
+        "children": [
+          {
+            "name": "Skulltula Grotto",
+            "sections": [
+              {
+                "name": "Chest",
+                "item_count": 1,
+                "access_rules": [
+                  "$gerudo_desert_skulltula_grotto,$skulltula"
+                ]
+              },
+              {
+                "name": "Outside Poe",
+                "item_count": 1,
+                "chest_unopened_img": "images/poe_soul_model.png",
+                "chest_opened_img": "images/poe_soul_model_gray.png",
+                "access_rules": [
+                  "wolf"
+                ],
+                "visibility_rules": [
+                  "poes_on"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "overworld",
+                "x": 398,
+                "y": 753
+              }
+            ]
+          },
+          {
+            "name": "Peahat Ledge",
+            "sections": [
+              {
+                "name": "Chest",
+                "item_count": 1,
+                "access_rules": [
+                  "clawshot"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "overworld",
+                "x": 348,
+                "y": 755
+              }
+            ]
+          },
+          {
+            "name": "Gerudo Desert East Canyon",
+            "sections": [
+              {
+                "name": "Chest",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "overworld",
+                "x": 350,
+                "y": 712
+              }
+            ]
+          },
+          {
+            "name": "Gerudo Desert Central Area",
+            "sections": [
+              {
+                "name": "Lone Small Chest",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "overworld",
+                "x": 272,
+                "y": 715
+              }
+            ]
+          },
+          {
+            "name": "Gerudo Desert South Area",
+            "sections": [
+              {
+                "name": "Chest Behind Wooden Gates",
+                "item_count": 1,
+                "access_rules": [
+                  "[$bulblin]"
+                ]
+              },
+              {
+                "name": "Male Dayfly",
+                "item_count": 1,
+                "chest_unopened_img": "images/male_dayfly.png",
+                "chest_opened_img": "images/male_dayfly_gray.png",
+                "visibility_rules": [
+                  "bugs_on"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "overworld",
+                "x": 281,
+                "y": 771
+              }
+            ]
+          },
+          {
+            "name": "Gerudo Desert Owl Statue",
+            "access_rules": [
+              "$dominion_rod_level:2"
+            ],
+            "sections": [
+              {
+                "name": "Chest",
+                "item_count": 1
+              },
+              {
+                "name": "Skybook Character",
+                "item_count": 1,
+                "chest_unopened_img": "images/skybook_model.png",
+                "chest_opened_img": "images/skybook_model_gray.png"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "overworld",
+                "x": 224,
+                "y": 768
+              }
+            ]
+          },
+          {
+            "name": "Gerudo Desert West Trench",
+            "sections": [
+              {
+                "name": "Female Dayfly",
+                "item_count": 1,
+                "chest_unopened_img": "images/female_dayfly.png",
+                "chest_opened_img": "images/female_dayfly_gray.png",
+                "visibility_rules": [
+                  "bugs_on"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "overworld",
+                "x": 210,
+                "y": 744
+              }
+            ]
+          },
+          {
+            "name": "Cave of Ordeals",
+            "access_rules": [
+              "$cave_of_ordeals_floor_1"
+            ],
+            "sections": [
+              {
+                "name": "Outside Poe",
+                "item_count": 1,
+                "chest_unopened_img": "images/poe_soul_model.png",
+                "chest_opened_img": "images/poe_soul_model_gray.png",
+                "access_rules": [
+                  "wolf"
+                ],
+                "visibility_rules": [
+                  "poes_on"
+                ]
+              },
+              {
+                "name": "Floor 17 Poe",
+                "item_count": 1,
+                "chest_unopened_img": "images/poe_soul_model.png",
+                "chest_opened_img": "images/poe_soul_model_gray.png",
+                "access_rules": [
+                  "$cave_of_ordeals_floor_12,spinner,wolf,$helmasaur,$rat,$chu,$chu_worm,$bubble,$keese,$stalhound"
+                ],
+                "visibility_rules": [
+                  "poes_on"
+                ]
+              },
+              {
+                "name": "Floor 33 Poe",
+                "item_count": 1,
+                "chest_unopened_img": "images/poe_soul_model.png",
+                "chest_opened_img": "images/poe_soul_model_gray.png",
+                "access_rules": [
+                  "$cave_of_ordeals_floor_32,wolf,$dominion_rod_level:2,$beamos,$keese,$dodongo,$bubble,$redead_knight,"
+                ],
+                "visibility_rules": [
+                  "poes_on"
+                ]
+              },
+              {
+                "name": "Floor 44 Poe",
+                "item_count": 1,
+                "chest_unopened_img": "images/poe_soul_model.png",
+                "chest_opened_img": "images/poe_soul_model_gray.png",
+                "access_rules": [
+                  "$cave_of_ordeals_floor_42,wolf,double_clawshot,$armos,$baba_serpent,$lizalfos,$dinalfos,$use_bow",
+                  "$cave_of_ordeals_floor_42,wolf,double_clawshot,$armos,$baba_serpent,$lizalfos,$dinalfos,ball_and_chain"
+                ],
+                "visibility_rules": [
+                  "poes_on"
+                ]
+              },
+              {
+                "name": "Great Fairy Reward",
+                "item_count": 1,
+                "chest_unopened_img": "images/great_fairy_tears.png",
+                "chest_opened_img": "images/great_fairy_tears_gray.png",
+                "access_rules": [
+                  "$cave_of_ordeals_floor_42,$armos,double_clawshot,$bokoblin,$baba_serpent,$lizalfos,$bulblin,$dinalfos,$poe,$redead_knight,$chu,$freezard,$chilfos,$ghoul_rat,$rat,$stalchild,$aeralfos,$darknut"
+                ],
+                "visibility_rules": [
+                  "npcs_on"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "overworld",
+                "x": 165,
+                "y": 757
+              }
+            ]
+          },
+          {
+            "name": "Gerudo Desert West Canyon",
+            "sections": [
+              {
+                "name": "Chest",
+                "item_count": 1,
+                "access_rules": [
+                  "clawshot"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "overworld",
+                "x": 153,
+                "y": 716
+              }
+            ]
+          },
+          {
+            "name": "Gerudo Desert Campfire",
+            "sections": [
+              {
+                "name": "North Chest",
+                "item_count": 1
+              },
+              {
+                "name": "East Chest",
+                "item_count": 1,
+                "access_rules": [
+                  "[$bulblin]"
+                ]
+              },
+              {
+                "name": "West Chest",
+                "item_count": 1,
+                "access_rules": [
+                  "[$bulblin]"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "overworld",
+                "x": 183,
+                "y": 637
+              }
+            ]
+          },
+          {
+            "name": "Gerudo Desert Northeast Gates",
+            "sections": [
+              {
+                "name": "Chest Behind Gates",
+                "item_count": 1,
+                "access_rules": [
+                  "[$bulblin]"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "overworld",
+                "x": 208,
+                "y": 617
+              }
+            ]
+          },
+          {
+            "name": "Gerudo Desert Northwest Gates",
+            "sections": [
+              {
+                "name": "Chest Behind Gates",
+                "item_count": 1,
+                "access_rules": [
+                  "[$bulblin]"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "overworld",
+                "x": 151,
+                "y": 625
+              }
+            ]
+          },
+          {
+            "name": "Gerudo Desert Rock Grotto",
+            "sections": [
+              {
+                "name": "Chest",
+                "item_count": 1,
+                "access_rules": [
+                  "$gerudo_desert_rock_grotto,$smash,lantern"
+                ]
+              },
+              {
+                "name": "Outside Poe",
+                "item_count": 1,
+                "chest_unopened_img": "images/poe_soul_model.png",
+                "chest_opened_img": "images/poe_soul_model_gray.png",
+                "access_rules": [
+                  "wolf,clawshot"
+                ],
+                "visibility_rules": [
+                  "poes_on"
+                ]
+              },
+              {
+                "name": "Grotto Poes",
+                "item_count": 2,
+                "chest_unopened_img": "images/poe_soul_model.png",
+                "chest_opened_img": "images/poe_soul_model_gray.png",
+                "access_rules": [
+                  "$gerudo_desert_rock_grotto,wolf,[$smash]"
+                ],
+                "visibility_rules": [
+                  "poes_on"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "overworld",
+                "x": 257,
+                "y": 636
+              }
+            ]
+          },
+          {
+            "name": "Gerudo Desert North Gates",
+            "sections": [
+              {
+                "name": "Chest",
+                "item_count": 1,
+                "access_rules": [
+                  "[$bulblin]"
+                ]
+              },
+              {
+                "name": "Poe",
+                "item_count": 1,
+                "chest_unopened_img": "images/poe_soul_model.png",
+                "chest_opened_img": "images/poe_soul_model_gray.png",
+                "access_rules": [
+                  "wolf"
+                ],
+                "visibility_rules": [
+                  "poes_on"
+                ]
+              },
+              {
+                "name": "Golden Wolf",
+                "item_count": 1,
+                "chest_unopened_img": "images/golden_wolf.png",
+                "chest_opened_img": "images/golden_wolf_gray.png",
+                "access_rules": [
+                  "sword,shield,$gerudo_desert_wolf"
+                ],
+                "visibility_rules": [
+                  "skills_on"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "overworld",
+                "x": 176,
+                "y": 599
+              }
+            ]
+          },
+          {
+            "name": "Bulblin Camp",
+            "access_rules": [
+              "$gerudo_desert_bulblin_camp"
+            ],
+            "sections": [
+              {
+                "name": "Front Chest",
+                "item_count": 1
+              },
+              {
+                "name": "Back Chest",
+                "item_count": 1
+              },
+              {
+                "name": "Bulblin Guard Key",
+                "item_count": 1,
+                "chest_unopened_img": "images/small_key_model.png",
+                "chest_opened_img": "images/small_key_model_crossed.png"
+              },
+              {
+                "name": "Roasted Boar Heart Piece",
+                "item_count": 1,
+                "chest_unopened_img": "images/heart_piece_model.png",
+                "chest_opened_img": "images/heart_piece_model_gray.png",
+                "access_rules": [
+                  "$damage"
+                ]
+              },
+              {
+                "name": "Poe",
+                "item_count": 1,
+                "chest_unopened_img": "images/poe_soul_model.png",
+                "chest_opened_img": "images/poe_soul_model_gray.png",
+                "access_rules": [
+                  "wolf,$desert_key",
+                  "wolf,grounds_skipped"
+                ],
+                "visibility_rules": [
+                  "poes_on"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "overworld",
+                "x": 176,
+                "y": 556
+              }
+            ]
+          },
+          {
+            "name": "Outside Arbiter's Ground",
+            "access_rules": [
+              "$arbiters_grounds"
+            ],
+            "sections": [
+              {
+                "name": "Lantern Chest",
+                "item_count": 1,
+                "access_rules": [
+                  "lantern"
+                ]
+              },
+              {
+                "name": "Poe",
+                "item_count": 1,
+                "chest_unopened_img": "images/poe_soul_model.png",
+                "chest_opened_img": "images/poe_soul_model_gray.png",
+                "access_rules": [
+                  "wolf"
+                ],
+                "visibility_rules": [
+                  "poes_on"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "overworld",
+                "x": 176,
+                "y": 517
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Snowpeak",
+        "color": "#DBFDFF",
+        "access_rules": [
+          "$zora_domain"
+        ],
+        "children": [
+          {
+            "name": "Ashei",
+            "sections": [
+              {
+                "name": "Ashei's Sketch",
+                "item_count": 1,
+                "chest_unopened_img": "images/memo_or_sketch_model.png",
+                "chest_opened_img": "images/memo_or_sketch_model_gray.png"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "overworld",
+                "x": 610,
+                "y": 130
+              }
+            ]
+          },
+          {
+            "name": "Snowpeak Climb",
+            "sections": [
+              {
+                "name": "Freezard Grotto Chest",
+                "item_count": 1,
+                "access_rules": [
+                  "$snowpeak_freezard_grotto,$ice_keese,$freezard,ball_and_chain"
+                ]
+              },
+              {
+                "name": "Above Freezard Grotto Poe",
+                "item_count": 1,
+                "chest_unopened_img": "images/poe_soul_model.png",
+                "chest_opened_img": "images/poe_soul_model_gray.png",
+                "access_rules": [
+                  "wolf,coral_earring",
+                  "wolf,ruins_skipped"
+                ],
+                "visibility_rules": [
+                  "poes_on"
+                ]
+              },
+              {
+                "name": "Blizzard Poe",
+                "item_count": 1,
+                "chest_unopened_img": "images/poe_soul_model.png",
+                "chest_opened_img": "images/poe_soul_model_gray.png",
+                "access_rules": [
+                  "wolf,coral_earring",
+                  "wolf,ruins_skipped"
+                ],
+                "visibility_rules": [
+                  "poes_on"
+                ]
+              },
+              {
+                "name": "Poe Among Trees",
+                "item_count": 1,
+                "chest_unopened_img": "images/poe_soul_model.png",
+                "chest_opened_img": "images/poe_soul_model_gray.png",
+                "access_rules": [
+                  "wolf,coral_earring",
+                  "wolf,ruins_skipped"
+                ],
+                "visibility_rules": [
+                  "poes_on"
+                ]
+              },
+              {
+                "name": "Howling Stone",
+                "item_count": 1,
+                "chest_unopened_img": "images/howling_stone.png",
+                "chest_opened_img": "images/holwing_stone_gray.png",
+                "access_rules": [
+                  "wolf,coral_earring",
+                  "wolf,ruins_skipped"
+                ],
+                "visibility_rules": [
+                  "skills_on"
+                ]
+              },
+              {
+                "name": "Ending Blow",
+                "item_count": 1,
+                "access_rules": [ "wolf,coral_earring","wolf,ruins_skipped" ],
+                "visibility_rules": [ "skills_off,$ending_blow" ],
+                "chest_unopened_img": "images/howling_stone.png",
+                "chest_opened_img": "images/holwing_stone_gray.png"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "overworld",
+                "x": 495,
+                "y": 112
+              }
+            ]
+          },
+          {
+            "name": "Snowpeak Cave",
+            "access_rules": [
+              "$snowpeak_summit"
+            ],
+            "sections": [
+              {
+                "name": "Lantern Chest",
+                "item_count": 1,
+                "access_rules": [
+                  "lantern,ball_and_chain"
+                ]
+              },
+              {
+                "name": "Poe",
+                "item_count": 1,
+                "chest_unopened_img": "images/poe_soul_model.png",
+                "chest_opened_img": "images/poe_soul_model_gray.png",
+                "access_rules": [
+                  "wolf,ball_and_chain"
+                ],
+                "visibility_rules": [
+                  "poes_on"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "overworld",
+                "x": 466,
+                "y": 142
+              }
+            ]
+          },
+          {
+            "name": "Snowpeak Summit",
+            "access_rules": [
+              "$snowpeak_summit"
+            ],
+            "sections": [
+              {
+                "name": "Snowboard Race Heart Piece",
+                "item_count": 1,
+                "chest_unopened_img": "images/heart_piece_model.png",
+                "chest_opened_img": "images/heart_piece_model_gray.png",
+                "access_rules": [
+                  "ruins"
+                ],
+                "visibility_rules": [
+                  "npcs_on"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "overworld",
+                "x": 440,
+                "y": 142
+              }
+            ]
+          },
+          {
+            "name": "Outside Snowpeak Ruins",
+            "access_rules": [
+              "$snowpeak_summit"
+            ],
+            "sections": [
+              {
+                "name": "Summit Poe",
+                "item_count": 1,
+                "chest_unopened_img": "images/poe_soul_model.png",
+                "chest_opened_img": "images/poe_soul_model_gray.png",
+                "access_rules": [
+                  "wolf,$shadow_beast"
+                ],
+                "visibility_rules": [
+                  "poes_on"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "overworld",
+                "x": 255,
+                "y": 400
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
